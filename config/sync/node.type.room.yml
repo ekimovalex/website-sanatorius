@@ -1,0 +1,18 @@
+uuid: 302e1d72-b3c5-4d76-9146-63b940534702
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Room
+type: room
+description: 'example description'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,57 @@
+uuid: f86f5bdc-47e5-4e50-836e-57fbfaa9bb8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.room.field_categories
+    - field.field.node.room.field_description
+    - field.field.node.room.field_photos
+    - field.field.node.room.field_preview
+    - field.field.node.room.field_price
+    - field.field.node.room.field_tags_1
+    - image.style.preview_280_360
+    - node.type.room
+  module:
+    - media
+    - user
+id: node.room.teaser
+targetEntityType: node
+bundle: room
+mode: teaser
+content:
+  field_categories:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_preview:
+    type: media_thumbnail
+    weight: 0
+    region: content
+    label: above
+    settings:
+      image_style: preview_280_360
+      image_link: content
+    third_party_settings: {  }
+  field_price:
+    type: number_integer
+    weight: 3
+    region: content
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_description: true
+  field_photos: true
+  field_tags_1: true
