@@ -1,0 +1,77 @@
+uuid: bff9cc44-e92a-40eb-9251-81bb9cffb16b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.room.field_categories
+    - field.field.node.room.field_description
+    - field.field.node.room.field_photos
+    - field.field.node.room.field_preview
+    - field.field.node.room.field_price
+    - field.field.node.room.field_tags_1
+    - node.type.room
+  module:
+    - media_library
+    - text
+id: node.room.default
+targetEntityType: node
+bundle: room
+mode: default
+content:
+  field_categories:
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_description:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_photos:
+    type: media_library_widget
+    weight: 5
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  field_preview:
+    type: media_library_widget
+    weight: 1
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  field_price:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_tags_1:
+    type: entity_reference_autocomplete
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true

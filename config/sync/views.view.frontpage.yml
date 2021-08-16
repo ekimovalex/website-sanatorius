@@ -1,4 +1,4 @@
-uuid: cf3b235d-5e35-4a12-871e-f0a396ed3fa6
+uuid: 114e3a1f-137f-4899-98d4-3961a3ab5469
 langcode: en
 status: true
 dependencies:
@@ -200,6 +200,7 @@ display:
       row:
         type: 'entity:node'
         options:
+          relationship: none
           view_mode: teaser
       sorts:
         sticky:
@@ -234,10 +235,8 @@ display:
       style:
         type: default
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
-          uses_fields: false
       title: ''
       header: {  }
       footer: {  }

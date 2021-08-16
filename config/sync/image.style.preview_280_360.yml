@@ -1,0 +1,14 @@
+uuid: 9fea3b0f-5036-440a-8135-eebe0965f667
+langcode: en
+status: true
+dependencies: {  }
+name: preview_280_360
+label: 'Preview 280*360'
+effects:
+  e2e38110-ef93-428b-90e1-d4f4e513130a:
+    uuid: e2e38110-ef93-428b-90e1-d4f4e513130a
+    id: image_resize
+    weight: 1
+    data:
+      width: 360
+      height: 280

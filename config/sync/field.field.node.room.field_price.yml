@@ -1,0 +1,23 @@
+uuid: cee45cf2-9dbf-4cb1-8d0f-af1de93406ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.room
+id: node.room.field_price
+field_name: field_price
+entity_type: node
+bundle: room
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
