@@ -1,26 +1,26 @@
-uuid: f86f5bdc-47e5-4e50-836e-57fbfaa9bb8b
+uuid: aa771c5f-b6eb-4a9d-ad16-e1071cf72b02
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.room.field_categories
+    - field.field.node.room.field_ca
     - field.field.node.room.field_description
-    - field.field.node.room.field_photos
+    - field.field.node.room.field_ph
+    - field.field.node.room.field_pr
     - field.field.node.room.field_preview
-    - field.field.node.room.field_price
-    - field.field.node.room.field_tags_1
-    - image.style.preview_280_360
+    - field.field.node.room.field_tagss
+    - image.style.pre
     - node.type.room
   module:
-    - media
+    - image
     - user
 id: node.room.teaser
 targetEntityType: node
 bundle: room
 mode: teaser
 content:
-  field_categories:
+  field_ca:
     type: entity_reference_label
     weight: 2
     region: content
@@ -28,16 +28,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-  field_preview:
-    type: media_thumbnail
-    weight: 0
-    region: content
-    label: above
-    settings:
-      image_style: preview_280_360
-      image_link: content
-    third_party_settings: {  }
-  field_price:
+  field_pr:
     type: number_integer
     weight: 3
     region: content
@@ -46,6 +37,15 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
+  field_preview:
+    type: image
+    weight: 0
+    region: content
+    label: above
+    settings:
+      image_style: pre
+      image_link: content
+    third_party_settings: {  }
   links:
     weight: 4
     region: content
@@ -53,5 +53,5 @@ content:
     third_party_settings: {  }
 hidden:
   field_description: true
-  field_photos: true
-  field_tags_1: true
+  field_ph: true
+  field_tagss: true

@@ -1,17 +1,17 @@
-uuid: 17a7edbd-331e-4688-80ef-96db15a8452d
+uuid: f15fe276-2286-4f47-8e06-fa453ad7ebed
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_preview
+    - field.storage.node.field_ph
     - node.type.room
   module:
     - image
-id: node.room.field_preview
-field_name: field_preview
+id: node.room.field_ph
+field_name: field_ph
 entity_type: node
 bundle: room
-label: Preview
+label: Photos
 description: ''
 required: true
 translatable: false
