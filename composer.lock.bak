@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ce54d98da52231347077ca0f5821e50",
+<<<<<<< HEAD
+    "content-hash": "42b0ccbaee147b9d9364970ff7f5d7c3",
+=======
+    "content-hash": "644a9a1dc2200e23f392c2830d394543",
+>>>>>>> tast 2 taxonomy
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1633,26 +1637,26 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "1.6.8",
+            "version": "1.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "1958a744696c6bb3bb0d28db2611dc11610e78af"
+                "reference": "55f8b799269a1a472457bd1a41b4f379d4cfba4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/1958a744696c6bb3bb0d28db2611dc11610e78af",
-                "reference": "1958a744696c6bb3bb0d28db2611dc11610e78af",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/55f8b799269a1a472457bd1a41b4f379d4cfba4a",
+                "reference": "55f8b799269a1a472457bd1a41b4f379d4cfba4a",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^9.0",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.1.5",
-                "vimeo/psalm": "^4.2.1"
+                "doctrine/coding-standard": "^6.0",
+                "phpstan/phpstan-shim": "^0.9.2",
+                "phpunit/phpunit": "^7.0",
+                "vimeo/psalm": "^3.8.1"
             },
             "type": "library",
             "autoload": {
@@ -1694,7 +1698,11 @@
                 "iterators",
                 "php"
             ],
-            "time": "2021-08-10T18:51:53+00:00"
+            "support": {
+                "issues": "https://github.com/doctrine/collections/issues",
+                "source": "https://github.com/doctrine/collections/tree/1.6.7"
+            },
+            "time": "2020-07-27T17:53:49+00:00"
         },
         {
             "name": "doctrine/common",
@@ -2689,16 +2697,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.9.18",
+            "version": "8.9.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "e536176c45d9d75ec57f7a12c0e3c0aead856841"
+                "reference": "a1416f2cc6701acc0cc6725bfeac3715e633fd9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/e536176c45d9d75ec57f7a12c0e3c0aead856841",
-                "reference": "e536176c45d9d75ec57f7a12c0e3c0aead856841",
+                "url": "https://api.github.com/repos/drupal/core/zipball/a1416f2cc6701acc0cc6725bfeac3715e633fd9c",
+                "reference": "a1416f2cc6701acc0cc6725bfeac3715e633fd9c",
                 "shasum": ""
             },
             "require": {
@@ -2916,11 +2924,14 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2021-08-12T17:48:42+00:00"
+            "support": {
+                "source": "https://github.com/drupal/core/tree/8.9.17"
+            },
+            "time": "2021-07-20T21:43:12+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "8.9.18",
+            "version": "8.9.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2963,6 +2974,9 @@
             "keywords": [
                 "drupal"
             ],
+            "support": {
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/8.9.4"
+            },
             "time": "2020-08-07T22:30:30+00:00"
         },
         {
@@ -3059,6 +3073,34 @@
             }
         },
         {
+<<<<<<< HEAD
+            "name": "drupal/devel",
+            "version": "4.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/devel.git",
+                "reference": "4.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/devel-4.1.1.zip",
+                "reference": "4.1.1",
+                "shasum": "88e5d49dda26a3136291ecd97bc6c8e897b24198"
+            },
+            "require": {
+                "doctrine/common": "^2.7",
+                "drupal/core": "^8.8 || ^9",
+                "symfony/var-dumper": "^4 || ^5"
+            },
+            "conflict": {
+                "kint-php/kint": "<3"
+            },
+            "require-dev": {
+                "drush/drush": "^10"
+            },
+            "suggest": {
+                "kint-php/kint": "Kint provides an informative display of arrays/objects. Useful for debugging and developing."
+=======
             "name": "drupal/delete_all",
             "version": "2.0.0",
             "source": {
@@ -3138,72 +3180,6 @@
             }
         },
         {
-            "name": "drupal/devel",
-            "version": "4.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/devel.git",
-                "reference": "4.1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/devel-4.1.1.zip",
-                "reference": "4.1.1",
-                "shasum": "88e5d49dda26a3136291ecd97bc6c8e897b24198"
-            },
-            "require": {
-                "doctrine/common": "^2.7",
-                "drupal/core": "^8.8 || ^9",
-                "symfony/var-dumper": "^4 || ^5"
-            },
-            "conflict": {
-                "kint-php/kint": "<3"
-            },
-            "require-dev": {
-                "drush/drush": "^10"
-            },
-            "suggest": {
-                "kint-php/kint": "Kint provides an informative display of arrays/objects. Useful for debugging and developing."
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "4.1.1",
-                    "datestamp": "1609419527",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9 || ^10"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "drupalspoons",
-                    "homepage": "https://www.drupal.org/user/3647684"
-                },
-                {
-                    "name": "moshe weitzman",
-                    "homepage": "https://www.drupal.org/user/23"
-                }
-            ],
-            "description": "Various blocks, pages, and functions for developers.",
-            "homepage": "https://www.drupal.org/project/devel",
-            "support": {
-                "source": "https://gitlab.com/drupalspoons/devel",
-                "issues": "https://gitlab.com/drupalspoons/devel/-/issues",
-                "slack": "https://drupal.slack.com/archives/C012WAW1MH6"
-            }
-        },
-        {
             "name": "drupal/ds",
             "version": "3.13.0",
             "source": {
@@ -3223,16 +3199,28 @@
             "require-dev": {
                 "drupal/devel": "3.x-dev",
                 "drupal/field_group": "3.x-dev"
+>>>>>>> tast 2 taxonomy
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
+<<<<<<< HEAD
+                    "version": "4.1.1",
+                    "datestamp": "1609419527",
+=======
                     "version": "8.x-3.13",
                     "datestamp": "1624456614",
+>>>>>>> tast 2 taxonomy
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+<<<<<<< HEAD
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10"
+=======
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3298,6 +3286,7 @@
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
+>>>>>>> tast 2 taxonomy
                     }
                 }
             },
@@ -3307,6 +3296,22 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
+                    "name": "drupalspoons",
+                    "homepage": "https://www.drupal.org/user/3647684"
+                },
+                {
+                    "name": "moshe weitzman",
+                    "homepage": "https://www.drupal.org/user/23"
+                }
+            ],
+            "description": "Various blocks, pages, and functions for developers.",
+            "homepage": "https://www.drupal.org/project/devel",
+            "support": {
+                "source": "https://gitlab.com/drupalspoons/devel",
+                "issues": "https://gitlab.com/drupalspoons/devel/-/issues",
+                "slack": "https://drupal.slack.com/archives/C012WAW1MH6"
+=======
                     "name": "Neslee Canil Pinto",
                     "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
                     "role": "Maintainer"
@@ -3325,6 +3330,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/exclude_node_title",
                 "issues": "https://www.drupal.org/project/issues/exclude_node_title"
+>>>>>>> tast 2 taxonomy
             }
         },
         {
@@ -3561,16 +3567,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "10.6.0",
+            "version": "10.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "c86d327359baddb0a2f51bb458703826469a0445"
+                "reference": "3fd9f7e62ffb7f221e4be8151a738529345d22d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/c86d327359baddb0a2f51bb458703826469a0445",
-                "reference": "c86d327359baddb0a2f51bb458703826469a0445",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/3fd9f7e62ffb7f221e4be8151a738529345d22d5",
+                "reference": "3fd9f7e62ffb7f221e4be8151a738529345d22d5",
                 "shasum": ""
             },
             "require": {
@@ -3689,13 +3695,20 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
+            "support": {
+                "forum": "http://drupal.stackexchange.com/questions/tagged/drush",
+                "irc": "irc://irc.freenode.org/drush",
+                "issues": "https://github.com/drush-ops/drush/issues",
+                "slack": "https://drupal.slack.com/messages/C62H9CWQM",
+                "source": "https://github.com/drush-ops/drush/tree/10.5.0"
+            },
             "funding": [
                 {
                     "url": "https://github.com/weitzman",
                     "type": "github"
                 }
             ],
-            "time": "2021-08-13T10:40:40+00:00"
+            "time": "2021-05-08T15:49:30+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -8953,7 +8966,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "8.9.18",
+            "version": "8.9.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -8995,6 +9008,9 @@
                 "GPL-2.0-or-later"
             ],
             "description": "require-dev dependencies from drupal/drupal; use in addition to drupal/core-recommended to run tests from drupal/core.",
+            "support": {
+                "source": "https://github.com/drupal/core-dev/tree/8.9.4"
+            },
             "time": "2020-05-09T07:53:22+00:00"
         },
         {
