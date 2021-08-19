@@ -1,0 +1,20 @@
+uuid: 4f655702-e50a-4a0a-bbec-d1c8bdf4966d
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_min_price
+field_name: field_min_price
+entity_type: taxonomy_term
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,16 @@
+palette:
+  top: '#7e1e6b'
+  bottom: '#c2c4c5'
+  bg: '#ffffff'
+  sidebar: '#ffffff'
+  sidebarborders: '#cccccc'
+  footer: '#7e1e6b'
+  titleslogan: '#000000'
+  text: '#4a4a4a'
+  link: '#0848bd'
+logo: 'public://color/bartik-cd3e1b81/logo.svg'
+stylesheets:
+  - 'public://color/bartik-cd3e1b81/colors.css'
+files:
+  - 'public://color/bartik-cd3e1b81/logo.svg'
+  - 'public://color/bartik-cd3e1b81/colors.css'

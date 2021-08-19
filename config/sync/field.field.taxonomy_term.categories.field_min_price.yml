@@ -1,0 +1,23 @@
+uuid: 616a54a6-642f-4cda-aa62-046c86e57f16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_min_price
+    - taxonomy.vocabulary.categories
+id: taxonomy_term.categories.field_min_price
+field_name: field_min_price
+entity_type: taxonomy_term
+bundle: categories
+label: 'Min price'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

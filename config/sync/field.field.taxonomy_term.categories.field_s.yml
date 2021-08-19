@@ -1,0 +1,21 @@
+uuid: aa0dff76-daca-4bd2-9f16-bc8507762d20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_s
+    - taxonomy.vocabulary.categories
+  module:
+    - text
+id: taxonomy_term.categories.field_s
+field_name: field_s
+entity_type: taxonomy_term
+bundle: categories
+label: 'Short description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
