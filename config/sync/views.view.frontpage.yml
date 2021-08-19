@@ -1,4 +1,4 @@
-uuid: 114e3a1f-137f-4899-98d4-3961a3ab5469
+uuid: 6d7dd511-0178-4c0e-b072-ce8d3ccb7a59
 langcode: en
 status: true
 dependencies:
@@ -200,7 +200,6 @@ display:
       row:
         type: 'entity:node'
         options:
-          relationship: none
           view_mode: teaser
       sorts:
         sticky:
@@ -233,10 +232,16 @@ display:
           entity_type: node
           entity_field: created
       style:
-        type: default
+        type: grid
         options:
-          row_class: ''
-          default_row_class: true
+          uses_fields: false
+          columns: 1
+          automatic_width: true
+          alignment: horizontal
+          col_class_default: true
+          col_class_custom: ''
+          row_class_default: true
+          row_class_custom: ''
       title: ''
       header: {  }
       footer: {  }

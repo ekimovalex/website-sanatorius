@@ -1,4 +1,4 @@
-uuid: 74f4dbe2-dd6e-4838-83d3-0bf27b0c1bb2
+uuid: 7a31ffae-f901-4e9a-a1dd-94bc6801555e
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ entity_type: node
 bundle: room
 label: Description
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
