@@ -6,14 +6,16 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.room.field_ca
     - field.field.node.room.field_description
-    - field.field.node.room.field_ph
+    - field.field.node.room.field_photos
     - field.field.node.room.field_pr
     - field.field.node.room.field_preview
-    - field.field.node.room.field_tagss
+    - field.field.node.room.field_ta
+    - field.field.node.room.field_title
     - image.style.pre
     - node.type.room
   module:
-    - image
+    - media
+    - options
     - user
 id: node.room.teaser
 targetEntityType: node
@@ -38,13 +40,20 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
   field_preview:
-    type: image
+    type: media_thumbnail
     weight: 0
     region: content
     label: above
     settings:
       image_style: pre
       image_link: content
+    third_party_settings: {  }
+  field_title:
+    type: list_default
+    weight: 1
+    region: content
+    label: above
+    settings: {  }
     third_party_settings: {  }
   links:
     weight: 4
@@ -53,5 +62,5 @@ content:
     third_party_settings: {  }
 hidden:
   field_description: true
-  field_ph: true
-  field_tagss: true
+  field_photos: true
+  field_ta: true

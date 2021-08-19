@@ -1,11 +1,11 @@
-uuid: beb2d092-ce63-46a2-8c83-c37f648a2142
+uuid: 61725e22-4b28-431b-a1ef-f1b9f5b032d5
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_ca
     - node.type.room
-    - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.categories
 id: node.room.field_ca
 field_name: field_ca
 entity_type: node
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      tags: tags
+      categories: categories
     sort:
       field: name
       direction: asc
