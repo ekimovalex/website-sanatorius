@@ -1,17 +1,17 @@
-uuid: cee45cf2-9dbf-4cb1-8d0f-af1de93406ec
+uuid: d0ba5bcb-73d8-41fc-a7de-0e1f1f3b05b0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_price
+    - field.storage.node.field_pr
     - node.type.room
-id: node.room.field_price
-field_name: field_price
+id: node.room.field_pr
+field_name: field_pr
 entity_type: node
 bundle: room
 label: Price
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

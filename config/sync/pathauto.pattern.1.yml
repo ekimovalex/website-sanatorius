@@ -1,22 +1,22 @@
-uuid: 146e5bde-f04d-4232-b8fb-eb4c75d581b2
+uuid: 78b1d12d-a142-4f45-87f9-39a0b097bdf6
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: rooms
-label: rooms
+id: '1'
+label: 'laber room'
 type: 'canonical_entities:node'
 pattern: '/room/[node:title]'
 selection_criteria:
-  a85690f3-f7d8-4b82-ade0-f216ccfe7d0e:
+  ef33db21-60b5-47a1-af3c-bd9f1c712d69:
     id: node_type
     bundles:
       room: room
     negate: false
     context_mapping:
       node: node
-    uuid: a85690f3-f7d8-4b82-ade0-f216ccfe7d0e
+    uuid: ef33db21-60b5-47a1-af3c-bd9f1c712d69
 selection_logic: and
 weight: -5
 relationships: {  }

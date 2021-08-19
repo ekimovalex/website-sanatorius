@@ -1,18 +1,18 @@
-uuid: 9925e73c-5821-4721-8194-a5545f35a495
+uuid: 0d250288-57ae-46c6-b539-90614a6963e4
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_categories
+    - field.storage.node.field_tagss
     - node.type.room
     - taxonomy.vocabulary.tags
-id: node.room.field_categories
-field_name: field_categories
+id: node.room.field_tagss
+field_name: field_tagss
 entity_type: node
 bundle: room
-label: Categories
+label: Tags
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''

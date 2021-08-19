@@ -1,4 +1,4 @@
-uuid: 302e1d72-b3c5-4d76-9146-63b940534702
+uuid: e5289246-ede4-4123-87cd-ac3964bb9c11
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,8 @@ third_party_settings:
     parent: 'main:'
 name: Room
 type: room
-description: 'example description'
+description: ''
 help: ''
 new_revision: true
 preview_mode: 1
-display_submitted: false
+display_submitted: true
