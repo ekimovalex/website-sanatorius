@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ce54d98da52231347077ca0f5821e50",
+    "content-hash": "f24dba5c286a6e6cbc96341b40de72a1",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2334,75 +2334,6 @@
             }
         },
         {
-            "name": "drupal/auto_entitylabel",
-            "version": "3.0.0-beta4",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/auto_entitylabel.git",
-                "reference": "8.x-3.0-beta4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/auto_entitylabel-8.x-3.0-beta4.zip",
-                "reference": "8.x-3.0-beta4",
-                "shasum": "916befd4ce95b5d73de48ac1b105cc33e9f7821f"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-3.0-beta4",
-                    "datestamp": "1609349103",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Pravin Ajaaz",
-                    "homepage": "https://www.drupal.org/user/2910049"
-                },
-                {
-                    "name": "RenatoG",
-                    "homepage": "https://www.drupal.org/user/3326031"
-                },
-                {
-                    "name": "VladimirAus",
-                    "homepage": "https://www.drupal.org/user/673120"
-                },
-                {
-                    "name": "bforchhammer",
-                    "homepage": "https://www.drupal.org/user/216396"
-                },
-                {
-                    "name": "colan",
-                    "homepage": "https://www.drupal.org/user/58704"
-                },
-                {
-                    "name": "diqidoq",
-                    "homepage": "https://www.drupal.org/user/1001934"
-                },
-                {
-                    "name": "purushotam.rai",
-                    "homepage": "https://www.drupal.org/user/3193859"
-                }
-            ],
-            "description": "Allows hiding of entity label fields and automatic label creation.",
-            "homepage": "https://www.drupal.org/project/auto_entitylabel",
-            "support": {
-                "source": "https://git.drupalcode.org/project/auto_entitylabel",
-                "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
-            }
-        },
-        {
             "name": "drupal/console",
             "version": "1.9.7",
             "source": {
@@ -3059,85 +2990,6 @@
             }
         },
         {
-            "name": "drupal/delete_all",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/delete_all.git",
-                "reference": "2.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/delete_all-2.0.0.zip",
-                "reference": "2.0.0",
-                "shasum": "dda46b576a45158906243668e3b386a788f9bf73"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9",
-                "php": ">=5.6.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.0",
-                    "datestamp": "1593336394",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Author name",
-                    "homepage": "https://www.drupal.org/user/3196009",
-                    "email": "author@example.com"
-                },
-                {
-                    "name": "coderintherye",
-                    "homepage": "https://www.drupal.org/user/297478"
-                },
-                {
-                    "name": "danylevskyi",
-                    "homepage": "https://www.drupal.org/user/322039"
-                },
-                {
-                    "name": "dipakmdhrm",
-                    "homepage": "https://www.drupal.org/user/1687410"
-                },
-                {
-                    "name": "douggreen",
-                    "homepage": "https://www.drupal.org/user/29191"
-                },
-                {
-                    "name": "kbahey",
-                    "homepage": "https://www.drupal.org/user/4063"
-                },
-                {
-                    "name": "realityloop",
-                    "homepage": "https://www.drupal.org/user/139189"
-                },
-                {
-                    "name": "wafaa",
-                    "homepage": "https://www.drupal.org/user/50133"
-                }
-            ],
-            "description": "This extension provides new commands for Drush.",
-            "homepage": "https://www.drupal.org/project/delete_all",
-            "support": {
-                "source": "https://git.drupalcode.org/project/delete_all"
-            }
-        },
-        {
             "name": "drupal/devel",
             "version": "4.1.1",
             "source": {
@@ -3393,101 +3245,6 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
-            }
-        },
-        {
-            "name": "drupal/prevent_term_delete",
-            "version": "1.3.0-alpha4",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/prevent_term_delete.git",
-                "reference": "8.x-1.3-alpha4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/prevent_term_delete-8.x-1.3-alpha4.zip",
-                "reference": "8.x-1.3-alpha4",
-                "shasum": "78fb115ad31b436383ec276fca95c78ec8b269e1"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.3-alpha4",
-                    "datestamp": "1626688979",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "btobac",
-                    "homepage": "https://www.drupal.org/user/3630142"
-                },
-                {
-                    "name": "karthikeyan-manivasagam",
-                    "homepage": "https://www.drupal.org/user/1494424"
-                }
-            ],
-            "description": "Prevent deletion of taxonomy term if associated with the entity",
-            "homepage": "https://www.drupal.org/project/prevent_term_delete",
-            "support": {
-                "source": "https://git.drupalcode.org/project/prevent_term_delete"
-            }
-        },
-        {
-            "name": "drupal/taxonomy_multidelete_terms",
-            "version": "1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/taxonomy_multidelete_terms.git",
-                "reference": "8.x-1.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/taxonomy_multidelete_terms-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "9f634bd051730e7032da608a91d424cba661695a"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1596537304",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Jeetendra Kumar",
-                    "homepage": "https://www.drupal.org/u/jeetendrakumar",
-                    "email": "jeetendra.j2006@gmail.com",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "This module help to delete multiple terms at one time.",
-            "homepage": "https://www.drupal.org/project/taxonomy_multidelete_terms",
-            "support": {
-                "source": "https://cgit.drupalcode.org/taxonomy_multidelete_terms",
-                "issues": "https://www.drupal.org/project/issues/taxonomy_multidelete_terms"
             }
         },
         {
@@ -11294,10 +11051,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "drupal/auto_entitylabel": 10,
-        "drupal/prevent_term_delete": 15
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
