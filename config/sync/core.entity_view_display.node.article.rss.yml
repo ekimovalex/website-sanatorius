@@ -1,4 +1,4 @@
-uuid: cccac5ae-e4df-4d3a-803a-8b7d78f3880d
+uuid: aec91c18-f5a2-4344-b863-555c24b145e6
 langcode: en
 status: true
 dependencies:
@@ -17,12 +17,10 @@ id: node.article.rss
 targetEntityType: node
 bundle: article
 mode: rss
-content:
-  links:
-    weight: 100
-    region: content
+content: {  }
 hidden:
   body: true
   comment: true
   field_image: true
   field_tags: true
+  links: true

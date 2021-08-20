@@ -1,4 +1,8 @@
 module:
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -10,10 +14,15 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  ctools: 0
   datetime: 0
   dblog: 0
+  delete_all: 0
+  devel: 0
+  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
+  exclude_node_title: 0
   field: 0
   field_ui: 0
   file: 0
@@ -21,7 +30,10 @@ module:
   help: 0
   history: 0
   image: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
+  media: 0
   menu_link_content: 0
   menu_ui: 0
   node: 0
@@ -29,19 +41,24 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  prevent_term_delete: 0
   quickedit: 0
   rdf: 0
   search: 0
   shortcut: 0
   system: 0
   taxonomy: 0
+  taxonomy_machine_name: 0
+  taxonomy_multidelete_terms: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
-  update: 0
   user: 0
   views_ui: 0
+  pathauto: 1
   views: 10
+  page_title_visibility: 98
   standard: 1000
 theme:
   stable: 0

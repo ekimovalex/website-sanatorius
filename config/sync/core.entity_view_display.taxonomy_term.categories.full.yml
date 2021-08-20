@@ -1,0 +1,129 @@
+uuid: 39a0dee5-aa9f-485f-b1f8-59c65d8cc01b
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - field.field.taxonomy_term.categories.field_image
+    - field.field.taxonomy_term.categories.field_min_price
+    - field.field.taxonomy_term.categories.field_s
+    - field.field.taxonomy_term.categories.layout_builder__layout
+    - taxonomy.vocabulary.categories
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          855408ec-2966-4b5c-89f6-4fd198f0b503:
+            uuid: 855408ec-2966-4b5c-89f6-4fd198f0b503
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:taxonomy_term:categories:description'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 0
+          1a4aaa98-09dc-4b0c-bdbe-d466532f580a:
+            uuid: 1a4aaa98-09dc-4b0c-bdbe-d466532f580a
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:taxonomy_term:categories:field_s'
+              formatter:
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+                type: text_default
+            additional: {  }
+            weight: 1
+          a64c81a5-d2ff-4a50-b4cd-8700069ce0cf:
+            uuid: a64c81a5-d2ff-4a50-b4cd-8700069ce0cf
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:taxonomy_term:categories:field_min_price'
+              formatter:
+                label: above
+                settings:
+                  thousand_separator: ''
+                  prefix_suffix: true
+                third_party_settings: {  }
+                type: number_integer
+            additional: {  }
+            weight: 2
+          d33b7029-448f-4236-a986-d450ad453489:
+            uuid: d33b7029-448f-4236-a986-d450ad453489
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:taxonomy_term:categories:field_image'
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
+            additional: {  }
+            weight: 3
+        third_party_settings: {  }
+id: taxonomy_term.categories.full
+targetEntityType: taxonomy_term
+bundle: categories
+mode: full
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: entity_reference_entity_view
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_min_price:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_s:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  layout_builder__layout: true
