@@ -1,16 +1,16 @@
-uuid: 4f655702-e50a-4a0a-bbec-d1c8bdf4966d
+uuid: cbc88739-ad96-44d6-89d8-afb94bb7c708
 langcode: en
 status: true
 dependencies:
   module:
+    - media
     - taxonomy
-id: taxonomy_term.field_min_price
-field_name: field_min_price
+id: taxonomy_term.field_imag
+field_name: field_imag
 entity_type: taxonomy_term
-type: integer
+type: entity_reference
 settings:
-  unsigned: false
-  size: normal
+  target_type: media
 module: core
 locked: false
 cardinality: 1

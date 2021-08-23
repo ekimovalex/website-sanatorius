@@ -1,16 +1,16 @@
-uuid: c046c593-53a5-4342-92dc-163d0061fe4f
+uuid: 627f6f6d-b7e4-4114-8bfd-0aab0e0b4d00
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_photos
+    - field.storage.taxonomy_term.field_imag
     - media.type.image
-    - node.type.room
-id: node.room.field_photos
-field_name: field_photos
-entity_type: node
-bundle: room
-label: Photos
+    - taxonomy.vocabulary.categories
+id: taxonomy_term.categories.field_imag
+field_name: field_imag
+entity_type: taxonomy_term
+bundle: categories
+label: Image
 description: ''
 required: true
 translatable: false

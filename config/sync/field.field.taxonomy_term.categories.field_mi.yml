@@ -1,12 +1,12 @@
-uuid: 616a54a6-642f-4cda-aa62-046c86e57f16
+uuid: 18279c59-99f3-460d-bf7a-536ab08c7fb9
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.taxonomy_term.field_min_price
+    - field.storage.taxonomy_term.field_mi
     - taxonomy.vocabulary.categories
-id: taxonomy_term.categories.field_min_price
-field_name: field_min_price
+id: taxonomy_term.categories.field_mi
+field_name: field_mi
 entity_type: taxonomy_term
 bundle: categories
 label: 'Min price'

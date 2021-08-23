@@ -1,24 +1,25 @@
-uuid: b454392a-e604-4cbe-97f4-addedba734c6
+uuid: e9f8d982-f5a7-4c7b-8f30-cc962107f0f0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_ca
-    - field.storage.node.field_description
-    - field.storage.node.field_pr
+    - field.storage.node.field_categories
+    - field.storage.node.field_des
     - field.storage.node.field_preview
+    - field.storage.node.field_pric
     - image.style.pre
     - node.type.room
     - taxonomy.vocabulary.categories
+  content:
+    - 'taxonomy_term:categories:b3991a06-43fb-4794-8771-361c82202202'
   module:
     - media
     - node
-    - search
     - taxonomy
     - text
     - user
-id: _rooms
-label: /rooms
+id: rooms
+label: Rooms
 module: views
 description: ''
 tag: ''
@@ -63,6 +64,9 @@ display:
           offset: 0
           id: 0
           total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -71,13 +75,10 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       style:
         type: grid
         options:
-          grouping: {  }
+          uses_fields: false
           columns: 4
           automatic_width: true
           alignment: horizontal
@@ -184,8 +185,8 @@ display:
             target: ''
             nl2br: false
             max_length: 0
-            word_boundary: true
-            ellipsis: true
+            word_boundary: false
+            ellipsis: false
             more_link: false
             more_link_text: ''
             more_link_path: ''
@@ -222,10 +223,10 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-        field_ca:
-          id: field_ca
-          table: node__field_ca
-          field: field_ca
+        field_categories:
+          id: field_categories
+          table: node__field_categories
+          field: field_categories
           relationship: none
           group_type: group
           admin_label: ''
@@ -285,10 +286,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_pr:
-          id: field_pr
-          table: node__field_pr
-          field: field_pr
+        field_pric:
+          id: field_pric
+          table: node__field_pric
+          field: field_pric
           relationship: none
           group_type: group
           admin_label: ''
@@ -349,166 +350,25 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        score:
-          id: score
-          table: node_search_index
-          field: score
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          set_precision: false
-          precision: 0
-          decimal: .
-          separator: ','
-          format_plural: false
-          format_plural_string: !!binary MQNAY291bnQ=
-          prefix: ''
-          suffix: ''
-          plugin_id: search_score
-        field_description:
-          id: field_description
-          table: node__field_description
-          field: field_description
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: text_default
-          settings: {  }
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
+        field_des:
+          id: field_des
+          table: node__field_des
+          field: field_des
           plugin_id: field
       filters:
         status:
-          id: status
+          value: '1'
           table: node_field_data
           field: status
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: '='
-          value: '1'
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: boolean
           entity_type: node
           entity_field: status
+          id: status
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+          group: 1
         type:
           id: type
           table: node_field_data
@@ -521,99 +381,6 @@ display:
           expose:
             operator_limit_selection: false
             operator_list: {  }
-        field_ca_target_id:
-          id: field_ca_target_id
-          table: node__field_ca
-          field: field_ca_target_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: and
-          value: {  }
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_ca_target_id_op
-            label: 'Categories (field_ca)'
-            description: ''
-            use_operator: false
-            operator: field_ca_target_id_op
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: field_ca_target_id
-            required: false
-            remember: false
-            multiple: true
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          type: select
-          limit: true
-          vid: categories
-          hierarchy: false
-          error_message: true
-          plugin_id: taxonomy_index_tid
-        field_pr_value:
-          id: field_pr_value
-          table: node__field_pr
-          field: field_pr_value
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: between
-          value:
-            min: ''
-            max: ''
-            value: ''
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_pr_value_op
-            label: 'Price (field_pr)'
-            description: ''
-            use_operator: false
-            operator: field_pr_value_op
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: field_pr_value
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-            placeholder: ''
-            min_placeholder: ''
-            max_placeholder: ''
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          plugin_id: numeric
         combine:
           id: combine
           table: views
@@ -656,20 +423,117 @@ display:
             group_items: {  }
           fields:
             title: title
-            field_description: field_description
+            field_des: field_des
           plugin_id: combine
+        field_pric_value:
+          id: field_pric_value
+          table: node__field_pric
+          field: field_pric_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: between
+          value:
+            min: ''
+            max: ''
+            value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_pric_value_op
+            label: 'Price (field_pric)'
+            description: ''
+            use_operator: false
+            operator: field_pric_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_pric_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            placeholder: ''
+            min_placeholder: ''
+            max_placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: numeric
+        field_categories_target_id:
+          id: field_categories_target_id
+          table: node__field_categories
+          field: field_categories_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            39: 39
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_categories_target_id_op
+            label: 'Categories (field_categories)'
+            description: ''
+            use_operator: false
+            operator: field_categories_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_categories_target_id
+            required: false
+            remember: false
+            multiple: true
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: 'Categories (field_categories)'
+            description: null
+            identifier: field_categories_target_id
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items:
+              1: {  }
+              2: {  }
+              3: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: categories
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
       sorts:
-        field_pr_value:
-          id: field_pr_value
-          table: node__field_pr
-          field: field_pr_value
+        field_pric_value:
+          id: field_pric_value
+          table: node__field_pric
+          field: field_pric_value
           relationship: none
           group_type: group
           admin_label: ''
           order: ASC
           exposed: true
           expose:
-            label: 'Price (field_pr)'
+            label: 'Price (field_pric)'
           plugin_id: standard
         created:
           id: created
@@ -706,10 +570,10 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_ca'
-        - 'config:field.storage.node.field_description'
-        - 'config:field.storage.node.field_pr'
+        - 'config:field.storage.node.field_categories'
+        - 'config:field.storage.node.field_des'
         - 'config:field.storage.node.field_preview'
+        - 'config:field.storage.node.field_pric'
   block_1:
     display_plugin: block
     id: block_1
@@ -719,45 +583,18 @@ display:
       display_extenders: {  }
       filters:
         status:
-          id: status
+          value: '1'
           table: node_field_data
           field: status
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: '='
-          value: '1'
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: boolean
           entity_type: node
           entity_field: status
+          id: status
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+          group: 1
         type:
           id: type
           table: node_field_data
@@ -773,25 +610,40 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        sorts: false
       filter_groups:
         operator: AND
         groups:
           1: AND
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          order: DESC
+          entity_type: node
+          entity_field: created
+          plugin_id: date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exposed: false
+          expose:
+            label: ''
+          granularity: second
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
-        - 'url.query_args:sort_by'
-        - 'url.query_args:sort_order'
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_ca'
-        - 'config:field.storage.node.field_description'
-        - 'config:field.storage.node.field_pr'
+        - 'config:field.storage.node.field_categories'
+        - 'config:field.storage.node.field_des'
         - 'config:field.storage.node.field_preview'
+        - 'config:field.storage.node.field_pric'
   page_1:
     display_plugin: page
     id: page_1
@@ -892,8 +744,8 @@ display:
             target: ''
             nl2br: false
             max_length: 0
-            word_boundary: true
-            ellipsis: true
+            word_boundary: false
+            ellipsis: false
             more_link: false
             more_link_text: ''
             more_link_path: ''
@@ -930,10 +782,10 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-        field_ca:
-          id: field_ca
-          table: node__field_ca
-          field: field_ca
+        field_categories:
+          id: field_categories
+          table: node__field_categories
+          field: field_categories
           relationship: none
           group_type: group
           admin_label: ''
@@ -993,10 +845,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_pr:
-          id: field_pr
-          table: node__field_pr
-          field: field_pr
+        field_pric:
+          id: field_pric
+          table: node__field_pric
+          field: field_pric
           relationship: none
           group_type: group
           admin_label: ''
@@ -1057,10 +909,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_description:
-          id: field_description
-          table: node__field_description
-          field: field_description
+        field_des:
+          id: field_des
+          table: node__field_des
+          field: field_des
           relationship: none
           group_type: group
           admin_label: ''
@@ -1121,7 +973,6 @@ display:
           plugin_id: field
       defaults:
         fields: false
-        sorts: true
     cache_metadata:
       max-age: -1
       contexts:
@@ -1135,7 +986,7 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_ca'
-        - 'config:field.storage.node.field_description'
-        - 'config:field.storage.node.field_pr'
+        - 'config:field.storage.node.field_categories'
+        - 'config:field.storage.node.field_des'
         - 'config:field.storage.node.field_preview'
+        - 'config:field.storage.node.field_pric'

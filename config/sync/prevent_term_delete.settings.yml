@@ -1,7 +1,0 @@
-vocabulary:
-  categories: categories
-  tags: tags
-limit: '30'
-delete_button: 1
-_core:
-  default_config_hash: yUKACfFyMxZyVzMgKtEt99_ghy-rrvL-BLkIX_Grpcg

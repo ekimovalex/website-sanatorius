@@ -1,14 +1,14 @@
-uuid: aa771c5f-b6eb-4a9d-ad16-e1071cf72b02
+uuid: f5797fd5-a330-42ab-8a31-8eb2afb80a19
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.room.field_ca
-    - field.field.node.room.field_description
-    - field.field.node.room.field_photos
-    - field.field.node.room.field_pr
+    - field.field.node.room.field_categories
+    - field.field.node.room.field_des
+    - field.field.node.room.field_p
     - field.field.node.room.field_preview
+    - field.field.node.room.field_pric
     - field.field.node.room.field_ta
     - image.style.pre
     - node.type.room
@@ -27,68 +27,67 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          e0f661a7-2d19-4f13-b353-52f067ca50a8:
-            uuid: e0f661a7-2d19-4f13-b353-52f067ca50a8
+          4809aef0-8c70-4138-93a1-6fa71b513ce8:
+            uuid: 4809aef0-8c70-4138-93a1-6fa71b513ce8
             region: content
             configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
               id: 'field_block:node:room:field_preview'
+              label: Preview
+              provider: layout_builder
+              label_display: '0'
               formatter:
-                type: media_thumbnail
                 label: above
+                type: media_thumbnail
                 settings:
                   image_style: pre
                   image_link: content
                 third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
             additional: {  }
             weight: 0
-          6183609e-c9ff-49f1-897f-403f027846ad:
-            uuid: 6183609e-c9ff-49f1-897f-403f027846ad
+          15af91e5-d412-42a3-95e9-6d93adfcd84c:
+            uuid: 15af91e5-d412-42a3-95e9-6d93adfcd84c
             region: content
             configuration:
+              id: 'field_block:node:room:field_categories'
+              label: Categories
+              provider: layout_builder
               label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:room:field_ca'
               formatter:
-                type: entity_reference_label
                 label: above
+                type: entity_reference_entity_view
                 settings:
-                  link: true
+                  view_mode: full
                 third_party_settings: {  }
-            additional: {  }
-            weight: 1
-          7a7a8858-1597-4fdf-a00a-a7497b59fc17:
-            uuid: 7a7a8858-1597-4fdf-a00a-a7497b59fc17
-            region: content
-            configuration:
-              label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
-              id: 'field_block:node:room:field_pr'
+                view_mode: view_mode
+            additional: {  }
+            weight: 2
+          d30f604a-2723-4825-88e8-abfbe62cc8b9:
+            uuid: d30f604a-2723-4825-88e8-abfbe62cc8b9
+            region: content
+            configuration:
+              id: 'field_block:node:room:field_pric'
+              label: Price
+              provider: layout_builder
+              label_display: '0'
               formatter:
-                type: number_integer
                 label: above
+                type: number_integer
                 settings:
                   thousand_separator: ''
                   prefix_suffix: true
                 third_party_settings: {  }
-            additional: {  }
-            weight: 3
-          a64dae0c-f518-4552-b7aa-ea015d112b94:
-            uuid: a64dae0c-f518-4552-b7aa-ea015d112b94
-            region: content
-            configuration:
-              label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
-              id: 'extra_field_block:node:room:links'
+                view_mode: view_mode
             additional: {  }
-            weight: 4
-          beca737e-cab1-4746-8855-57371281c42a:
-            uuid: beca737e-cab1-4746-8855-57371281c42a
+            weight: 3
+          ead08c61-1720-428e-a174-6e30626c4acb:
+            uuid: ead08c61-1720-428e-a174-6e30626c4acb
             region: content
             configuration:
               id: 'field_block:node:room:title'
@@ -96,7 +95,7 @@ third_party_settings:
               provider: layout_builder
               label_display: '0'
               formatter:
-                label: above
+                label: hidden
                 type: string
                 settings:
                   link_to_entity: true
@@ -105,29 +104,20 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 2
+            weight: 1
         third_party_settings: {  }
 id: node.room.teaser
 targetEntityType: node
 bundle: room
 mode: teaser
 content:
-  field_ca:
+  field_categories:
     type: entity_reference_label
-    weight: 2
+    weight: 1
     region: content
     label: above
     settings:
       link: true
-    third_party_settings: {  }
-  field_pr:
-    type: number_integer
-    weight: 3
-    region: content
-    label: above
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
     third_party_settings: {  }
   field_preview:
     type: media_thumbnail
@@ -136,14 +126,19 @@ content:
     label: above
     settings:
       image_style: pre
-      image_link: content
+      image_link: ''
     third_party_settings: {  }
-  links:
-    weight: 4
+  field_pric:
+    type: number_integer
+    weight: 2
     region: content
-    settings: {  }
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
     third_party_settings: {  }
 hidden:
-  field_description: true
-  field_photos: true
+  field_des: true
+  field_p: true
   field_ta: true
+  links: true

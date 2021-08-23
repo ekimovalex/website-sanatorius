@@ -1,19 +1,19 @@
-uuid: 426ff7ed-d089-4812-b18d-f94694a1688f
+uuid: 8ff04c00-77bb-4363-9f43-23267e9dfd3a
 langcode: en
 status: true
 dependencies:
   module:
-    - media
     - node
-id: node.field_photos
-field_name: field_photos
+id: node.field_pric
+field_name: field_pric
 entity_type: node
-type: entity_reference
+type: integer
 settings:
-  target_type: media
+  unsigned: false
+  size: normal
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false
