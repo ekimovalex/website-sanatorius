@@ -1,54 +1,58 @@
-uuid: ce71aec9-8e43-4b15-8b86-3f09b4d6f46e
+uuid: 631ba298-9276-4c31-bd50-33f4f581145e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.room.field_ca
-    - field.field.node.room.field_description
-    - field.field.node.room.field_photos
-    - field.field.node.room.field_pr
+    - field.field.node.room.field_categories
+    - field.field.node.room.field_des
+    - field.field.node.room.field_p
     - field.field.node.room.field_preview
+    - field.field.node.room.field_pric
     - field.field.node.room.field_ta
     - node.type.room
   module:
-    - layout_builder
     - text
     - user
-third_party_settings:
-  layout_builder:
-    allow_custom: false
-    enabled: false
 id: node.room.default
 targetEntityType: node
 bundle: room
 mode: default
 content:
-  field_ca:
-    weight: 6
+  field_categories:
+    weight: 104
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_description:
-    weight: 1
+  field_des:
+    weight: 102
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_photos:
+  field_p:
     type: entity_reference_entity_view
-    weight: 4
+    weight: 105
     label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
     region: content
-  field_pr:
-    weight: 2
+  field_preview:
+    type: entity_reference_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_pric:
+    weight: 103
     label: above
     settings:
       thousand_separator: ''
@@ -56,17 +60,8 @@ content:
     third_party_settings: {  }
     type: number_integer
     region: content
-  field_preview:
-    type: entity_reference_entity_view
-    weight: 5
-    label: above
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
-    region: content
   field_ta:
-    weight: 7
+    weight: 106
     label: above
     settings:
       link: true
@@ -74,8 +69,8 @@ content:
     type: entity_reference_label
     region: content
   links:
-    weight: 3
-    region: content
+    weight: 100
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden: {  }

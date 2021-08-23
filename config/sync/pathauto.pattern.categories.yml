@@ -1,4 +1,4 @@
-uuid: b8afd484-8ea3-4d2e-9ff4-2a4a49709caa
+uuid: 3214ad77-ac8f-41a2-9a01-8963e77a6758
 langcode: en
 status: true
 dependencies:
@@ -10,14 +10,14 @@ label: Categories
 type: 'canonical_entities:taxonomy_term'
 pattern: '/category/[term:name]'
 selection_criteria:
-  b4160fb2-abe9-497b-95f4-57bc2a2d0656:
+  dbe55bd8-b60e-4ba9-b3ae-8cd1802ee20c:
     id: 'entity_bundle:taxonomy_term'
     bundles:
       categories: categories
     negate: false
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: b4160fb2-abe9-497b-95f4-57bc2a2d0656
+    uuid: dbe55bd8-b60e-4ba9-b3ae-8cd1802ee20c
 selection_logic: and
 weight: -5
 relationships: {  }

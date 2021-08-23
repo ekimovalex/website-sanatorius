@@ -28,6 +28,7 @@
         "drupal/ds": "^3.13",
         "drupal/exclude_node_title": "^1.2",
         "drupal/pathauto": "^1.8",
+        "drupal/webprofiler": "^2.0@RC",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",

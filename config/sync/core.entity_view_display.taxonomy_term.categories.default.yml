@@ -1,14 +1,14 @@
-uuid: 02278db2-d6f7-4438-b1df-cb754d7e3bdb
+uuid: 2031c9d0-7d64-4fc4-ac11-4aa29671ac84
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.categories.field_image
-    - field.field.taxonomy_term.categories.field_min_price
+    - field.field.taxonomy_term.categories.field_imag
+    - field.field.taxonomy_term.categories.field_mi
     - field.field.taxonomy_term.categories.field_s
     - field.field.taxonomy_term.categories.layout_builder__layout
     - taxonomy.vocabulary.categories
-    - views.view._rooms
+    - views.view.rooms
   module:
     - layout_builder
     - layout_discovery
@@ -24,8 +24,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          39bad2a0-4d14-4f57-91e7-8473ca238791:
-            uuid: 39bad2a0-4d14-4f57-91e7-8473ca238791
+          d282b020-8283-4694-9036-24166e239b59:
+            uuid: d282b020-8283-4694-9036-24166e239b59
             region: content
             configuration:
               label_display: '0'
@@ -38,22 +38,9 @@ third_party_settings:
                 settings: {  }
                 third_party_settings: {  }
             additional: {  }
-            weight: 2
-          60ec6e02-f57f-4230-a9d0-3446108aa2d8:
-            uuid: 60ec6e02-f57f-4230-a9d0-3446108aa2d8
-            region: content
-            configuration:
-              id: 'views_block:_rooms-block_1'
-              label: ''
-              provider: views
-              label_display: visible
-              views_label: ''
-              items_per_page: none
-              context_mapping: {  }
-            additional: {  }
-            weight: 3
-          c581ac0b-be72-4437-a2a3-d0d91fc0eac7:
-            uuid: c581ac0b-be72-4437-a2a3-d0d91fc0eac7
+            weight: 1
+          c55f8020-f8eb-47ff-87ac-3489795eb9c1:
+            uuid: c55f8020-f8eb-47ff-87ac-3489795eb9c1
             region: content
             configuration:
               id: 'field_block:taxonomy_term:categories:name'
@@ -61,16 +48,29 @@ third_party_settings:
               provider: layout_builder
               label_display: '0'
               formatter:
-                label: hidden
+                label: above
                 type: string
                 settings:
-                  link_to_entity: true
+                  link_to_entity: false
                 third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 1
+            weight: 0
+          f2eceac4-d888-48be-8e45-87b73da1cef3:
+            uuid: f2eceac4-d888-48be-8e45-87b73da1cef3
+            region: content
+            configuration:
+              id: 'views_block:rooms-block_1'
+              label: ''
+              provider: views
+              label_display: visible
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: 2
         third_party_settings: {  }
 id: taxonomy_term.categories.default
 targetEntityType: taxonomy_term
@@ -84,16 +84,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image:
+  field_imag:
     type: entity_reference_entity_view
-    weight: 4
+    weight: 1
     label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
     region: content
-  field_min_price:
+  field_mi:
     weight: 3
     label: above
     settings:
@@ -103,7 +103,7 @@ content:
     type: number_integer
     region: content
   field_s:
-    weight: 2
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }

@@ -1,0 +1,14 @@
+uuid: c255e080-98ac-4088-8740-66eb5c00a033
+langcode: en
+status: true
+dependencies: {  }
+name: task_2
+label: 'Task 2'
+effects:
+  4f4d405b-d905-4df5-85c4-856e2f059caa:
+    uuid: 4f4d405b-d905-4df5-85c4-856e2f059caa
+    id: image_resize
+    weight: 1
+    data:
+      width: 380
+      height: 364

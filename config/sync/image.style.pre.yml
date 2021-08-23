@@ -1,12 +1,12 @@
-uuid: cc9d3268-13ad-4c5f-8e30-df2521f2ac80
+uuid: 4b6a9d01-4eba-4170-8b45-03485c72e1b7
 langcode: en
 status: true
 dependencies: {  }
 name: pre
 label: 'Preview 280*360'
 effects:
-  2011f3cb-e97f-4b83-80c3-58ef8b69cc0a:
-    uuid: 2011f3cb-e97f-4b83-80c3-58ef8b69cc0a
+  f9a8e869-5439-4bb0-8ca4-dfedf430181b:
+    uuid: f9a8e869-5439-4bb0-8ca4-dfedf430181b
     id: image_resize
     weight: 1
     data:

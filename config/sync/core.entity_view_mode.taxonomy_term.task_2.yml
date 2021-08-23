@@ -1,10 +1,10 @@
-uuid: 7911d26e-8358-4ab3-8906-bf0dcf11b355
+uuid: 2703d956-f117-47cb-9e87-cd99e75174b7
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
 id: taxonomy_term.task_2
-label: 'Task 2 Categories'
+label: 'Task 2'
 targetEntityType: taxonomy_term
 cache: true
