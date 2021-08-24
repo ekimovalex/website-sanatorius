@@ -33,10 +33,9 @@ third_party_settings:
               label_display: '0'
               formatter:
                 label: above
-                type: media_thumbnail
+                type: entity_reference_entity_view
                 settings:
-                  image_style: task_2
-                  image_link: content
+                  view_mode: categories_colorbox_380_364
                 third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity

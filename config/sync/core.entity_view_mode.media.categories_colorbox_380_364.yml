@@ -1,0 +1,10 @@
+uuid: 076204b0-f820-42b2-8db3-e9ee50a31c40
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.categories_colorbox_380_364
+label: 'Categories_colorbox_380*364'
+targetEntityType: media
+cache: true
