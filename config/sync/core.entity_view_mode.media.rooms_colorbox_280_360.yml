@@ -1,0 +1,10 @@
+uuid: 4fab5fc3-5f8f-48ca-a0d3-99bb85932c59
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.rooms_colorbox_280_360
+label: 'Rooms_colorbox_280*360'
+targetEntityType: media
+cache: true
