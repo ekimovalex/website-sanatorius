@@ -1,14 +1,14 @@
-uuid: 605c7458-39d7-4d4a-8197-7a7323eabd7a
+uuid: d6ab4ee5-57e1-463e-ad8f-ef2a9c59603d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.taxonomy_term.field_s
+    - field.storage.taxonomy_term.field_sh
     - taxonomy.vocabulary.categories
   module:
     - text
-id: taxonomy_term.categories.field_s
-field_name: field_s
+id: taxonomy_term.categories.field_sh
+field_name: field_sh
 entity_type: taxonomy_term
 bundle: categories
 label: 'Short description'

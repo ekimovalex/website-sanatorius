@@ -1,19 +1,19 @@
-uuid: 2805fe12-dd5f-41b5-8656-de569a9af4fa
+uuid: cdc0902c-330e-448f-ae72-16bd4c44a5d7
 langcode: en
 status: true
 dependencies:
   module:
     - media
-    - node
-id: node.field_p
-field_name: field_p
-entity_type: node
+    - taxonomy
+id: taxonomy_term.field_im
+field_name: field_im
+entity_type: taxonomy_term
 type: entity_reference
 settings:
   target_type: media
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

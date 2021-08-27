@@ -1,21 +1,24 @@
-uuid: 6a412a39-bacb-4d4b-90cd-0f30b95c4fc5
+uuid: 22120d0c-0248-4039-a8de-db604695bad6
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.taxonomy_term.full
     - field.field.taxonomy_term.categories.field_couner
     - field.field.taxonomy_term.categories.field_im
     - field.field.taxonomy_term.categories.field_m
     - field.field.taxonomy_term.categories.field_sh
     - field.field.taxonomy_term.categories.layout_builder__layout
     - taxonomy.vocabulary.categories
+    - views.view.rooms
   module:
     - layout_builder
     - layout_discovery
     - text
+    - views
 third_party_settings:
   layout_builder:
-    allow_custom: false
+    allow_custom: true
     enabled: true
     sections:
       -
@@ -23,8 +26,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          953745b7-a2d9-4b03-b4cf-a4940a80dead:
-            uuid: 953745b7-a2d9-4b03-b4cf-a4940a80dead
+          01b77732-169a-431f-b08d-e0ea69426c7f:
+            uuid: 01b77732-169a-431f-b08d-e0ea69426c7f
             region: content
             configuration:
               label_display: '0'
@@ -38,8 +41,8 @@ third_party_settings:
                 third_party_settings: {  }
             additional: {  }
             weight: 1
-          54404170-e114-4e74-b63f-3a9764c92cee:
-            uuid: 54404170-e114-4e74-b63f-3a9764c92cee
+          2431871b-80a9-45a1-9c5c-19e03acf1dee:
+            uuid: 2431871b-80a9-45a1-9c5c-19e03acf1dee
             region: content
             configuration:
               id: 'field_block:taxonomy_term:categories:name'
@@ -47,7 +50,7 @@ third_party_settings:
               provider: layout_builder
               label_display: '0'
               formatter:
-                label: above
+                label: hidden
                 type: string
                 settings:
                   link_to_entity: false
@@ -57,45 +60,24 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 0
-          11737e7e-66ed-4575-8011-8e66cddea6a6:
-            uuid: 11737e7e-66ed-4575-8011-8e66cddea6a6
+          9e384118-27b6-4fd8-89c2-a713758329f8:
+            uuid: 9e384118-27b6-4fd8-89c2-a713758329f8
             region: content
             configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:taxonomy_term:categories:field_sh'
-              formatter:
-                label: above
-                settings: {  }
-                third_party_settings: {  }
-                type: text_default
+              id: 'views_block:rooms-block_1'
+              label: ''
+              provider: views
+              label_display: visible
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
             additional: {  }
             weight: 2
-          c96770d7-e685-41f6-84c8-645c5b5f1812:
-            uuid: c96770d7-e685-41f6-84c8-645c5b5f1812
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:taxonomy_term:categories:field_couner'
-              formatter:
-                label: above
-                settings:
-                  thousand_separator: ''
-                  decimal_separator: .
-                  scale: 2
-                  prefix_suffix: true
-                third_party_settings: {  }
-                type: number_decimal
-            additional: {  }
-            weight: 3
         third_party_settings: {  }
-id: taxonomy_term.categories.default
+id: taxonomy_term.categories.full
 targetEntityType: taxonomy_term
 bundle: categories
-mode: default
+mode: full
 content:
   description:
     label: hidden
@@ -104,17 +86,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_couner:
-    weight: 5
-    label: above
-    settings:
-      thousand_separator: ''
-      decimal_separator: .
-      scale: 2
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_decimal
-    region: content
   field_im:
     type: entity_reference_entity_view
     weight: 1
@@ -133,12 +104,7 @@ content:
     third_party_settings: {  }
     type: number_integer
     region: content
-  field_sh:
-    weight: 4
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
 hidden:
+  field_couner: true
+  field_sh: true
   layout_builder__layout: true

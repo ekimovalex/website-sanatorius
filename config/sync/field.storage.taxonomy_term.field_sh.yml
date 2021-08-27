@@ -1,15 +1,16 @@
-uuid: d983cc20-b8f0-4da8-9d30-60158e381677
+uuid: 77f70dba-f0bb-4051-b42f-a1d3b8b63489
 langcode: en
 status: true
 dependencies:
   module:
-    - node
+    - taxonomy
     - text
-id: node.field_des
-field_name: field_des
-entity_type: node
-type: text_long
-settings: {  }
+id: taxonomy_term.field_sh
+field_name: field_sh
+entity_type: taxonomy_term
+type: text
+settings:
+  max_length: 255
 module: text
 locked: false
 cardinality: 1

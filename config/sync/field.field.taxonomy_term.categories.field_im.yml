@@ -1,16 +1,16 @@
-uuid: c19c0f7b-8aad-4afc-9bfa-5e727e61c71a
+uuid: 6829f191-b3b6-40ac-b986-0ae83870b21a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_preview
+    - field.storage.taxonomy_term.field_im
     - media.type.image
-    - node.type.room
-id: node.room.field_preview
-field_name: field_preview
-entity_type: node
-bundle: room
-label: Preview
+    - taxonomy.vocabulary.categories
+id: taxonomy_term.categories.field_im
+field_name: field_im
+entity_type: taxonomy_term
+bundle: categories
+label: Image
 description: ''
 required: true
 translatable: false

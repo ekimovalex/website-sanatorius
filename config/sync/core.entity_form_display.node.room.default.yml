@@ -1,14 +1,14 @@
-uuid: 609c8a56-0188-4c70-91af-e83cb3ecf58d
+uuid: c62ea3c6-1500-4592-adad-b5215b5082db
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.room.field_categories
-    - field.field.node.room.field_des
-    - field.field.node.room.field_p
-    - field.field.node.room.field_preview
-    - field.field.node.room.field_pric
-    - field.field.node.room.field_ta
+    - field.field.node.room.field_ca
+    - field.field.node.room.field_description
+    - field.field.node.room.field_pho
+    - field.field.node.room.field_pre
+    - field.field.node.room.field_price
+    - field.field.node.room.field_tag
     - node.type.room
   module:
     - media_library
@@ -25,7 +25,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_categories:
+  field_ca:
     weight: 124
     settings:
       match_operator: CONTAINS
@@ -35,7 +35,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_des:
+  field_description:
     weight: 122
     settings:
       rows: 5
@@ -43,28 +43,28 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
-  field_p:
+  field_pho:
     type: media_library_widget
     weight: 125
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
-  field_preview:
+  field_pre:
     type: media_library_widget
     weight: 121
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
-  field_pric:
+  field_price:
     weight: 123
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: content
-  field_ta:
+  field_tag:
     weight: 126
     settings:
       match_operator: CONTAINS

@@ -1,19 +1,19 @@
-uuid: cbc88739-ad96-44d6-89d8-afb94bb7c708
+uuid: c1a87293-f31e-4626-9484-38b854bb8383
 langcode: en
 status: true
 dependencies:
   module:
-    - media
+    - node
     - taxonomy
-id: taxonomy_term.field_imag
-field_name: field_imag
-entity_type: taxonomy_term
+id: node.field_ca
+field_name: field_ca
+entity_type: node
 type: entity_reference
 settings:
-  target_type: media
+  target_type: taxonomy_term
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

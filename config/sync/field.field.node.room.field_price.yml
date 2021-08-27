@@ -1,12 +1,12 @@
-uuid: 50d97d99-935d-4de3-a5f7-2ca52bb1500b
+uuid: 14cde5d8-3754-466f-95fc-ade68047c3dd
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_pric
+    - field.storage.node.field_price
     - node.type.room
-id: node.room.field_pric
-field_name: field_pric
+id: node.room.field_price
+field_name: field_price
 entity_type: node
 bundle: room
 label: Price

@@ -1,0 +1,30 @@
+uuid: 2fd3fcb2-8a6e-44f2-8c85-8972947e00ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slider_rooms
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__slider_rooms_block_1
+theme: bartik
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:slider_rooms-block_1'
+settings:
+  id: 'views_block:slider_rooms-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

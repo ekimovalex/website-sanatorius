@@ -1,15 +1,15 @@
-uuid: 18279c59-99f3-460d-bf7a-536ab08c7fb9
+uuid: b5a84d62-4382-4fdd-871f-510fb1cdcd02
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.taxonomy_term.field_mi
+    - field.storage.taxonomy_term.field_couner
     - taxonomy.vocabulary.categories
-id: taxonomy_term.categories.field_mi
-field_name: field_mi
+id: taxonomy_term.categories.field_couner
+field_name: field_couner
 entity_type: taxonomy_term
 bundle: categories
-label: 'Min price'
+label: Couner
 description: ''
 required: true
 translatable: false
@@ -20,4 +20,4 @@ settings:
   max: null
   prefix: ''
   suffix: ''
-field_type: integer
+field_type: float
