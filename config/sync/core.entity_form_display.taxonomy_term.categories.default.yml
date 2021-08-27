@@ -1,15 +1,15 @@
-uuid: 2a2da758-a712-4d3a-b3f3-3f7fdd16b9ed
+uuid: b29774a3-d768-4d3d-b167-3c504723eb9d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.categories.field_imag
-    - field.field.taxonomy_term.categories.field_mi
-    - field.field.taxonomy_term.categories.field_s
+    - field.field.taxonomy_term.categories.field_couner
+    - field.field.taxonomy_term.categories.field_im
+    - field.field.taxonomy_term.categories.field_m
+    - field.field.taxonomy_term.categories.field_sh
     - field.field.taxonomy_term.categories.layout_builder__layout
     - taxonomy.vocabulary.categories
   module:
-    - media_library
     - path
     - text
 id: taxonomy_term.categories.default
@@ -18,28 +18,38 @@ bundle: categories
 mode: default
 content:
   description:
-    type: text_textfield
+    type: text_textarea
     weight: 0
     region: content
     settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_couner:
+    weight: 105
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_im:
+    type: entity_reference_autocomplete
+    weight: 101
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_imag:
-    type: media_library_widget
-    weight: 101
-    settings:
-      media_types: {  }
-    third_party_settings: {  }
     region: content
-  field_mi:
+  field_m:
     weight: 103
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: content
-  field_s:
+  field_sh:
     weight: 104
     settings:
       size: 60

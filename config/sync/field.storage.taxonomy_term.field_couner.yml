@@ -1,16 +1,14 @@
-uuid: 956bf9db-3bb3-4fec-840c-09cc4cc00eef
+uuid: cf2b7d83-168f-489f-855d-b435802b2559
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
-id: taxonomy_term.field_mi
-field_name: field_mi
+id: taxonomy_term.field_couner
+field_name: field_couner
 entity_type: taxonomy_term
-type: integer
-settings:
-  unsigned: false
-  size: normal
+type: float
+settings: {  }
 module: core
 locked: false
 cardinality: 1

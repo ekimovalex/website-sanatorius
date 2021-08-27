@@ -1,0 +1,53 @@
+uuid: 87254293-365e-46b4-980d-1d6ab885d822
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.token
+    - field.field.taxonomy_term.categories.field_couner
+    - field.field.taxonomy_term.categories.field_im
+    - field.field.taxonomy_term.categories.field_m
+    - field.field.taxonomy_term.categories.field_sh
+    - field.field.taxonomy_term.categories.layout_builder__layout
+    - taxonomy.vocabulary.categories
+  module:
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: taxonomy_term.categories.token
+targetEntityType: taxonomy_term
+bundle: categories
+mode: token
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_im:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_m:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden:
+  field_couner: true
+  field_sh: true
+  layout_builder__layout: true

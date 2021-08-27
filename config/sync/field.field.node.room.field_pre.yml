@@ -1,29 +1,28 @@
-uuid: e4f6fc9e-5ddc-4f1a-b82a-53e75149b22a
+uuid: ee0cec9b-8099-4789-a312-d723037cc334
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_categories
+    - field.storage.node.field_pre
+    - media.type.image
     - node.type.room
-    - taxonomy.vocabulary.categories
-id: node.room.field_categories
-field_name: field_categories
+id: node.room.field_pre
+field_name: field_pre
 entity_type: node
 bundle: room
-label: Categories
+label: Preview
 description: ''
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:taxonomy_term'
+  handler: 'default:media'
   handler_settings:
     target_bundles:
-      categories: categories
+      image: image
     sort:
-      field: name
-      direction: asc
+      field: _none
     auto_create: false
     auto_create_bundle: ''
 field_type: entity_reference

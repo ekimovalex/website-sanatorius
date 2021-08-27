@@ -1,13 +1,13 @@
-uuid: 34392b00-f8e9-48ea-b99d-93f0ea74168d
+uuid: 6d246b9d-67e1-4b96-b94d-8cdf8f85e5e2
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_ta
+    - field.storage.node.field_tag
     - node.type.room
     - taxonomy.vocabulary.tags
-id: node.room.field_ta
-field_name: field_ta
+id: node.room.field_tag
+field_name: field_tag
 entity_type: node
 bundle: room
 label: Tags
