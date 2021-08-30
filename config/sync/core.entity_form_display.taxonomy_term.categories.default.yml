@@ -3,11 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.categories.field_couner
     - field.field.taxonomy_term.categories.field_im
     - field.field.taxonomy_term.categories.field_m
     - field.field.taxonomy_term.categories.field_sh
-    - field.field.taxonomy_term.categories.layout_builder__layout
     - taxonomy.vocabulary.categories
   module:
     - path
@@ -25,13 +23,6 @@ content:
       placeholder: ''
       rows: 5
     third_party_settings: {  }
-  field_couner:
-    weight: 105
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-    type: number
-    region: content
   field_im:
     type: entity_reference_autocomplete
     weight: 101
@@ -78,5 +69,4 @@ content:
     weight: 100
     region: content
     third_party_settings: {  }
-hidden:
-  layout_builder__layout: true
+hidden: {  }

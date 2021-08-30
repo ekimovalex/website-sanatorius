@@ -1,0 +1,7 @@
+uuid: 68bbf4f3-494d-4cd4-9e59-739fdf9c3120
+langcode: en
+status: true
+dependencies: {  }
+formId: webform_ui_element_form
+captchaType: image_captcha/Image
+label: webform_ui_element_form
