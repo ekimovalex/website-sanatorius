@@ -4,11 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.taxonomy_term.token
-    - field.field.taxonomy_term.categories.field_couner
     - field.field.taxonomy_term.categories.field_im
     - field.field.taxonomy_term.categories.field_m
     - field.field.taxonomy_term.categories.field_sh
-    - field.field.taxonomy_term.categories.layout_builder__layout
     - taxonomy.vocabulary.categories
   module:
     - layout_builder
@@ -48,6 +46,4 @@ content:
     type: number_integer
     region: content
 hidden:
-  field_couner: true
   field_sh: true
-  layout_builder__layout: true
