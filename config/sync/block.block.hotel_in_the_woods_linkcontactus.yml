@@ -1,0 +1,25 @@
+uuid: b3ceb2ac-971c-4a56-87a3-07af1fe1cab0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:aece0c9e-1084-491d-9243-27271a007cc1'
+  module:
+    - block_content
+  theme:
+    - hotel_in_the_woods
+id: hotel_in_the_woods_linkcontactus
+theme: hotel_in_the_woods
+region: header
+weight: -8
+provider: null
+plugin: 'block_content:aece0c9e-1084-491d-9243-27271a007cc1'
+settings:
+  id: 'block_content:aece0c9e-1084-491d-9243-27271a007cc1'
+  label: 'link contact us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

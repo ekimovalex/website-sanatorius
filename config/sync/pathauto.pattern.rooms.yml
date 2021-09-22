@@ -9,14 +9,15 @@ label: rooms
 type: 'canonical_entities:node'
 pattern: '/room/[node:title]'
 selection_criteria:
-  14bb9709-244b-4106-a9de-47b255e11124:
+  bcbf17cb-42fb-46b9-bb1f-a43846faa184:
     id: node_type
     bundles:
       room: room
+      rooms_task_7_: rooms_task_7_
     negate: false
     context_mapping:
       node: node
-    uuid: 14bb9709-244b-4106-a9de-47b255e11124
+    uuid: bcbf17cb-42fb-46b9-bb1f-a43846faa184
 selection_logic: and
 weight: -5
 relationships: {  }

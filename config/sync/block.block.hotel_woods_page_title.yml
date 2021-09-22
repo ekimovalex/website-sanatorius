@@ -1,0 +1,37 @@
+uuid: a3492704-6a7c-4382-9004-5f3471272112
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+  theme:
+    - hotel_woods
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: hotel_woods_page_title
+theme: hotel_woods
+region: hidden_regions
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      room: room
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      room: room
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

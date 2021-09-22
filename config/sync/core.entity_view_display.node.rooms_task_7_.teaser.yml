@@ -1,0 +1,32 @@
+uuid: 9fb5813d-4f00-4d03-a142-06c2c334f398
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.rooms_task_7_.field_additionally
+    - field.field.node.rooms_task_7_.field_category
+    - field.field.node.rooms_task_7_.field_cost
+    - field.field.node.rooms_task_7_.field_description_7
+    - field.field.node.rooms_task_7_.field_photos
+    - field.field.node.rooms_task_7_.field_preview
+    - node.type.rooms_task_7_
+  module:
+    - user
+id: node.rooms_task_7_.teaser
+targetEntityType: node
+bundle: rooms_task_7_
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_additionally: true
+  field_category: true
+  field_cost: true
+  field_description_7: true
+  field_photos: true
+  field_preview: true

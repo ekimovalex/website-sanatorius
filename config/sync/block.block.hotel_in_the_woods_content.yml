@@ -1,0 +1,22 @@
+uuid: e7ffbcf2-cbf7-45b7-95eb-7dd942c3d8a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hotel_in_the_woods
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: hotel_in_the_woods_content
+theme: hotel_in_the_woods
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

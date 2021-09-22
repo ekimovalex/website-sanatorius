@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: gray;
+}
+
+/* Header *********************************************************/
+
+.region.region-main-header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: start;
+}
+/* Logo Image */
+
+.logo-img-sites-default-files-logopng {
+    margin-top: 35px;
+}
+
+/* Navigation link  */
+
+.menu-header {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 36px;
+}
+
+.menu-header li{
+  display: block;
+  float: left;
+  position: relative;
+    
+}
+.menu-header li a{
+    text-decoration: none;
+    color: #fff;    
+}
+
+.menu-header li.menu--item-header a {      
+    margin-left: 33px;
+}
+
+.menu--item-header.menu-item--expanded-header {
+    margin-right: 19px;
+}
+
+.menu--item-header.menu-item--expanded-header a::after{
+content: url('/web/themes/hotel_woods/theme/img/Vector.png');
+position: absolute;
+left: 50%;
+top: 30px
+}
+
+
+.menu--item-header.menu-item--expanded-header ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.menu-header li {
+    padding-top: 13px;
+}
+
+.menu-header li ul li{
+    padding-top: 0;
+}
+ 
+
+.menu-header li ul {
+    display: none;
+    flex-direction: column;
+}
+
+.menu-header li:hover > ul {
+    display: flex;
+}
+
+.menu-header li:hover > a {
+    color: #000;
+}
+
+.menu--item-header.menu-item--expanded-header:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* Phone number  */
+.phone_number {
+    margin-left: 144px;
+    margin-top: 46px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.phone_number p {
+    margin:0;
+}
+
+/* Book Now */
+
+.book_now {
+    margin-left: 61.5px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+
+}
+
+.book_now a { 
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 13px 42px 11px 43px;
+
+}
+
+
+/* Main slider *********************************/
+
+

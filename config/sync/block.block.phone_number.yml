@@ -1,0 +1,25 @@
+uuid: f467e2c0-6e07-4de5-93fe-47f03892b197
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:104ce63d-46fe-4c54-b033-659296a653cd'
+  module:
+    - block_content
+  theme:
+    - hotel_woods
+id: phone_number
+theme: hotel_woods
+region: main_header
+weight: -7
+provider: null
+plugin: 'block_content:104ce63d-46fe-4c54-b033-659296a653cd'
+settings:
+  id: 'block_content:104ce63d-46fe-4c54-b033-659296a653cd'
+  label: 'Phone number'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

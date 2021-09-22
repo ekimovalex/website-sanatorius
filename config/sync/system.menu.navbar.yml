@@ -1,0 +1,8 @@
+uuid: b7a01171-1b46-48c4-8cfe-a242df54aabb
+langcode: en
+status: true
+dependencies: {  }
+id: navbar
+label: navbar
+description: ''
+locked: false

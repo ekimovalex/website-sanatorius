@@ -1,0 +1,22 @@
+uuid: b9d39284-9f20-4eac-826f-1b99da0183cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hotel_woods
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: hotel_woods_messages
+theme: hotel_woods
+region: hidden_regions
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

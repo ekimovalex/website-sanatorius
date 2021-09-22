@@ -1,0 +1,22 @@
+uuid: 6e1368c3-a903-4efe-a443-a92e253a4f5f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hotel_in_the_woods
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: hotel_in_the_woods_local_tasks
+theme: hotel_in_the_woods
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

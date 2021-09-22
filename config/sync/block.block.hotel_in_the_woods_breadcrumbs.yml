@@ -1,0 +1,22 @@
+uuid: 5a7363af-b509-4130-9f86-b53a53defb95
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hotel_in_the_woods
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: hotel_in_the_woods_breadcrumbs
+theme: hotel_in_the_woods
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

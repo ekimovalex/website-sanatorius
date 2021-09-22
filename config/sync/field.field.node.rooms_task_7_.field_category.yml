@@ -1,0 +1,31 @@
+uuid: 5b1d1ab5-6530-4618-b370-fc0a155dc47c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.rooms_task_7_
+    - taxonomy.vocabulary.categories
+    - taxonomy.vocabulary.how_much_bed
+id: node.rooms_task_7_.field_category
+field_name: field_category
+entity_type: node
+bundle: rooms_task_7_
+label: Category
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories: categories
+      how_much_bed: how_much_bed
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: categories
+field_type: entity_reference
