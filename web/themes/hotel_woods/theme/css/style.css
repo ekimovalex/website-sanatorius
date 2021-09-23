@@ -9,10 +9,15 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    background-color: gray;
+    background-color: rgb(94, 115, 161);
 }
 
 /* Header *********************************************************/
+
+#main-header {
+    position: absolute;
+    z-index: 10;
+}
 
 .region.region-main-header {
     margin-left: auto;
@@ -27,6 +32,7 @@ body {
 
 .logo-img-sites-default-files-logopng {
     margin-top: 35px;
+    margin-right: 104px;
 }
 
 /* Navigation link  */
@@ -43,31 +49,48 @@ body {
   position: relative;
     
 }
+
 .menu-header li a{
     text-decoration: none;
     color: #fff;    
 }
 
-.menu-header li.menu--item-header a {      
-    margin-left: 33px;
-}
-
 .menu--item-header.menu-item--expanded-header {
-    margin-right: 19px;
+    padding-left: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
-.menu--item-header.menu-item--expanded-header a::after{
-content: url('/web/themes/hotel_woods/theme/img/Vector.png');
-position: absolute;
-left: 50%;
-top: 30px
-}
+.menu--item-header.menu-item--expanded-header > a::after{
+    content: '';
+    background: url(../img/Vector.png);
+    width: 10px;
+    height: 6px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 16px;
+    transform: rotate(1turn);
+    }
 
+.menu--item-header.menu-item--expanded-header > a:hover::after{
+    content: '';
+    background: url(../img/Vector.png);
+    width: 10px;
+    height: 6px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 16px;
+    transform: rotate(0.5turn);
+    } 
 
 .menu--item-header.menu-item--expanded-header ul li a {
     font-size: 13px;
     font-weight: 400;
     color: #666666;
+}
+
+.menu-header li:nth-child(1) {
+    margin-right: 34px;
 }
 
 .menu-header li {
@@ -76,12 +99,13 @@ top: 30px
 
 .menu-header li ul li{
     padding-top: 0;
+    margin-bottom: 13px;
 }
- 
 
 .menu-header li ul {
     display: none;
     flex-direction: column;
+    margin-top: 27px; 
 }
 
 .menu-header li:hover > ul {
@@ -94,13 +118,13 @@ top: 30px
 
 .menu--item-header.menu-item--expanded-header:hover {
     background-color: rgb(255, 255, 255);
-
 }
 
 /* Phone number  */
+
 .phone_number {
-    margin-left: 144px;
     margin-top: 46px;
+    margin-left: 146px;
     font-size: 18px;
     font-weight: 500;
     color: #fff;
@@ -113,12 +137,11 @@ top: 30px
 /* Book Now */
 
 .book_now {
-    margin-left: 61.5px;
+    margin-left: 60.3px;
     margin-top: 50px;
     font-weight: 400;
     font-size: 12px;
     font-style: normal;
-
 }
 
 .book_now a { 
@@ -127,10 +150,13 @@ top: 30px
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 13px 42px 11px 43px;
-
 }
 
 
-/* Main slider *********************************/
+/* First screen **************************************/
 
+#first-screen {
+    position: relative;
+    z-index: 1;
 
+}

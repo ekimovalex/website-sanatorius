@@ -7,8 +7,10 @@ libraries:
   - hotel_woods/global-styling
 regions:
   main_header: 'Main header'
-  main_сontent: 'Main content'
-  main_footer: 'Main footer'
+  first_screen: 'First screen'
+  
+  main_сontent: 'Content'
+  main_footer: 'Footer'
   cant_choose: 'Cant choose'
   side_bar: 'Side bar'
 

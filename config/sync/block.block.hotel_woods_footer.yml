@@ -13,7 +13,7 @@ _core:
 id: hotel_woods_footer
 theme: hotel_woods
 region: hidden_regions
-weight: -1
+weight: -2
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
