@@ -12,7 +12,7 @@ name: category_slider_
 label: Slider
 weight: -9
 group: ''
-skin: default
+skin: ''
 breakpoints: 0
 optimized: false
 options:
@@ -28,13 +28,13 @@ options:
     pauseOnDotsHover: false
     pauseOnFocus: true
     arrows: true
-    prevArrow: Previous
+    prevArrow: Pre
     nextArrow: Next
     downArrow: false
     downArrowTarget: ''
     downArrowOffset: 0
     centerMode: true
-    centerPadding: 50px
+    centerPadding: ''
     dots: false
     dotsClass: slick-dots
     appendDots: $(element)

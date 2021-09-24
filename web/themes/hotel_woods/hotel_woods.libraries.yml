@@ -2,3 +2,4 @@ global-styling:
   css:
    theme:
       theme/css/style.css: {}
+      theme/css/field.css: {}
