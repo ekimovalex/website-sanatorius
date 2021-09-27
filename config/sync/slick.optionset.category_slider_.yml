@@ -28,7 +28,7 @@ options:
     pauseOnDotsHover: false
     pauseOnFocus: true
     arrows: true
-    prevArrow: Pre
+    prevArrow: ''
     nextArrow: Next
     downArrow: false
     downArrowTarget: ''

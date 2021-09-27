@@ -158,7 +158,8 @@ body {
 /* First screen **************************************/
 
 #first-screen {
-    z-index: 1; 
+    z-index: 1;
+    position: static; 
 }
 
 .views-element-container.contextual-region.block-views-blockslider-categories-block-1 h2 {
@@ -177,30 +178,105 @@ body {
 }
 
 .slick-prev.slick-arrow{
-    z-index: 2;
+    position: absolute;
+    visibility: hidden;
     
 }
 
 .slick-next.slick-arrow {
-    z-index: 2;
-    /* width: 30px;
-    height: 10px; */
+    z-index: 3;
     position: absolute;
-    top: 366px;
-    left: 1400px;
+    top: 352px;
+    left: 1399px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    background: none;
 }
 
 .slick-next.slick-arrow::before{
-    z-index: 2;
+    z-index: 3;
     width: 96px;
     height: 14px;
     position: absolute;
-    /* top: 366px;
-    left: 1400px; */
+    margin-top: 15px;
     overflow: auto;
     content: '';
     background: url(../img/Main-slider/arrow.png);
     display: inline-block;
-
 }
 
+.views-field.views-field-counter span.field-content {
+    z-index: 3;
+    position: absolute;
+    top: 702.6px;
+    margin-left: 1471px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+.views-field.views-field-field-sh div.field-content {
+    z-index: 3;
+    position: absolute;
+    top: 711px;
+    margin-left: 1258px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.views-field.views-field-name span.field-content {
+    z-index: 3;
+    position: absolute;
+    top: 696px;
+    margin-left: 331px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;   
+}
+
+.views-field.views-field-name span.field-content a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.views-field.views-field-field-m div.field-content {
+    z-index: 3;
+    position: absolute;
+    top: 728px;
+    margin-left: 332px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    color: #fff;
+}
+
+.views-field.views-field-view-taxonomy-term span.field-content {
+    z-index: 3;
+    position: absolute;
+    top: 760px;
+    margin-left: 332px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+
+.views-field.views-field-view-taxonomy-term span.field-content a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.views-field.views-field-view-taxonomy-term span.field-content a::after {
+    z-index: 3;
+    position: absolute;
+    width: 28px;
+    height: 12px;
+    margin-left: 12.5px;
+    margin-top: 0.5px;
+    content: '';
+    background: url(../img/Main-slider/more_det_arrow.png);
+    display: inline-block;
+}
