@@ -1,0 +1,15 @@
+uuid: 4f161a4e-33a9-41d6-94d6-d5d2e56640a5
+langcode: en
+status: true
+dependencies: {  }
+name: a_place_to_relax
+label: 'A place to relax'
+effects:
+  c8991fec-14ff-4f79-8d7c-8a8d6d84c064:
+    uuid: c8991fec-14ff-4f79-8d7c-8a8d6d84c064
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 620
+      anchor: center-center

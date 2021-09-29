@@ -1,0 +1,26 @@
+uuid: f80a634c-9fca-4294-add1-f55a9e0eddf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.a_place_to_relax.field_description_1
+    - field.field.node.a_place_to_relax.field_image_1
+    - field.field.node.a_place_to_relax.field_more_details
+    - node.type.a_place_to_relax
+  module:
+    - user
+id: node.a_place_to_relax.teaser
+targetEntityType: node
+bundle: a_place_to_relax
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_description_1: true
+  field_image_1: true
+  field_more_details: true

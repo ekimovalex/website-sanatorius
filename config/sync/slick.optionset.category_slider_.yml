@@ -43,7 +43,7 @@ options:
     focusOnSelect: false
     infinite: true
     initialSlide: 0
-    lazyLoad: ondemand
+    lazyLoad: ''
     mouseWheel: false
     randomize: false
     respondTo: window
