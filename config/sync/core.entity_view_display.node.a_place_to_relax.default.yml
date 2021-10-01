@@ -8,9 +8,14 @@ dependencies:
     - field.field.node.a_place_to_relax.field_more_details
     - node.type.a_place_to_relax
   module:
+    - layout_builder
     - link
     - text
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
 id: node.a_place_to_relax.default
 targetEntityType: node
 bundle: a_place_to_relax
@@ -46,7 +51,8 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
-hidden: {  }
+hidden:
+  layout_builder__layout: true

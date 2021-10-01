@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -16,7 +21,8 @@ body {
 /* Header *********************************************************/
 #main-header {
   z-index: 10;
-  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
   height: 88px;
   position: absolute;
 }
@@ -26,7 +32,6 @@ body {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 1200px;
   display: flex;
   justify-content: start;
 }
@@ -157,8 +162,10 @@ body {
 
 /* First screen **************************************/
 #first-screen {
+  position: relative;
   z-index: 1;
-  position: static; 
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .views-element-container.contextual-region.block-views-blockslider-categories-block-1 h2 {
@@ -170,6 +177,7 @@ body {
 }
 
 .image-style-task-2 {
+  overflow: initial;
   width: 100%;
   height: 800px;
   filter: brightness(80%);
@@ -184,7 +192,7 @@ body {
   z-index: 3;
   position: absolute;
   top: 352px;
-  left: 1399px;
+  left: 1409px;
   font-size: 13px;
   font-weight: 400;
   color: #fff;
@@ -208,7 +216,7 @@ body {
   z-index: 3;
   position: absolute;
   top: 702.6px;
-  margin-left: 1471px;
+  margin-left: 1480px;
   font-size: 45px;
   font-weight: 700;
   color: #fff;  
@@ -218,7 +226,7 @@ body {
   z-index: 3;
   position: absolute;
   top: 711px;
-  margin-left: 1258px;
+  margin-left: 1266px;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
@@ -228,7 +236,7 @@ body {
   z-index: 3;
   position: absolute;
   top: 696px;
-  margin-left: 331px;
+  margin-left: 341px;
   font-size: 25px;
   font-weight: 500;
   line-height: 30px;   
@@ -243,7 +251,7 @@ body {
   z-index: 3;
   position: absolute;
   top: 728px;
-  margin-left: 332px;
+  margin-left: 342px;
   font-size: 12px;
   font-weight: 400;
   line-height: 14.4px;
@@ -254,7 +262,7 @@ body {
   z-index: 3;
   position: absolute;
   top: 760px;
-  margin-left: 332px;
+  margin-left: 342px;
   font-size: 12px;
   font-weight: 400;
   line-height: 14.06px;
@@ -280,42 +288,51 @@ body {
 
 /* Content **************************************/
 /* A place to relax *************/
-.image-style-a-place-to-relax {
-  position: absolute;
-  margin-left: 316px;
-  margin-top: 137px;
+.view-a-place-to-relax .views-row {
+  display: flex;
+  max-width: 1180px;
+  margin: 0 auto;
+  height: 900px;
 }
 
 .views-element-container.contextual-region h2{
-  position: absolute;
+  display: none;
+}
+
+.image-style-a-place-to-relax {
+  margin-top: 136px;
+}
+
+.title-block2{
+  float: left;
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
   line-height: 53px;
+  text-decoration: none;
+  color: #000;
   letter-spacing: 0em;
-  margin-left: 916px;
-  margin-top: 266px;
+  margin-left: 120px;
+  margin-top: 267px;
 }
 
 .description_1{
-  position: absolute;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 19.4px;
   letter-spacing: 0em;
-  margin-left: 916px;
-  margin-top: 342px;
+  margin-left: -306px;
+  margin-top: 344px;
 }
 
 .views-field.views-field-field-more-details {
-  position: absolute;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0em;
-  margin-left: 916px;
+  margin-left: -544px;
   margin-top: 600px;
 }
 
@@ -325,8 +342,103 @@ body {
   border: 1px solid #000;
   border-radius: 5px;
   padding: 13px 36px 11px 37px;
-
-
 }
+
+
+/* Peculiarities *************/
+#block-block3 h2 {
+  display: none;
+}
+
+.peculiarites {
+  background: #F1F1F1;
+  max-width:100%;
+  height: 316px;
+}
+
+.wrapper-block-3 {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.title-block-3 {
+  z-index: 10;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-top: 79px;
+}
+
+.descr {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.img-bed {
+  content: '';
+  background: url(../img/block_3/bed.png);
+  width: 64px;
+  height: 48px;
+  display: inline-block;
+  margin-top: 49px;
+}
+
+.descr-bed {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-left: 36px;
+  margin-top: 53px;
+}
+
+.img-forest {
+  content: '';
+  background: url(../img/block_3/forest.png);
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  margin-left: 225px;
+  margin-top: 41px;
+}
+
+.descr-forest {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-left: 36px;
+  margin-top: 54px;
+}
+
+.img-leaf {
+  content: '';
+  background: url(../img/block_3/leaf.png);
+  width: 36px;
+  height: 64px;
+  display: inline-block;
+  margin-left: 187px;
+  margin-top: 41px;
+}
+
+.descr-leaf {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-left: 51px;
+  margin-top: 53px;
+}
+
 
 
