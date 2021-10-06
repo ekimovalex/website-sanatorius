@@ -1,0 +1,25 @@
+uuid: a07685ad-6aae-4ac7-a1f1-0df3a4458613
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3a075e0a-63c4-49ec-bb9e-bc2cb6d8336f'
+  module:
+    - block_content
+  theme:
+    - hotel_woods
+id: block4
+theme: hotel_woods
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:3a075e0a-63c4-49ec-bb9e-bc2cb6d8336f'
+settings:
+  id: 'block_content:3a075e0a-63c4-49ec-bb9e-bc2cb6d8336f'
+  label: 'Block 4'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,15 @@
+uuid: 84d1a3b7-26fb-4a04-821b-ac94c6446643
+langcode: en
+status: true
+dependencies: {  }
+name: 280x360_slider_rooms
+label: '280x360 slider rooms'
+effects:
+  bcd24c0b-71a6-4791-848c-f8b5263d08f4:
+    uuid: bcd24c0b-71a6-4791-848c-f8b5263d08f4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 280
+      height: 360
+      anchor: center-center
