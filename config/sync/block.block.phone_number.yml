@@ -11,7 +11,7 @@ dependencies:
 id: phone_number
 theme: hotel_woods
 region: main_header
-weight: -7
+weight: -10
 provider: null
 plugin: 'block_content:104ce63d-46fe-4c54-b033-659296a653cd'
 settings:
