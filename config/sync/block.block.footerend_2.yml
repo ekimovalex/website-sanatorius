@@ -1,0 +1,25 @@
+uuid: 00006195-9dc0-4adf-b9d8-ce0eef3a26f6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f3c0e627-13b5-441b-8ee1-8a163e2e7fb6'
+  module:
+    - block_content
+  theme:
+    - hotel_woods
+id: footerend_2
+theme: hotel_woods
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:f3c0e627-13b5-441b-8ee1-8a163e2e7fb6'
+settings:
+  id: 'block_content:f3c0e627-13b5-441b-8ee1-8a163e2e7fb6'
+  label: 'Footer end'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

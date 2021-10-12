@@ -11,7 +11,7 @@ dependencies:
 id: block4
 theme: hotel_woods
 region: content
-weight: -10
+weight: -11
 provider: null
 plugin: 'block_content:3a075e0a-63c4-49ec-bb9e-bc2cb6d8336f'
 settings:

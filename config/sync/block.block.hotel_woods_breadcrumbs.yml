@@ -11,7 +11,7 @@ _core:
 id: hotel_woods_breadcrumbs
 theme: hotel_woods
 region: hidden_regions
-weight: -3
+weight: -8
 provider: null
 plugin: system_breadcrumb_block
 settings:

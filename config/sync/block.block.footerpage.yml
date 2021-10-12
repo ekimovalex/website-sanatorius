@@ -11,7 +11,7 @@ dependencies:
 id: footerpage
 theme: hotel_woods
 region: footer
-weight: -12
+weight: -15
 provider: null
 plugin: 'system_menu_block:footer-page'
 settings:

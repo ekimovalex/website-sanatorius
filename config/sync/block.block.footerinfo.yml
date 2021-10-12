@@ -11,7 +11,7 @@ dependencies:
 id: footerinfo
 theme: hotel_woods
 region: footer
-weight: 0
+weight: -14
 provider: null
 plugin: 'block_content:823b1ed2-cf16-4fe9-ab2e-995c09ba6594'
 settings:

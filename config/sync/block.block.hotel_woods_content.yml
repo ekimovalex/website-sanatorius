@@ -11,7 +11,7 @@ _core:
 id: hotel_woods_content
 theme: hotel_woods
 region: hidden_regions
-weight: -4
+weight: -9
 provider: null
 plugin: system_main_block
 settings:

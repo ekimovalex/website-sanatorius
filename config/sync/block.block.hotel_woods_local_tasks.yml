@@ -9,7 +9,7 @@ _core:
 id: hotel_woods_local_tasks
 theme: hotel_woods
 region: hidden_regions
-weight: -6
+weight: -11
 provider: null
 plugin: local_tasks_block
 settings:
