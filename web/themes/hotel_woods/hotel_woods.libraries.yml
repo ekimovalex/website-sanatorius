@@ -3,3 +3,5 @@ global-styling:
    theme:
       theme/css/style.css: {}
       theme/css/field.css: {}
+      theme/css/popup.css: {}
+      theme/css/form.css: {}

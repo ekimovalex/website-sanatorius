@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons > div.ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix {
+    display: none;
+}
+
+.popup__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-bottom: 35px;
+}
+
+.popup__categoties {
+  margin-left: 50px;
+}
+
+.popup__categoties .fieldset-wrapper > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 41px;
+}
+
+.popup__categoties.form-checkbox {
+  display: none;
+}
+
+.popup__categoties .fieldset-legend {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #666666;
+}
+
+.popup__categoties label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  color: #666666;
+  padding: 8px 12px 8px 12px;
+  background: #F4F4F4;
+  margin-right: 8px;
+}
+
+.form-item-discount-code label {
+  margin-left: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #666666;
+}
+
+.popup__discound_code {
+  display: flex;
+  width: 231px;
+  height: 40px;
+  margin-top: 12px;
+  margin-bottom: 38px;
+  margin-left: 50px;
+}
+
+.popup__email {
+  width: 231px;
+  height: 40px;
+}
+
+
+
+

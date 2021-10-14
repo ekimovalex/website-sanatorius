@@ -12,7 +12,7 @@ id: book_now
 title: 'Book now'
 description: ''
 category: ''
-elements: "category:\n  '#type': webform_term_select\n  '#title': Category\n  '#vocabulary': categories\n  '#breadcrumb_delimiter': ''\ndiscount_code:\n  '#type': textfield\n  '#title': 'Discount code'\n  '#maxlength': 10\nphone_number:\n  '#type': tel\n  '#title': 'Phone number'\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\n  '#required_error': 'Pls, enter emal'\nmessage:\n  '#type': textarea\n  '#title': Message\ncaptcha:\n  '#type': captcha\n  '#captcha_type': image_captcha/Image\n  '#captcha_admin_mode': true\nconfirm_the_processing_of_personal_data_:\n  '#type': checkbox\n  '#title': 'Confirm the processing of personal data '\n  '#required': true"
+elements: "processed_text:\n  '#type': processed_text\n  '#text': |\n    <div class=\"popup__title\">\n    <p>Book a room now</p>\n    </div>\n    \n  '#format': full_html\ncategories_:\n  '#type': webform_term_checkboxes\n  '#title': 'Categories:'\n  '#attributes':\n    class:\n      - popup__categoties\n  '#vocabulary': categories\n  '#breadcrumb': true\n  '#breadcrumb_delimiter': ''\n  '#tree_delimiter': ''\n  '#scroll': false\ndiscount_code:\n  '#type': textfield\n  '#title': 'Discount code'\n  '#maxlength': 10\n  '#attributes':\n    class:\n      - popup__discound_code\nphone_number:\n  '#type': tel\n  '#title': 'Phone number'\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\n  '#required_error': 'Pls, enter emal'\n  '#attributes':\n    class:\n      - popup__email\nmessage:\n  '#type': textarea\n  '#title': Message\ncaptcha:\n  '#type': captcha\n  '#captcha_type': image_captcha/Image\n  '#captcha_admin_mode': true\nconfirm_the_processing_of_personal_data_:\n  '#type': checkbox\n  '#title': 'Confirm the processing of personal data '\n  '#required': true"
 css: ''
 javascript: ''
 settings:
@@ -57,7 +57,7 @@ settings:
   share: false
   share_node: false
   share_theme_name: ''
-  share_title: true
+  share_title: false
   share_page_body_attributes: {  }
   submission_label: ''
   submission_log: false
