@@ -5,3 +5,8 @@ global-styling:
       theme/css/field.css: {}
       theme/css/popup.css: {}
       theme/css/form.css: {}
+      theme/css/categories.css: {}
+      theme/css/breadcrumb.css: {}
+      theme/css/allrooms.css: {}
+
+    

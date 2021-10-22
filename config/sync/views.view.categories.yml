@@ -68,14 +68,14 @@ display:
       style:
         type: grid
         options:
-          grouping: {  }
+          uses_fields: false
           columns: 3
           automatic_width: true
           alignment: horizontal
           col_class_default: true
           col_class_custom: ''
           row_class_default: true
-          row_class_custom: ''
+          row_class_custom: view__row__categories
       row:
         type: 'entity:taxonomy_term'
         options:
@@ -158,12 +158,26 @@ display:
             operator_list: {  }
       sorts: {  }
       title: Categories
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: Сategories
+            format: basic_html
+          plugin_id: text
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      css_class: content-page-category-view
     cache_metadata:
       max-age: -1
       contexts:

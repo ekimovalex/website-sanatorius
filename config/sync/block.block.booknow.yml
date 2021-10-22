@@ -11,7 +11,7 @@ dependencies:
 id: booknow
 theme: hotel_woods
 region: main_header
-weight: -9
+weight: -12
 provider: null
 plugin: 'block_content:fe6bf382-ab62-4038-8966-a40b0bd3daaf'
 settings:

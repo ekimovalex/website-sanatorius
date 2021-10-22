@@ -10,8 +10,8 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: hotel_woods_breadcrumbs
 theme: hotel_woods
-region: hidden_regions
-weight: -8
+region: content
+weight: -14
 provider: null
 plugin: system_breadcrumb_block
 settings:
@@ -19,4 +19,9 @@ settings:
   label: Breadcrumbs
   provider: system
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

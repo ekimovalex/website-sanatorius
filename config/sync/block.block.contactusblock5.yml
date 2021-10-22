@@ -6,13 +6,12 @@ dependencies:
     - 'block_content:basic:45aa8e91-28b5-4cd1-b731-3d4b67197231'
   module:
     - block_content
-    - system
   theme:
     - hotel_woods
 id: contactusblock5
 theme: hotel_woods
 region: content
-weight: -8
+weight: -6
 provider: null
 plugin: 'block_content:45aa8e91-28b5-4cd1-b731-3d4b67197231'
 settings:
@@ -23,9 +22,4 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: false
-    context_mapping: {  }
+visibility: {  }

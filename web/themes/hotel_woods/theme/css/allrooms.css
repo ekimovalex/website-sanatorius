@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.view-id-all_rooms {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.view-id-all_rooms .field__label {
+  display: none;
+}
+
+/* Title */
+.view-id-all_rooms .view-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 120%;
+  color: #222222;
+}
+
+/* Filters */
+.view-id-all_rooms .view-filters {
+  position: relative;
+}
+
+/* Search */
+.view-id-all_rooms .js-form-submit {
+  display: none;
+}
+
+#edit-keys {
+  width: 980px;
+  height: 40px;
+}
+
+.form-item-keys {
+  position: absolute;
+  bottom: 120px;
+  right: -8px;
+}
+
+/* Cost */
+#edit-field-cost-value-min {
+  width: 50px;
+  height: 28px;
+}
+
+#edit-field-cost-value-max {
+  width: 50px;
+  height: 28px;
+}
+
+/* View */
+

@@ -1,4 +1,4 @@
-uuid: 96063955-a5e9-4b71-bbde-e4a3feba8ad8
+uuid: c117b590-1cda-4243-a33a-e1c7d31aae4a
 langcode: en
 status: true
 dependencies:
@@ -6,11 +6,9 @@ dependencies:
     - system
   theme:
     - hotel_woods
-_core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: hotel_woods_content
+id: mainpagecontent
 theme: hotel_woods
-region: hidden_regions
+region: content
 weight: -13
 provider: null
 plugin: system_main_block
