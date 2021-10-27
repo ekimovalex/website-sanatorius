@@ -8,5 +8,6 @@ global-styling:
       theme/css/categories.css: {}
       theme/css/breadcrumb.css: {}
       theme/css/allrooms.css: {}
+      theme/css/inline-form.css: {}
 
     

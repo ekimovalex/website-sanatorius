@@ -4,6 +4,7 @@ module:
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
   automated_cron: 0
+  better_exposed_filters: 0
   big_pipe: 0
   blazy: 0
   block: 0
@@ -34,6 +35,9 @@ module:
   history: 0
   image: 0
   image_captcha: 0
+  jquery_ui: 0
+  jquery_ui_datepicker: 0
+  jquery_ui_slider: 0
   layout_builder: 0
   layout_discovery: 0
   link: 0
@@ -67,7 +71,9 @@ module:
   webform_access: 0
   webform_attachment: 0
   webform_devel: 0
+  webform_icheck: 0
   webform_image_select: 0
+  webform_location_geocomplete: 0
   webform_node: 0
   webform_options_custom: 0
   webform_options_limit: 0
