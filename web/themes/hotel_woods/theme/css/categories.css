@@ -26,8 +26,17 @@
   color: #000;    
 }
 
-#block-navbar > ul > li.menu--item-header.menu-item--expanded-header.menu-item--active-trail-header:hover{
-  background-color: #F8F8F8;
+#block-navbar .menu-header li ul {
+  display: none;
+  flex-direction: column;
+  right: 73px;
+  padding-left: 17px;
+  padding-right: 42px;
+  padding-top: 33px; 
+  position: absolute;
+  background: #F8F8F8;
+  z-index: 5555;
+  margin-top: 0px;
 }
 
 .phone_number {

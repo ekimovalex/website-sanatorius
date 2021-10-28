@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
-    - image.style.large
+    - image.style.1980x800
     - media.type.image
   module:
     - colorbox
@@ -23,8 +23,8 @@ content:
   field_media_image:
     label: inline
     settings:
-      colorbox_node_style: large
-      colorbox_node_style_first: large
+      colorbox_node_style: 1980x800
+      colorbox_node_style_first: 1980x800
       colorbox_image_style: ''
       colorbox_gallery: page
       colorbox_gallery_custom: ''

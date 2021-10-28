@@ -49,7 +49,7 @@ body {
 #block-navbar .menu-header li{
   display: block;
   float: left;
-  position: relative;  
+  /* position: relative;   */
 }
 
 .path-frontpage #block-navbar .menu-header li a{
@@ -104,10 +104,13 @@ body {
   margin-bottom: 13px;
 }
 
-#block-navbar .menu-header li ul {
+.path-frontpage #block-navbar .menu-header li ul {
   display: none;
   flex-direction: column;
-  margin-top: 27px; 
+  margin-top: 27px;
+  padding-top: 0px;
+  padding-left: 0px;
+  position: inherit;
 }
 
 #block-navbar .menu-header li:hover > ul {

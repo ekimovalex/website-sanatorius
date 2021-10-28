@@ -11,7 +11,7 @@ dependencies:
 id: popupbutton
 theme: hotel_woods
 region: content
-weight: -12
+weight: -13
 provider: null
 plugin: 'block_content:6b430b71-ddfd-432c-9445-fb3021675cc3'
 settings:

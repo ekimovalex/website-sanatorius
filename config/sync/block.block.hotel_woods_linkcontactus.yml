@@ -11,7 +11,7 @@ dependencies:
 id: hotel_woods_linkcontactus
 theme: hotel_woods
 region: hidden_regions
-weight: -14
+weight: -13
 provider: null
 plugin: 'block_content:aece0c9e-1084-491d-9243-27271a007cc1'
 settings:
