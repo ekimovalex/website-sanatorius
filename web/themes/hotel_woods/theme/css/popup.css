@@ -1,29 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
-/* body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons > div.ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix {
-    display: none;
-} */
-
 .popup__title {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 120%;
   color: #000000;
-  margin-top: 40px;
-  margin-left: 50px;
   margin-bottom: 35px;
 }
 
-.popup__categoties {
-  margin-left: 50px;
+.ui-dialog-title {
+  display: none;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  border-width: 0 0 0 0;
+  background: #FFFFFF;
+}
+
+.ui-dialog .ui-dialog-content {
+  padding: 25px 54px 25px 54px;
+}
+
+.ui-button .ui-icon {
+  content: '';
+  background-image: url(../img/form_popup/Vector.png) !important;
+  width: 24px;
+  height: 24px;
+  background-position: 0;
+  margin-top: -40px;
+  margin-left: 25px;
 }
 
 .popup__categoties .fieldset-wrapper > div {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 12px;
-  margin-bottom: 41px;
+  /* margin-top: 12px;
+  margin-bottom: 41px; */
 }
 
 .popup__categoties.form-checkbox {
@@ -45,12 +56,11 @@
   line-height: 100%;
   color: #666666;
   padding: 8px 12px 8px 12px;
+  margin: 0px 8px 10px 0px;
   background: #F4F4F4;
-  margin-right: 8px;
 }
 
 .form-item-discount-code label {
-  margin-left: 50px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -62,9 +72,8 @@
   display: flex;
   width: 231px;
   height: 40px;
-  margin-top: 12px;
-  margin-bottom: 38px;
-  margin-left: 50px;
+  /* margin-top: 12px;
+  margin-bottom: 38px; */
 }
 
 .popup__email {

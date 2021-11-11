@@ -9,7 +9,7 @@ dependencies:
 id: mainpagecontent
 theme: hotel_woods
 region: content
-weight: -14
+weight: -12
 provider: null
 plugin: system_main_block
 settings:

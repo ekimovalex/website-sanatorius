@@ -11,7 +11,7 @@ _core:
 id: hotel_woods_search
 theme: hotel_woods
 region: hidden_regions
-weight: -3
+weight: -4
 provider: null
 plugin: search_form_block
 settings:

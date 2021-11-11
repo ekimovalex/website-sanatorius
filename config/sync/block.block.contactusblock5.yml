@@ -11,7 +11,7 @@ dependencies:
 id: contactusblock5
 theme: hotel_woods
 region: content
-weight: -7
+weight: -5
 provider: null
 plugin: 'block_content:45aa8e91-28b5-4cd1-b731-3d4b67197231'
 settings:

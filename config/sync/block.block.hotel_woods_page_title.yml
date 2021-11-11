@@ -12,7 +12,7 @@ _core:
 id: hotel_woods_page_title
 theme: hotel_woods
 region: hidden_regions
-weight: -14
+weight: -2
 provider: null
 plugin: page_title_block
 settings:
@@ -25,6 +25,8 @@ visibility:
     id: 'entity_bundle:node'
     bundles:
       room: room
+      rooms_task_7_: rooms_task_7_
+      webform: webform
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'
@@ -32,6 +34,7 @@ visibility:
     id: node_type
     bundles:
       room: room
+      rooms_task_7_: rooms_task_7_
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'

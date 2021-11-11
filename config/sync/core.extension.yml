@@ -25,6 +25,7 @@ module:
   dblog: 0
   devel: 0
   devel_generate: 0
+  ds: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0

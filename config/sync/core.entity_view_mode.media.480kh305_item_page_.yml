@@ -1,0 +1,10 @@
+uuid: 4fb5f1e7-af67-49c7-ab7d-efef2d16d756
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.480kh305_item_page_
+label: '480х305 item page '
+targetEntityType: media
+cache: true

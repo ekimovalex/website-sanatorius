@@ -1,0 +1,10 @@
+uuid: a0d1bc2f-af54-4fa8-bdd9-870b6a63f966
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.117x85_room
+label: '117x85 room'
+targetEntityType: media
+cache: true

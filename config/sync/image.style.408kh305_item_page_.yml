@@ -1,0 +1,15 @@
+uuid: 8b919775-687c-4ec4-89e2-8d900979701a
+langcode: en
+status: true
+dependencies: {  }
+name: 408kh305_item_page_
+label: '480х305 item page '
+effects:
+  4d23f553-d567-4730-9047-ea7750427ab1:
+    uuid: 4d23f553-d567-4730-9047-ea7750427ab1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 305
+      anchor: center-center

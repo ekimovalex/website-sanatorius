@@ -9,5 +9,9 @@ global-styling:
       theme/css/breadcrumb.css: {}
       theme/css/allrooms.css: {}
       theme/css/inline-form.css: {}
+      theme/css/category_rooms.css: {}
+      theme/css/item_page.css: {}
+
+      
 
     

@@ -11,7 +11,7 @@ _core:
 id: hotel_woods_help
 theme: hotel_woods
 region: hidden_regions
-weight: -2
+weight: -3
 provider: null
 plugin: help_block
 settings:

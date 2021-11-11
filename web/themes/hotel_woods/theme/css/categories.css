@@ -16,12 +16,12 @@
   justify-content: start;
 }
 
-.logo-img-sites-default-files-logopng img{
+.logo-img-sites-default-files-logopng img {
   filter: invert(100%);
   margin-right: 104px;
 }
 
-#block-navbar .menu-header li a{
+#block-navbar .menu-header li a {
   text-decoration: none;
   color: #000;    
 }
@@ -84,7 +84,7 @@
   font-size: 44px;
   line-height: 120%;
   color: #222222;
-  margin-top: 33px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -97,7 +97,7 @@
   text-decoration: none;
 }
 
-.view-id-categories .field__item a:hover{
+.view-id-categories .field__item a:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -121,7 +121,7 @@
   margin-bottom: 65px;
 }
 
-.block-field-blocktaxonomy-termcategoriesfield-m .field__item::after{
+.block-field-blocktaxonomy-termcategoriesfield-m .field__item::after {
   content: '';
   background: url(../img/Rectangle.png);
   display: inline-block;
@@ -131,11 +131,3 @@
   right: 13px;
   bottom: 30px;
 }
-
-
-
-
-
-
-
-

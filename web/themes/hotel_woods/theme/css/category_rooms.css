@@ -1,0 +1,73 @@
+/* header */
+.view-category-rooms {
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.view-category-rooms .field__label {
+  display: none;
+}
+
+.view-category-rooms .category__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 120%;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.view-category-rooms .category__descr {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  margin-bottom: 50px;
+}
+
+/* view */
+.view-category-rooms  .view-content .views-field-title a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000000;
+  text-decoration: none;
+}
+
+.view-category-rooms .view-content .views-field-title a:hover {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #60B564;
+  text-decoration: underline;
+}
+  
+.view-category-rooms  .view-content .views-field-field-cost {
+  float: right;
+  margin-right: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #222222;
+}
+
+.view-category-rooms .view-content .views-field-field-category {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+  
+.view-category-rooms .view-content .views-field-field-category a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  color: #666666;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
