@@ -11,6 +11,7 @@ global-styling:
       theme/css/inline-form.css: {}
       theme/css/category_rooms.css: {}
       theme/css/item_page.css: {}
+      theme/css/contacts.css: {}
 
       
 

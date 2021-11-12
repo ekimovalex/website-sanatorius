@@ -658,7 +658,7 @@ body {
   display: flex;
   justify-content: space-around ;
   flex-grow: 1;
-  background-color: #F8F8F8;
+  background-color: #f1f1f1;
 }
 
 #block-footerpage .menu-header .menu-item--expanded-header .menu-header {
@@ -675,7 +675,7 @@ body {
 
 .footer-left {
   flex-grow: 1;
-  background: #F8F8F8;
+  background: #f1f1f1;
   margin-top: 140px;
   height: 362px;
 }

@@ -1,29 +1,26 @@
-uuid: b80e4157-de35-4f48-8076-a70b2416b15b
+uuid: 3ca0e825-1a83-4b97-81bd-d97de22811c4
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
-    - field.field.node.article.body
-    - field.field.node.article.comment
-    - field.field.node.article.field_image
-    - image.style.large
-    - node.type.article
+    - core.entity_view_mode.node.contacts
+    - field.field.node.page.body
+    - field.field.node.page.layout_builder__layout
+    - node.type.page
     - webform.webform.contacts
   content:
+    - 'block_content:basic:2487f7f9-5004-4913-81d3-0635b6486da1'
     - 'block_content:basic:823b1ed2-cf16-4fe9-ab2e-995c09ba6594'
   module:
     - block_content
-    - comment
     - ds
-    - image
     - layout_builder
     - text
     - user
     - webform
 third_party_settings:
   layout_builder:
-    allow_custom: true
+    allow_custom: false
     enabled: true
     sections:
       -
@@ -40,8 +37,8 @@ third_party_settings:
           classes:
             layout_class: {  }
         components:
-          6def0c90-c132-43fe-a8ca-12c282d325f8:
-            uuid: 6def0c90-c132-43fe-a8ca-12c282d325f8
+          fe427997-06aa-415a-bbda-f0b0840660cc:
+            uuid: fe427997-06aa-415a-bbda-f0b0840660cc
             region: left
             configuration:
               id: 'block_content:823b1ed2-cf16-4fe9-ab2e-995c09ba6594'
@@ -53,9 +50,9 @@ third_party_settings:
               view_mode: full
               context_mapping: {  }
             additional: {  }
-            weight: 0
-          f5a20b9a-5ac9-4946-867a-a2d3b04f74f1:
-            uuid: f5a20b9a-5ac9-4946-867a-a2d3b04f74f1
+            weight: -9
+          a2116441-73e3-4caf-a07e-65ce8f7a3894:
+            uuid: a2116441-73e3-4caf-a07e-65ce8f7a3894
             region: right
             configuration:
               id: webform_block
@@ -68,42 +65,39 @@ third_party_settings:
               context_mapping: {  }
             additional: {  }
             weight: 0
+          c835147b-1ddc-4805-bf1f-5ecd71470c16:
+            uuid: c835147b-1ddc-4805-bf1f-5ecd71470c16
+            region: left
+            configuration:
+              id: 'block_content:2487f7f9-5004-4913-81d3-0635b6486da1'
+              label: 'Yandex map'
+              provider: block_content
+              label_display: '0'
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional: {  }
+            weight: -10
         third_party_settings: {  }
 _core:
-  default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
-id: node.article.default
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.contacts
 targetEntityType: node
-bundle: article
-mode: default
+bundle: page
+mode: contacts
 content:
   body:
+    label: hidden
     type: text_default
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-    label: hidden
-  comment:
-    type: comment_default
-    weight: 110
-    region: content
-    label: above
-    settings:
-      view_mode: default
-      pager_id: 0
-    third_party_settings: {  }
-  field_image:
-    type: image
-    weight: -1
-    region: content
-    settings:
-      image_style: large
-      image_link: ''
-    third_party_settings: {  }
-    label: hidden
-  links:
     weight: 100
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+  links:
+    weight: 101
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  layout_builder__layout: true

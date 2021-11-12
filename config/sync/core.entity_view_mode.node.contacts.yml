@@ -1,0 +1,10 @@
+uuid: a0320bd7-06f2-4138-bef5-2189af1b9dbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.contacts
+label: Contacts
+targetEntityType: node
+cache: true

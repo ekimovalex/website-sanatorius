@@ -1,0 +1,104 @@
+.view-id-contacts {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* Title */
+.contacts__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 120%;
+  color: #222222;
+  margin-bottom: 25px;
+}
+
+/* Info */
+.view-id-contacts .footer-info {
+  margin-top: 35px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  background: none;
+}
+
+.view-id-contacts .footer-contact-us-title {
+ display: none;
+}
+
+.view-id-contacts .footer-num-1,
+.view-id-contacts .footer-num-2 {
+  font-size: 25px;
+}
+
+.view-id-contacts .footer-location-addres,
+.view-id-contacts .footer-email-email {
+  font-size: 16px;
+}
+
+.view-id-contacts .inst-footer,
+.view-id-contacts .in-footer {
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+}
+
+.view-id-contacts .footer-facebook {
+  width: 8.65px;
+  height: 16px;
+  background-size: 8.65px 16px;
+}
+
+.view-id-contacts .twitter-footer {
+  width: 16px;
+  height: 13px;
+  background-size: 16px 13px;
+}
+
+/* Web_form */
+.view-id-contacts .webform-submission-contacts-form {
+  margin-left: 60px;
+}
+
+.view-id-contacts .webform-submission-contacts-form .form-type-textfield {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100%;
+  color: #666666;
+}
+
+.view-id-contacts #edit-message {
+  display: flex;
+  width: 530px;
+  height: 82px;
+  border: none;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  padding-left: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.view-id-contacts .webform-button--submit {
+  float: right;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 14px 65px 14px 65px;
+  background-color: #60B564;   
+}
+
+.view-id-contacts .webform-button--submit:hover {
+  background-color: #4f9952;
+}
+
+
+
+
+

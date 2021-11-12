@@ -548,7 +548,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: allrooms_room
+      title: Sanatorius
       header: {  }
       footer: {  }
       empty: {  }
