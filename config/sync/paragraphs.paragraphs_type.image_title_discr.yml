@@ -1,0 +1,10 @@
+uuid: 204046d3-71d9-4847-bd61-cd6d753797b1
+langcode: en
+status: true
+dependencies: {  }
+id: image_title_discr
+label: 'Image Title Discr'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

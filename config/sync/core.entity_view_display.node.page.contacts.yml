@@ -5,7 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.contacts
     - field.field.node.page.body
-    - field.field.node.page.layout_builder__layout
+    - field.field.node.page.field_paragraphs
     - node.type.page
     - webform.webform.contacts
   content:
@@ -21,65 +21,7 @@ dependencies:
 third_party_settings:
   layout_builder:
     allow_custom: false
-    enabled: true
-    sections:
-      -
-        layout_id: ds_2col
-        layout_settings:
-          label: ''
-          wrappers:
-            left: div
-            right: div
-          outer_wrapper: div
-          attributes: ''
-          link_attribute: ''
-          link_custom: ''
-          classes:
-            layout_class: {  }
-        components:
-          fe427997-06aa-415a-bbda-f0b0840660cc:
-            uuid: fe427997-06aa-415a-bbda-f0b0840660cc
-            region: left
-            configuration:
-              id: 'block_content:823b1ed2-cf16-4fe9-ab2e-995c09ba6594'
-              label: 'Footer info'
-              provider: block_content
-              label_display: '0'
-              status: true
-              info: ''
-              view_mode: full
-              context_mapping: {  }
-            additional: {  }
-            weight: -9
-          a2116441-73e3-4caf-a07e-65ce8f7a3894:
-            uuid: a2116441-73e3-4caf-a07e-65ce8f7a3894
-            region: right
-            configuration:
-              id: webform_block
-              label: Webform
-              provider: webform
-              label_display: '0'
-              webform_id: contacts
-              default_data: ''
-              redirect: false
-              context_mapping: {  }
-            additional: {  }
-            weight: 0
-          c835147b-1ddc-4805-bf1f-5ecd71470c16:
-            uuid: c835147b-1ddc-4805-bf1f-5ecd71470c16
-            region: left
-            configuration:
-              id: 'block_content:2487f7f9-5004-4913-81d3-0635b6486da1'
-              label: 'Yandex map'
-              provider: block_content
-              label_display: '0'
-              status: true
-              info: ''
-              view_mode: full
-              context_mapping: {  }
-            additional: {  }
-            weight: -10
-        third_party_settings: {  }
+    enabled: false
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
 id: node.page.contacts
@@ -100,4 +42,4 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  layout_builder__layout: true
+  field_paragraphs: true

@@ -12,7 +12,7 @@ dependencies:
 id: block3
 theme: hotel_woods
 region: content
-weight: -9
+weight: -10
 provider: null
 plugin: 'block_content:d06e292d-b493-4446-bfc1-74267ebe185f'
 settings:

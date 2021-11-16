@@ -1,0 +1,8 @@
+uuid: b77d9226-6f53-4225-8b66-a3040a55529d
+langcode: en
+status: true
+dependencies: {  }
+id: rooms
+label: Rooms
+revision: 0
+description: ''

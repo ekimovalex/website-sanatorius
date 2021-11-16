@@ -97,6 +97,13 @@ display:
           thumbnail_effect: ''
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline:
+            title: title
+            field_cost: field_cost
+          separator: ''
+          hide_empty: false
       fields:
         field_preview:
           id: field_preview

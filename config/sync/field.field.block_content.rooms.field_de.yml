@@ -1,0 +1,21 @@
+uuid: eab3eb80-4c4a-4add-bac5-be1a2007eaad
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rooms
+    - field.storage.block_content.field_de
+  module:
+    - text
+id: block_content.rooms.field_de
+field_name: field_de
+entity_type: block_content
+bundle: rooms
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

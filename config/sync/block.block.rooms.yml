@@ -1,0 +1,32 @@
+uuid: 65eb113d-b489-4a6d-95fa-fafab3905d62
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:rooms:c46e6060-13a2-48ea-90fa-fde99a13d542'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - hotel_woods
+id: rooms
+theme: hotel_woods
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:c46e6060-13a2-48ea-90fa-fde99a13d542'
+settings:
+  id: 'block_content:c46e6060-13a2-48ea-90fa-fde99a13d542'
+  label: Rooms
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles: {  }
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

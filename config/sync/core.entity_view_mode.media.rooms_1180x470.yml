@@ -1,0 +1,10 @@
+uuid: 99304361-4707-47f5-87cd-0f2f7a10f708
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.rooms_1180x470
+label: 'Rooms 1180x470'
+targetEntityType: media
+cache: true

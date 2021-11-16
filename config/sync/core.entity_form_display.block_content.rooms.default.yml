@@ -1,0 +1,63 @@
+uuid: b9151ac5-6c01-41da-b114-0e8bc57d8928
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rooms
+    - field.field.block_content.rooms.body
+    - field.field.block_content.rooms.field_de
+    - field.field.block_content.rooms.field_image
+    - field.field.block_content.rooms.field_slider
+    - field.field.block_content.rooms.field_title
+  module:
+    - media_library
+    - text
+    - viewsreference
+id: block_content.rooms.default
+targetEntityType: block_content
+bundle: rooms
+mode: default
+content:
+  field_de:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_image:
+    type: media_library_widget
+    weight: 2
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  field_slider:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
