@@ -38,10 +38,6 @@
 }
 
 .view-category-rooms .view-content .views-field-title a:hover {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 130%;
   color: #60B564;
   text-decoration: underline;
 }

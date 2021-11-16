@@ -36,6 +36,7 @@
         "drupal/pathauto": "^1.8",
         "drupal/slick": "^2.3",
         "drupal/slick_views": "^2.4",
+        "drupal/viewsreference": "^1.7",
         "drupal/webform": "^6.0",
         "drupal/webprofiler": "^2.0@RC",
         "drush/drush": "^9.7.1 | ^10.0.0",

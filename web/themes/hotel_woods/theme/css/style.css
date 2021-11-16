@@ -452,6 +452,11 @@ body {
 }
 
 /* Rooms */
+#block-rooms {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 .title-rooms {
   font-size: 40px;
   font-style: normal;
@@ -472,28 +477,20 @@ body {
   margin-top: 23px;
 }
 
-.img-rooms {
-  content: '';
-  background: url(../img/rooms_block_4/image\ 6.png);
-  height: 470px;
+#block-rooms .image-style-rooms-1180x470 {
   margin-top: 76px;
+  margin-bottom: 40px;
 }
 
-#slick-views-slider-rooms-block-1-2 {
-  max-width: 1180px;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-
-.block-views-blockslider-rooms-block-1 .slick__slide {
+#block-rooms .slick__slider .slick__slide {
   margin-right: 20px;
 }
 
-.block-views-blockslider-rooms-block-1 .views-field-title {
-  margin-top: 30px;
+#block-rooms .slick__slider .views-field-field-preview {
+  margin-bottom: 30px;
 }
 
-.block-views-blockslider-rooms-block-1 .views-field-title .field-content a {
+#block-rooms .slick__slider .views-field-title a{
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -502,9 +499,13 @@ body {
   color: #000;
 }
 
-.block-views-blockslider-rooms-block-1 .views-field-field-cost {
-  margin-left: 202px;
-  margin-top: -24px;
+#block-rooms .slick__slider .views-field-title a:hover {
+  color: #60B564;
+  text-decoration: underline;
+}
+
+#block-rooms .slick__slider .views-field-field-cost {
+  margin-left: 108px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -512,30 +513,30 @@ body {
   color: #000;
 }
 
-.block-views-blockslider-rooms-block-1 .views-field-field-category {
+#block-rooms .slick__slider .views-field-field-category {
+  margin-top: 13px;
+}
+
+#block-rooms .slick__slider .views-field-field-category a {
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
   line-height: 100%;
-  margin-top: 13px;
-}
-
-.block-views-blockslider-rooms-block-1 .views-field-field-category a {
   color: #666666;
   text-decoration: none;
 }
 
-.block-views-blockslider-rooms-block-1 .slick__arrow {
+#block-rooms .slick__arrow {
   position: relative;
   top: -300px;
 }
 
-.block-views-blockslider-rooms-block-1 .slick-prev.slick-arrow {
+#block-rooms .slick-prev.slick-arrow {
   position: absolute;
   left: -40px;
 }
 
-.block-views-blockslider-rooms-block-1 .slick-prev.slick-arrow::after {
+#block-rooms .slick-prev.slick-arrow::after {
   position: absolute;
   left: -8px;
   margin-top: 62px;
@@ -546,12 +547,12 @@ body {
   display: inline-block;
 }
 
-.block-views-blockslider-rooms-block-1 .slick-next.slick-arrow {
+#block-rooms .slick-next.slick-arrow {
   position: absolute;
   right: -40px;
 }
 
-.block-views-blockslider-rooms-block-1 .slick-next.slick-arrow::before {
+#block-rooms .slick-next.slick-arrow::before {
   position: absolute;
   left: -23px;
   margin-top: 62px;
@@ -933,9 +934,6 @@ body {
   line-height: 100%;
   color: #999999;
   position: absolute;
-  width: 192px;
-  right: 993px;
-  top: 482px;
 }
 
 /* Popup button */
