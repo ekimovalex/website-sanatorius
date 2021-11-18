@@ -90,6 +90,10 @@ body {
   color: #666666;
 }
 
+#block-navbar .menu--item-header.menu-item--expanded-header ul li a:hover {
+  color: #418d45;
+}
+
 #block-navbar .menu-header li:nth-child(1) {
   margin-right: 34px;
 }

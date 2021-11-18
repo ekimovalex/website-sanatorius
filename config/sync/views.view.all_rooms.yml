@@ -61,7 +61,7 @@ display:
               secondary_label: 'Advanced options'
               autosubmit: true
               autosubmit_exclude_textfield: false
-              autosubmit_textfield_delay: 500
+              autosubmit_textfield_delay: 5000
               autosubmit_hide: true
             sort:
               bef_format: default
@@ -542,6 +542,18 @@ display:
           error_message: true
           plugin_id: taxonomy_index_tid
       sorts:
+        field_cost_value:
+          id: field_cost_value
+          table: node__field_cost
+          field: field_cost_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: true
+          expose:
+            label: Sort
+          plugin_id: standard
         created:
           id: created
           table: node_field_data
@@ -557,18 +569,6 @@ display:
           expose:
             label: ''
           granularity: second
-        field_cost_value:
-          id: field_cost_value
-          table: node__field_cost
-          field: field_cost_value
-          relationship: none
-          group_type: group
-          admin_label: ''
-          order: ASC
-          exposed: true
-          expose:
-            label: Sort
-          plugin_id: standard
       title: 'All rooms'
       header:
         area:

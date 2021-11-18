@@ -26,6 +26,10 @@
   color: #000;    
 }
 
+#block-navbar .menu-header li a:hover {
+  color: #418d45;
+}
+
 #block-navbar .menu-header li ul {
   display: none;
   flex-direction: column;
@@ -45,6 +49,10 @@
   font-size: 18px;
   font-weight: 500;
   color: #000;
+}
+
+.phone_number:hover {
+  color: #418d45;
 }
 
 .book_now a { 
@@ -136,4 +144,8 @@
   position: absolute;
   right: 13px;
   bottom: 30px;
+}
+
+.content-page-category-view .vocabulary-categories h2 {
+  display: none;
 }

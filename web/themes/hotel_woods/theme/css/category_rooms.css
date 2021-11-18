@@ -28,7 +28,11 @@
 }
 
 /* view */
-.view-category-rooms  .view-content .views-field-title a {
+.view-category-rooms .views-field-field-preview {
+  margin-bottom: 15px;
+}
+
+.view-category-rooms .view-content .views-field-title a {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
