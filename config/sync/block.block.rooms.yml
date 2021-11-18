@@ -7,6 +7,7 @@ dependencies:
   module:
     - block_content
     - ctools
+    - system
   theme:
     - hotel_woods
 id: rooms
@@ -30,3 +31,8 @@ visibility:
     negate: true
     context_mapping:
       node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

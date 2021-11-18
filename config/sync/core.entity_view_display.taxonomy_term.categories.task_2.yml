@@ -26,17 +26,20 @@ third_party_settings:
             uuid: 1e519c0e-835e-4330-b50b-d1e815fe318d
             region: content
             configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
               id: 'field_block:taxonomy_term:categories:field_m'
+              label: 'Min price'
+              provider: layout_builder
+              label_display: '0'
               formatter:
-                label: above
+                label: hidden
+                type: number_integer
                 settings:
                   thousand_separator: ''
                   prefix_suffix: true
                 third_party_settings: {  }
-                type: number_integer
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
             additional: {  }
             weight: 3
           9d157f7b-f35b-43bb-962c-a810220196a8:
@@ -48,7 +51,7 @@ third_party_settings:
               provider: layout_builder
               label_display: '0'
               formatter:
-                label: above
+                label: hidden
                 type: entity_reference_entity_view
                 settings:
                   view_mode: categories_colorbox_380_364

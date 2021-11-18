@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.full
     - field.field.node.page.body
     - field.field.node.page.field_paragraphs
+    - field.field.node.page.layout_builder__layout
     - node.type.page
   module:
     - layout_builder
@@ -36,3 +37,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_paragraphs: true
+  layout_builder__layout: true

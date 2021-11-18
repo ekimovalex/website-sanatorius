@@ -291,25 +291,20 @@ body {
 }
 
 
-/* Content */
-/* A place to relax */
-.view-a-place-to-relax .views-row {
-  display: flex;
+/* Main page content */
+/* Details */
+.paragraph--type--image-title-discr {
   max-width: 1180px;
   margin: 0 auto;
-  height: 900px;
+  margin-top: 140px;
+  margin-bottom: 140px;
 }
 
-.views-element-container.contextual-region h2{
-  display: none;
+.paragraph--type--image-title-discr .group-right {
+  margin-top: 120px;
 }
 
-.image-style-a-place-to-relax {
-  margin-top: 136px;
-}
-
-.title-block2{
-  float: left;
+.details__title {
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
@@ -317,31 +312,27 @@ body {
   text-decoration: none;
   color: #000;
   letter-spacing: 0em;
-  margin-left: 120px;
-  margin-top: 267px;
+  margin-bottom: 25px;
 }
 
-.description_1{
+.details__descr {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 19.4px;
   letter-spacing: 0em;
-  margin-left: -306px;
-  margin-top: 344px;
+  margin-bottom: 110px;
 }
 
-.views-field.views-field-field-more-details {
+.paragraph--type--image-title-discr .field--type-link .field__item {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0em;
-  margin-left: -544px;
-  margin-top: 600px;
 }
 
-.views-field.views-field-field-more-details a {
+.paragraph--type--image-title-discr .field--type-link .field__item a {
   text-decoration: none;
   color:#000;
   border: 1px solid #000;
@@ -349,14 +340,14 @@ body {
   padding: 13px 36px 11px 37px;
 }
 
-.views-field.views-field-field-more-details a:hover {
+.paragraph--type--image-title-discr .field--type-link .field__item a:hover {
   color: #fff;
   border: 1px solid rgb(152, 206, 150);
   background-color: rgb(152, 206, 150);
   transition: 0.3s;
 }
 
-/* Peculiarities */
+/* Feautures */
 #block-block3 h2 {
   display: none;
 }
@@ -794,7 +785,11 @@ body {
   margin-bottom: 10px;
 }
 
-.footer-num-1:hover {
+.footer-num-1 a{
+  color: #333333;
+}
+
+.footer-num-1 a:hover {
   color: #416d40;
 }
 
@@ -807,7 +802,11 @@ body {
   margin-bottom: 16px;
 }
 
-.footer-num-2:hover {
+.footer-num-2 a{
+  color: #333333;
+}
+
+.footer-num-2 a:hover {
   color: #416d40;
 }
 
@@ -829,7 +828,11 @@ body {
   margin-bottom: 16px;
 }
 
-.footer-location-addres:hover {
+.footer-location-addres a {
+  color: #333333;
+}
+
+.footer-location-addres a:hover {
   color: #416d40;
 }
 
@@ -850,7 +853,12 @@ body {
   color: #333333;
 }
 
-.footer-email-email:hover {
+.footer-email-email a {
+
+  color: #333333;
+}
+
+.footer-email-email a:hover {
   color: #416d40;
 }
 

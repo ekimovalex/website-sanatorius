@@ -8,12 +8,10 @@ dependencies:
     - field.field.taxonomy_term.categories.field_m
     - field.field.taxonomy_term.categories.field_sh
     - taxonomy.vocabulary.categories
-    - views.view.rooms
   module:
     - layout_builder
     - layout_discovery
     - text
-    - views
 third_party_settings:
   layout_builder:
     allow_custom: false
@@ -58,19 +56,6 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 0
-          47b52f14-ac81-47f1-b10a-5f505549f622:
-            uuid: 47b52f14-ac81-47f1-b10a-5f505549f622
-            region: content
-            configuration:
-              id: 'views_block:rooms-rooms_block'
-              label: ''
-              provider: views
-              label_display: visible
-              views_label: ''
-              items_per_page: none
-              context_mapping: {  }
-            additional: {  }
-            weight: 2
         third_party_settings: {  }
 id: taxonomy_term.categories.full
 targetEntityType: taxonomy_term

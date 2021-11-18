@@ -1,0 +1,104 @@
+.node__room__wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.node__submitted {
+  display: none;
+}
+
+.hidden__item { 
+  visibility: hidden;
+}
+
+.block-field-blocknoderooms-task-7-title {
+  margin-bottom: 30px;
+}
+
+.node__room__wrapper .field--name-title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.node__room__wrapper .field--name-field-photos {
+  display: flex;
+  width: 480px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.node__room__wrapper .field--name-field-photos .field__label {
+  display: none;
+}
+
+.node__room__wrapper .field--name-field-photos .field__item {
+  margin-right: 4px;
+  border-radius: 2px;
+}
+
+.node__room__wrapper .field--name-field-photos .field__item:last-child {
+  margin-right: 0;
+}
+
+.block-field-blocknoderooms-task-7-field-cost .field--name-field-cost,
+.block-field-blocknoderooms-task-7-field-category .field--name-field-category,
+.block-field-blocknoderooms-task-7-field-description-7 .field--name-field-description-7,
+.block-field-blocknoderooms-task-7-field-additionally .field--name-field-additionally {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.block-field-blocknoderooms-task-7-field-cost .field--name-field-cost .field__label,
+.block-field-blocknoderooms-task-7-field-category .field--name-field-category .field__label,
+.block-field-blocknoderooms-task-7-field-description-7 .field--name-field-description-7 .field__label,
+.block-field-blocknoderooms-task-7-field-additionally .field--name-field-additionally .field__label {
+  font-size: 16px;
+  font-weight: normal;
+  color: #666666;
+  width: 200px;
+}
+
+.block-field-blocknoderooms-task-7-field-cost .field--name-field-cost .field__item,
+.block-field-blocknoderooms-task-7-field-category .field--name-field-category .field__item,
+.block-field-blocknoderooms-task-7-field-description-7 .field--name-field-description-7 .field__item,
+.block-field-blocknoderooms-task-7-field-additionally .field--name-field-additionally .field__item {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+}
+
+.block-field-blocknoderooms-task-7-field-category .field--name-field-category .field__item,
+.block-field-blocknoderooms-task-7-field-additionally .field--name-field-additionally .field__item {
+  display: inline-flex;
+}
+
+.block-field-blocknoderooms-task-7-field-description-7 .field--name-field-description-7 .field__item {
+  word-break: break-all;
+  width: 390px;
+}
+
+.block-field-blocknoderooms-task-7-field-category .field--name-field-category .field__item a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+}
+
+.more__photos__block {
+  width: 117px;
+  height: 85px;
+  background: #EFEFEF;
+  text-align: center;
+  padding-top: 36px;
+}
+
+.more__photos__p {
+  color: #333333;
+  font-size: 12px;
+}
+
+.node__room__wrapper .book_now {
+  margin-left: 0 !important;
+  margin-top: 130px !important;
+}

@@ -55,6 +55,12 @@
   background-color: #60B564;
 }
 
+.book_now a:hover { 
+  color: #fff;
+  background-color: #418d45;
+  transition: 0.3s;
+}
+
 /* Breadcrumb */
 .block-system-breadcrumb-block {
   box-shadow: inset 0px 3px 5px #c9c9c9;

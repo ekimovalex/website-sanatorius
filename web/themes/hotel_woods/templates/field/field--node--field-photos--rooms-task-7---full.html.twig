@@ -61,7 +61,6 @@
           {% if loop.index < 4 %}
             <div{{ item.attributes.addClass('field__item') }}>{{ item.content }}</div>
           {% endif %}
-
           {% if loop.index == 4 %}
             <div class="field__item more__photos__block">
               <p class="more__photos__p">{{items|length - 3}} more photos</p>
@@ -69,7 +68,6 @@
             </div>
            
           {% endif %}
-
           {% if loop.index > 4%}
             <div{{ item.attributes.addClass('field__item', 'hidden__item') }}>{{ item.content }}</div>
           {% endif %}
