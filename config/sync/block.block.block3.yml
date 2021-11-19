@@ -17,9 +17,9 @@ provider: null
 plugin: 'block_content:d06e292d-b493-4446-bfc1-74267ebe185f'
 settings:
   id: 'block_content:d06e292d-b493-4446-bfc1-74267ebe185f'
-  label: 'Block 3'
+  label: Feautures
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

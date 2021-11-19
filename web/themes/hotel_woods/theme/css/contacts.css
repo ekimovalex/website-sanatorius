@@ -68,6 +68,7 @@
 }
 
 .node__contacst__wrapper .webform-submission-contacts-form .form-type-textfield {
+  margin-top: 7px;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -104,7 +105,17 @@
   background-color: #4f9952;
 }
 
+@media screen and (max-width: 1024px) {
+  .node__contacst__wrapper .webform-submission-contacts-form .form-type-textfield {
+    margin-left: 45px;
+  }
+}
 
+@media screen and (max-width: 1024px) {
+  .node__contacst__wrapper #edit-message {
+    width: 408px;
+  }
+}
 
 
 

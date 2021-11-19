@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:45aa8e91-28b5-4cd1-b731-3d4b67197231'
 settings:
   id: 'block_content:45aa8e91-28b5-4cd1-b731-3d4b67197231'
-  label: 'Contact us block 5'
+  label: 'Contact us'
   provider: block_content
   label_display: '0'
   status: true

@@ -44,6 +44,7 @@ module:
   layout_builder: 0
   layout_discovery: 0
   link: 0
+  masked_input: 0
   media: 0
   media_library: 0
   menu_link_content: 0
@@ -63,6 +64,7 @@ module:
   system: 0
   taxonomy: 0
   telephone: 0
+  telephone_validation: 0
   text: 0
   token: 0
   toolbar: 0

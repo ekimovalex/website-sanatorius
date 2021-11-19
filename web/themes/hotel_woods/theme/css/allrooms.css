@@ -226,3 +226,30 @@
   margin-top: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+  #edit-keys {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .view-id-all_rooms .view-filters .fieldset-legend {
+    top: 112px;
+    left: 195px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .view-id-all_rooms .view-filters .fieldset-wrapper {
+    margin-left: 285px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .view-id-all_rooms .view-filters .form-item-sort-by label {
+   margin-left: 195px;
+  }
+}
+
+

@@ -43,9 +43,10 @@ third_party_settings:
               label_display: '0'
               formatter:
                 label: hidden
-                type: entity_reference_entity_view
+                type: media_thumbnail
                 settings:
-                  view_mode: details_480x620
+                  image_style: details_480x620
+                  image_link: ''
                 third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity

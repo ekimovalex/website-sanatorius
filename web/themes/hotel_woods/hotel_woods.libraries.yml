@@ -12,6 +12,7 @@ global-styling:
       theme/css/category_rooms.css: {}
       theme/css/item_page_room.css: {}
       theme/css/contacts.css: {}
+      theme/css/normalize.css: {}
 
       
 

@@ -1,0 +1,13 @@
+masked_input_definitions:
+  -
+    character: a
+    regex: '[a-zA-Z]'
+    description: 'Represents an alpha character'
+  -
+    character: '9'
+    regex: '[0-9]'
+    description: 'Represents a numeric character'
+  -
+    character: '*'
+    regex: '[A-Za-z0-9]'
+    description: 'Represents an alpha character'

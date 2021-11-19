@@ -102,3 +102,11 @@ abbr.ajax-changed {
   background: url(../../../../misc/icons/e32700/error.svg) no-repeat;
   background-size: contain;
 }
+
+@media screen and (max-width: 1024px) {
+  .form-item,
+  .form-actions {
+    margin-left: 50px;
+}
+}
+

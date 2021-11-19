@@ -38,6 +38,7 @@ body {
 /* Logo Image */
 .path-frontpage .logo-img-sites-default-files-logopng img{
   filter: invert(0%);
+  margin-right: 104px !important;
 }
 
 /* Navigation link  */
@@ -985,4 +986,17 @@ body {
   color: #E6FFE7;
   background: #4e8651;
   transition: 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+  .path-frontpage .logo-img-sites-default-files-logopng img{
+    filter: invert(0%);
+    margin-right: 30px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .path-frontpage .phone_number {
+    margin-left: 35px;
+  }
 }

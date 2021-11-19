@@ -2,10 +2,11 @@ features:
   node_user_picture: 1
   comment_user_picture: 1
   comment_user_verification: 0
-  favicon: 0
+  favicon: 1
 logo:
   use_default: 0
   path: 'public://Logo.png'
 favicon:
   use_default: 0
-  path: ''
+  path: 'public://icons8-лес-30.png'
+  mimetype: image/png

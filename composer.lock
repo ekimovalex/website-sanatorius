@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3f66e6f503499607d6c129af545d9dc",
+    "content-hash": "f67d14f59d4b62bf07b5816348a11539",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3826,6 +3826,58 @@
             }
         },
         {
+            "name": "drupal/masked_input",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/masked_input.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/masked_input-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "0a3cac983aeb8e4d50f719ce3f73f21d0b5342fc"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1516996384",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "gajanannehul",
+                    "homepage": "https://www.drupal.org/user/1500166"
+                },
+                {
+                    "name": "helior",
+                    "homepage": "https://www.drupal.org/user/333731"
+                },
+                {
+                    "name": "twooten",
+                    "homepage": "https://www.drupal.org/user/52983"
+                }
+            ],
+            "description": "Allows textfields to contain \"masked\" placeholders to easily communicate with the user how data should be formatted.",
+            "homepage": "https://www.drupal.org/project/masked_input",
+            "support": {
+                "source": "https://git.drupalcode.org/project/masked_input"
+            }
+        },
+        {
             "name": "drupal/paragraphs",
             "version": "1.12.0",
             "source": {
@@ -4084,6 +4136,52 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/slick_views",
                 "issues": "https://drupal.org/project/issues/slick_views"
+            }
+        },
+        {
+            "name": "drupal/telephone_validation",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/telephone_validation.git",
+                "reference": "8.x-2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/telephone_validation-8.x-2.3.zip",
+                "reference": "8.x-2.3",
+                "shasum": "34dd855d8f80c53bd93df66101020c1f2d05eb0e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "giggsey/libphonenumber-for-php": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.3",
+                    "datestamp": "1591201337",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "zaporylie",
+                    "homepage": "https://www.drupal.org/user/1532844"
+                }
+            ],
+            "description": "Use 3rd party library to validate telephone field.",
+            "homepage": "http://drupal.org/project/telephone_validation",
+            "support": {
+                "source": "https://git.drupalcode.org/project/telephone_validation",
+                "issues": "http://drupal.org/project/issues/telephone_validation"
             }
         },
         {
@@ -4740,6 +4838,124 @@
                 "source": "https://github.com/enlightn/security-checker/tree/v1.9.0"
             },
             "time": "2021-05-06T09:03:35+00:00"
+        },
+        {
+            "name": "giggsey/libphonenumber-for-php",
+            "version": "8.12.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giggsey/libphonenumber-for-php.git",
+                "reference": "4113157949337384c41b77bc1d5c0d46c1c3201b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/4113157949337384c41b77bc1d5c0d46c1c3201b",
+                "reference": "4113157949337384c41b77bc1d5c0d46c1c3201b",
+                "shasum": ""
+            },
+            "require": {
+                "giggsey/locale": "^1.7|^2.0",
+                "php": ">=5.3.2",
+                "symfony/polyfill-mbstring": "^1.17"
+            },
+            "require-dev": {
+                "pear/pear-core-minimal": "^1.9",
+                "pear/pear_exception": "^1.0",
+                "pear/versioncontrol_git": "^0.5",
+                "phing/phing": "^2.7",
+                "php-coveralls/php-coveralls": "^1.0|^2.0",
+                "symfony/console": "^2.8|^3.0|^v4.4|^v5.2",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "libphonenumber\\": "src/"
+                },
+                "exclude-from-classmap": [
+                    "/src/data/",
+                    "/src/carrier/data/",
+                    "/src/geocoding/data/",
+                    "/src/timezone/data/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua Gigg",
+                    "email": "giggsey@gmail.com",
+                    "homepage": "https://giggsey.com/"
+                }
+            ],
+            "description": "PHP Port of Google's libphonenumber",
+            "homepage": "https://github.com/giggsey/libphonenumber-for-php",
+            "keywords": [
+                "geocoding",
+                "geolocation",
+                "libphonenumber",
+                "mobile",
+                "phonenumber",
+                "validation"
+            ],
+            "time": "2021-11-11T16:06:11+00:00"
+        },
+        {
+            "name": "giggsey/locale",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giggsey/Locale.git",
+                "reference": "8d324583b5899e6280a875c43bf1fc9658bc6962"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giggsey/Locale/zipball/8d324583b5899e6280a875c43bf1fc9658bc6962",
+                "reference": "8d324583b5899e6280a875c43bf1fc9658bc6962",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "pear/pear-core-minimal": "^1.9",
+                "pear/pear_exception": "^1.0",
+                "pear/versioncontrol_git": "^0.5",
+                "phing/phing": "^2.7",
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/phpunit": "^8.5|^9.5",
+                "symfony/console": "^5.0",
+                "symfony/filesystem": "^5.0",
+                "symfony/finder": "^5.0",
+                "symfony/process": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Giggsey\\Locale\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua Gigg",
+                    "email": "giggsey@gmail.com",
+                    "homepage": "https://giggsey.com/"
+                }
+            ],
+            "description": "Locale functions required by libphonenumber-for-php",
+            "time": "2021-11-04T19:12:22+00:00"
         },
         {
             "name": "grasmash/expander",

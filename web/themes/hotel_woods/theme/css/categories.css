@@ -13,12 +13,12 @@
   margin-top: 35px;
   margin-bottom: 28px;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .logo-img-sites-default-files-logopng img {
   filter: invert(100%);
-  margin-right: 104px;
+  /* margin-right: 104px; */
 }
 
 #block-navbar .menu-header li a {
@@ -45,7 +45,7 @@
 
 .phone_number {
   margin-top: 11px;
-  margin-left: 146px;
+  /* margin-left: 146px; */
   font-size: 18px;
   font-weight: 500;
   color: #000;
@@ -148,4 +148,10 @@
 
 .content-page-category-view .vocabulary-categories h2 {
   display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .block-field-blocktaxonomy-termcategoriesfield-m .field__item {
+    margin-right: 45px;
+  }
 }
