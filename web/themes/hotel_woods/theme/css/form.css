@@ -104,9 +104,8 @@ abbr.ajax-changed {
 }
 
 @media screen and (max-width: 1024px) {
-  .form-item,
-  .form-actions {
-    margin-left: 50px;
+  .node__contacst__right .form-checkbox {
+    margin-left: 45px;
 }
 }
 
