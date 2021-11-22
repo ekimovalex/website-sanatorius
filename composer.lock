@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f67d14f59d4b62bf07b5816348a11539",
+    "content-hash": "db286e48924a8d39680ef9fa93c76fa4",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1459,6 +1459,15 @@
                 "source": "https://github.com/dflydev/dflydev-placeholder-resolver/tree/v1.0.2"
             },
             "time": "2012-10-28T21:08:28+00:00"
+        },
+        {
+            "name": "dinbror/blazy",
+            "version": "dev-master",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/dinbror/blazy/archive/master.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "doctrine/annotations",
@@ -3325,6 +3334,82 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/ctools",
                 "issues": "https://www.drupal.org/project/issues/ctools"
+            }
+        },
+        {
+            "name": "drupal/default_content",
+            "version": "2.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/default_content.git",
+                "reference": "2.0.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/default_content-2.0.0-alpha1.zip",
+                "reference": "2.0.0-alpha1",
+                "shasum": "0d534ab8e44786a352e24c7cec3dc06bef155f66"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "require-dev": {
+                "drupal/paragraphs": "^1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-alpha1",
+                    "datestamp": "1595072288",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "andypost",
+                    "homepage": "https://www.drupal.org/user/118908"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jibran",
+                    "homepage": "https://www.drupal.org/user/1198144"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                }
+            ],
+            "description": "Imports default content when a module is enabled",
+            "homepage": "https://www.drupal.org/project/default_content",
+            "support": {
+                "source": "https://git.drupalcode.org/project/default_content"
             }
         },
         {
@@ -5260,6 +5345,33 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
             "time": "2021-04-26T09:17:50+00:00"
+        },
+        {
+            "name": "jackmoore/colorbox",
+            "version": "dev-master",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/jackmoore/colorbox/archive/master.zip"
+            },
+            "type": "drupal-library"
+        },
+        {
+            "name": "kenwheeler/slick",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alexander2Leb/slick.git",
+                "reference": "76f05b1f6a1bd4792cd877d2c9ae22d0c7bcb712"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alexander2Leb/slick/zipball/76f05b1f6a1bd4792cd877d2c9ae22d0c7bcb712",
+                "reference": "76f05b1f6a1bd4792cd877d2c9ae22d0c7bcb712",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-03-31T12:40:41+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -12454,8 +12566,11 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "dinbror/blazy": 20,
         "drupal/block_field": 5,
-        "drupal/webprofiler": 5
+        "drupal/default_content": 15,
+        "drupal/webprofiler": 5,
+        "jackmoore/colorbox": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
