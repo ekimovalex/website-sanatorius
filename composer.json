@@ -9,52 +9,83 @@
             "role": ""
         }
     ],
-    "repositories": {
-        "0": {
+    "repositories": [
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dinbror/blazy",
+                "type": "drupal-library",
+                "version": "dev-master",
+                "dist": {
+                    "url": "https://github.com/dinbror/blazy/archive/master.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jackmoore/colorbox",
+                "type": "drupal-library",
+                "version": "dev-master",
+                "dist": {
+                    "url": "https://github.com/jackmoore/colorbox/archive/master.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "kenwheeler/slick",
+                "type": "drupal-library",
+                "version": "dev-master",
+                "dist": {
+                    "url": "https://github.com/kenwheeler/slick/archive/master.zip",
+                    "type": "zip"
+                }
+            }
         }
-    },
+    ],
     "require": {
-        "algolia/places": "*",
-        "ckeditor/autogrow": "*",
-        "ckeditor/codemirror": "*",
-        "ckeditor/fakeobjects": "*",
-        "ckeditor/image": "*",
-        "ckeditor/link": "*",
-        "codemirror/codemirror": "*",
+        "php": ">=7.0.8",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
+        "dinbror/blazy": "dev-master",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/better_exposed_filters": "^3.6",
+        "drupal/block_field": "^1.0@RC",
         "drupal/captcha": "^1.2",
         "drupal/colorbox": "^1.7",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.8.0",
         "drupal/core-composer-scaffold": "^8.8.0",
         "drupal/ctools": "^3.7",
+        "drupal/default_content": "^2.0@alpha",
         "drupal/devel": "^4.1",
         "drupal/ds": "^3.13",
         "drupal/exclude_node_title": "^1.2",
+        "drupal/jquery_ui": "^1.4",
+        "drupal/jquery_ui_datepicker": "^1.1",
+        "drupal/jquery_ui_slider": "^1.1",
+        "drupal/jquery_ui_touch_punch": "^1.0",
+        "drupal/masked_input": "^1.1",
+        "drupal/paragraphs": "^1.12",
         "drupal/pathauto": "^1.8",
         "drupal/slick": "^2.3",
         "drupal/slick_views": "^2.4",
+        "drupal/telephone_validation": "^2.3",
+        "drupal/viewsreference": "^1.7",
         "drupal/webform": "^6.0",
         "drupal/webprofiler": "^2.0@RC",
         "drush/drush": "^9.7.1 | ^10.0.0",
-        "jquery/hotkeys": "*",
-        "jquery/image-picker": "*",
-        "jquery/inputmask": "*",
-        "jquery/intl-tel-input": "*",
-        "jquery/rateit": "*",
-        "jquery/select2": "*",
-        "jquery/textcounter": "*",
-        "jquery/timepicker": "*",
-        "php": ">=7.0.8",
-        "progress-tracker/progress-tracker": "*",
-        "signature_pad/signature_pad": "*",
-        "svg-pan-zoom/svg-pan-zoom": "*",
-        "tabby/tabby": "*",
-        "tippyjs/5.x": "*",
+        "jackmoore/colorbox": "dev-master",
+        "kenwheeler/slick": "^1.6",
+        "oomphinc/composer-installers-extender": "^2.0",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
         "zaporylie/composer-drupal-optimizations": "^1.0"

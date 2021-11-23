@@ -1,0 +1,22 @@
+uuid: 5145ffb6-8acf-4ef2-8ae0-e9074dd58803
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: rooms_task7
+label: 'rooms task7'
+type: 'canonical_entities:node'
+pattern: '/all-rooms/[node:title]'
+selection_criteria:
+  5931e897-d183-4791-aa53-96c31f025ff8:
+    id: node_type
+    bundles:
+      rooms_task_7_: rooms_task_7_
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 5931e897-d183-4791-aa53-96c31f025ff8
+selection_logic: and
+weight: -5
+relationships: {  }

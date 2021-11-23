@@ -1,6 +1,6 @@
-uuid: 2fd3fcb2-8a6e-44f2-8c85-8972947e00ab
+uuid: a01eaf0c-bc4a-452d-8b60-72d7a723d276
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.slider_rooms
@@ -8,11 +8,11 @@ dependencies:
     - system
     - views
   theme:
-    - bartik
+    - hotel_woods
 id: views_block__slider_rooms_block_1
-theme: bartik
-region: content
-weight: -8
+theme: hotel_woods
+region: hidden_regions
+weight: -2
 provider: null
 plugin: 'views_block:slider_rooms-block_1'
 settings:

@@ -1,0 +1,31 @@
+uuid: 223a796f-b93f-4bcd-9a59-80fb3a728b5e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cf770d3f-a241-4ec2-92c5-a5b91f368a71'
+  module:
+    - block_content
+    - system
+  theme:
+    - hotel_woods
+id: viewallrooms
+theme: hotel_woods
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:cf770d3f-a241-4ec2-92c5-a5b91f368a71'
+settings:
+  id: 'block_content:cf770d3f-a241-4ec2-92c5-a5b91f368a71'
+  label: 'View all rooms'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

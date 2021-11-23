@@ -5,7 +5,9 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_gmap
     - field.field.node.article.field_image
+    - field.field.node.article.layout_builder__layout
     - image.style.thumbnail
     - node.type.article
   module:
@@ -42,6 +44,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_gmap:
+    weight: 121
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_image:
     type: image_image
     weight: 4
@@ -95,4 +105,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

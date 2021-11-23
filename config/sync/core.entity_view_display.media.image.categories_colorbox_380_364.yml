@@ -27,7 +27,7 @@ content:
       colorbox_node_style: task_2
       colorbox_node_style_first: task_2
       colorbox_image_style: ''
-      colorbox_gallery: page
+      colorbox_gallery: post
       colorbox_gallery_custom: ''
       colorbox_caption: auto
       colorbox_caption_custom: ''

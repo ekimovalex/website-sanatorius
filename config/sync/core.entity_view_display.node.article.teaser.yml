@@ -6,7 +6,9 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_gmap
     - field.field.node.article.field_image
+    - field.field.node.article.layout_builder__layout
     - image.style.medium
     - node.type.article
   module:
@@ -42,4 +44,6 @@ content:
     region: content
 hidden:
   comment: true
+  field_gmap: true
   field_image: true
+  layout_builder__layout: true

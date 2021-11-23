@@ -1,0 +1,15 @@
+uuid: b15a1832-8544-4e79-a5ae-ba0260a7a2b9
+langcode: en
+status: true
+dependencies: {  }
+name: rooms_1180x470
+label: 'Rooms 1180x470'
+effects:
+  525cca32-4ec2-40d5-ad91-a2f792698d03:
+    uuid: 525cca32-4ec2-40d5-ad91-a2f792698d03
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1180
+      height: 470
+      anchor: center-center

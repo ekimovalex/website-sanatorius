@@ -2,6 +2,7 @@
 /drush/contrib/
 /vendor/
 /web/core/
+/web/modules/
 /web/modules/contrib/
 /web/themes/contrib/
 /web/profiles/contrib/
@@ -23,3 +24,5 @@
 /.env
 /.editorconfig
 /.gitattributes
+/.sql.gz
+

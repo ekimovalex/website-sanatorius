@@ -1,0 +1,10 @@
+uuid: 71bd7e8b-b074-4034-9b6c-01f1bc848a09
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.details_480x620
+label: 'Details 480x620'
+targetEntityType: media
+cache: true

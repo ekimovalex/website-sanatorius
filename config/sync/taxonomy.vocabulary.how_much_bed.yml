@@ -1,0 +1,8 @@
+uuid: 2213a874-7ea6-472b-be2f-789b4b3590f6
+langcode: en
+status: true
+dependencies: {  }
+name: 'How much bed'
+vid: how_much_bed
+description: ''
+weight: 0

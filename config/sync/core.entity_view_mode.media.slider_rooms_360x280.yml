@@ -1,0 +1,10 @@
+uuid: d0ead02b-3e68-4bf5-92e4-f628b4d46a92
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.slider_rooms_360x280
+label: 'Slider rooms 360x280'
+targetEntityType: media
+cache: true

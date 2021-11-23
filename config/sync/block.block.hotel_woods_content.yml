@@ -1,0 +1,27 @@
+uuid: 96063955-a5e9-4b71-bbde-e4a3feba8ad8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hotel_woods
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: hotel_woods_content
+theme: hotel_woods
+region: hidden_regions
+weight: -13
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,29 @@
+uuid: e648a59f-e70c-4dd3-9a9f-e2db93da813e
+langcode: en
+status: false
+dependencies:
+  enforced:
+    module:
+      - slick
+_core:
+  default_config_hash: R44sHtkxxZrBiHA2kQiOrgfOwXDce6s8fpQCTUoDhf0
+id: slider_rooms
+name: slider_rooms
+label: 'Slider rooms'
+weight: -9
+group: ''
+skin: default
+breakpoints: 0
+optimized: true
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    prevArrow: ''
+    nextArrow: ''
+    infinite: false
+    lazyLoad: ''
+    slidesToShow: 4
+    touchMove: false
+    useCSS: false
+    useTransform: false
+    variableWidth: true

@@ -6,14 +6,87 @@ dependencies:
     - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_gmap
     - field.field.node.article.field_image
+    - field.field.node.article.layout_builder__layout
     - image.style.large
     - node.type.article
+    - webform.webform.contacts
+  content:
+    - 'block_content:basic:823b1ed2-cf16-4fe9-ab2e-995c09ba6594'
   module:
+    - block_content
     - comment
+    - ds
     - image
+    - layout_builder
     - text
     - user
+    - webform
+third_party_settings:
+  layout_builder:
+    allow_custom: true
+    enabled: true
+    sections:
+      -
+        layout_id: ds_2col
+        layout_settings:
+          label: ''
+          wrappers:
+            left: div
+            right: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+        components:
+          6def0c90-c132-43fe-a8ca-12c282d325f8:
+            uuid: 6def0c90-c132-43fe-a8ca-12c282d325f8
+            region: left
+            configuration:
+              id: 'block_content:823b1ed2-cf16-4fe9-ab2e-995c09ba6594'
+              label: 'Footer info'
+              provider: block_content
+              label_display: '0'
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+          f5a20b9a-5ac9-4946-867a-a2d3b04f74f1:
+            uuid: f5a20b9a-5ac9-4946-867a-a2d3b04f74f1
+            region: right
+            configuration:
+              id: webform_block
+              label: Webform
+              provider: webform
+              label_display: '0'
+              webform_id: contacts
+              default_data: ''
+              redirect: false
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+          6022240a-e358-4661-94bc-00ea1a33814e:
+            uuid: 6022240a-e358-4661-94bc-00ea1a33814e
+            region: left
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:article:field_gmap'
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
 _core:
   default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
 id: node.article.default
@@ -37,6 +110,14 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
+  field_gmap:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: left
   field_image:
     type: image
     weight: -1
@@ -51,4 +132,5 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

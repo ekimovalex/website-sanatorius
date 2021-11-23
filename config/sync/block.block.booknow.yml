@@ -1,0 +1,25 @@
+uuid: 5bfd41c3-4f73-44b0-bf41-6a7acf555450
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fe6bf382-ab62-4038-8966-a40b0bd3daaf'
+  module:
+    - block_content
+  theme:
+    - hotel_woods
+id: booknow
+theme: hotel_woods
+region: main_header
+weight: -12
+provider: null
+plugin: 'block_content:fe6bf382-ab62-4038-8966-a40b0bd3daaf'
+settings:
+  id: 'block_content:fe6bf382-ab62-4038-8966-a40b0bd3daaf'
+  label: 'Book now'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

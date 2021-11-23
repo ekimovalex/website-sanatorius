@@ -1,0 +1,9 @@
+classes:
+  region:
+    - node__contacst__wrapper
+    - node__contacst__left
+    - node__contacst__right
+    - node__room__wrapper
+    - node__room__left
+    - node__room__right
+  field: {  }

@@ -1,0 +1,56 @@
+uuid: 4443258b-fde7-4e50-b754-18a4b93dfe2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rooms
+    - field.storage.block_content.field_slider
+  module:
+    - viewsreference
+id: block_content.rooms.field_slider
+field_name: field_slider
+entity_type: block_content
+bundle: rooms
+label: Slider
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    default: default
+    block: block
+    page: page
+    feed: feed
+    embed: embed
+  preselect_views:
+    allrooms_room: 0
+    all_rooms: 0
+    a_place_to_relax: 0
+    block_content: 0
+    categories: 0
+    category_rooms: 0
+    comment: 0
+    comments_recent: 0
+    contacts: 0
+    content: 0
+    content_recent: 0
+    files: 0
+    frontpage: 0
+    media: 0
+    media_library: 0
+    rooms: 0
+    slider_categories: 0
+    slider_rooms: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    webform_submissions: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

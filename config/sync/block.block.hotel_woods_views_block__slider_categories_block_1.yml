@@ -1,0 +1,30 @@
+uuid: 03e6df2c-c53e-4094-a7ef-8935d055c7b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slider_categories
+  module:
+    - system
+    - views
+  theme:
+    - hotel_woods
+id: hotel_woods_views_block__slider_categories_block_1
+theme: hotel_woods
+region: first_screen
+weight: -14
+provider: null
+plugin: 'views_block:slider_categories-block_1'
+settings:
+  id: 'views_block:slider_categories-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: 438f838c-c97d-4876-810b-51251085b38c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: a_place_to_relax
+label: 'A place to relax'
+type: 'canonical_entities:node'
+pattern: '/a_place_to_relax/[node:title]'
+selection_criteria:
+  bd62b7c5-055b-47a2-92f3-92f80fd1a577:
+    id: node_type
+    bundles:
+      a_place_to_relax: a_place_to_relax
+    negate: false
+    context_mapping:
+      node: node
+    uuid: bd62b7c5-055b-47a2-92f3-92f80fd1a577
+selection_logic: and
+weight: -5
+relationships: {  }

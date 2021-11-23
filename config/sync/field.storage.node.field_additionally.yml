@@ -1,0 +1,20 @@
+uuid: cea05b19-bfbd-41b4-8b02-0e097f09ec53
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_additionally
+field_name: field_additionally
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

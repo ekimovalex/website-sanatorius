@@ -1,0 +1,30 @@
+uuid: 90a2a9bc-ae0c-40db-9bdb-36a0ea171cd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slider_categories
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: bartik_views_block__slider_categories_block_1
+theme: bartik
+region: primary_menu
+weight: -7
+provider: null
+plugin: 'views_block:slider_categories-block_1'
+settings:
+  id: 'views_block:slider_categories-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

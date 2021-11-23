@@ -12,7 +12,7 @@ name: category_slider_
 label: Slider
 weight: -9
 group: ''
-skin: default
+skin: ''
 breakpoints: 0
 optimized: false
 options:
@@ -28,13 +28,13 @@ options:
     pauseOnDotsHover: false
     pauseOnFocus: true
     arrows: true
-    prevArrow: Previous
+    prevArrow: ''
     nextArrow: Next
     downArrow: false
     downArrowTarget: ''
     downArrowOffset: 0
     centerMode: true
-    centerPadding: 50px
+    centerPadding: ''
     dots: false
     dotsClass: slick-dots
     appendDots: $(element)
@@ -43,7 +43,7 @@ options:
     focusOnSelect: false
     infinite: true
     initialSlide: 0
-    lazyLoad: ondemand
+    lazyLoad: ''
     mouseWheel: false
     randomize: false
     respondTo: window
@@ -57,7 +57,7 @@ options:
     swipe: true
     swipeToSlide: false
     edgeFriction: 0.35
-    touchMove: true
+    touchMove: false
     touchThreshold: 5
     useCSS: true
     cssEase: ease

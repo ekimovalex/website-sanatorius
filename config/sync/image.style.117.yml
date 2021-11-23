@@ -1,0 +1,15 @@
+uuid: 7ea8cfe6-d9dd-4517-be06-af86ce36753b
+langcode: en
+status: true
+dependencies: {  }
+name: '117'
+label: '117x85 room'
+effects:
+  521de50b-5e86-45f4-b2ce-134ea1852121:
+    uuid: 521de50b-5e86-45f4-b2ce-134ea1852121
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 117
+      height: 85
+      anchor: center-center

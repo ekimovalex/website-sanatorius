@@ -1,0 +1,25 @@
+uuid: f87cc2c5-4589-44ac-80eb-e5332ee06d2e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6b430b71-ddfd-432c-9445-fb3021675cc3'
+  module:
+    - block_content
+  theme:
+    - hotel_woods
+id: popupbutton
+theme: hotel_woods
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:6b430b71-ddfd-432c-9445-fb3021675cc3'
+settings:
+  id: 'block_content:6b430b71-ddfd-432c-9445-fb3021675cc3'
+  label: 'Popup button'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

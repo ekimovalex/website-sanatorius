@@ -1,0 +1,8 @@
+uuid: 463b41d9-44aa-42ed-9478-105593516a31
+langcode: en
+status: true
+dependencies: {  }
+id: footer-page
+label: 'Footer page'
+description: ''
+locked: false

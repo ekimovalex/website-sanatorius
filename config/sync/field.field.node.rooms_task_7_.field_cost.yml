@@ -1,0 +1,23 @@
+uuid: 4d19a961-9367-4ec6-bfd4-009bdf2bcf1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cost
+    - node.type.rooms_task_7_
+id: node.rooms_task_7_.field_cost
+field_name: field_cost
+entity_type: node
+bundle: rooms_task_7_
+label: Cost
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: /day
+field_type: integer

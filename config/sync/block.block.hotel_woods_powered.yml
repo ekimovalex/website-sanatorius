@@ -1,0 +1,22 @@
+uuid: 64f905df-dff8-4bc9-a893-371761ade635
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hotel_woods
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: hotel_woods_powered
+theme: hotel_woods
+region: hidden_regions
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

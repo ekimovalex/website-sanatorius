@@ -1,0 +1,10 @@
+uuid: 58852395-408a-4083-9e71-8968ee78cb9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.main_page_slider_1980x800
+label: 'Main Page slider 1980x800'
+targetEntityType: media
+cache: true

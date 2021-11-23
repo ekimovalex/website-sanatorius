@@ -1,0 +1,15 @@
+uuid: c0fbaa8d-fc98-45a2-9137-0aa1a2450f05
+langcode: en
+status: true
+dependencies: {  }
+name: details_480x620
+label: 'Details 480x620'
+effects:
+  604052b7-7af8-45bd-ab71-630ea1e4592a:
+    uuid: 604052b7-7af8-45bd-ab71-630ea1e4592a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 620
+      anchor: center-center

@@ -3,12 +3,13 @@ langcode: en
 status: true
 dependencies: {  }
 name: task_2
-label: 'Task 2'
+label: 'Task 7 380x364'
 effects:
-  4f4d405b-d905-4df5-85c4-856e2f059caa:
-    uuid: 4f4d405b-d905-4df5-85c4-856e2f059caa
-    id: image_resize
+  fe2dea16-6a9c-4729-8ae2-e8417af8cfdf:
+    uuid: fe2dea16-6a9c-4729-8ae2-e8417af8cfdf
+    id: image_scale_and_crop
     weight: 1
     data:
       width: 380
       height: 364
+      anchor: center-center

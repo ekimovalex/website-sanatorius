@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.view-id-all_rooms {
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.view-id-all_rooms .field__label {
+  display: none;
+}
+
+/* Title */
+.view-id-all_rooms .view-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 120%;
+  color: #222222;
+  width: 140px;
+  height: 5px;
+}
+
+/* Filters */
+.view-id-all_rooms .view-filters {
+  position: relative;
+}
+
+.view-id-all_rooms .view-filters .form--inline {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Search */
+#edit-keys {
+  width: 980px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  padding-left: 12px;
+}
+
+.form-item-keys {
+  margin-left: 190px;
+  margin-bottom: 20px;
+}
+ 
+.form-item-keys input::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  color: #666666;
+}
+
+/* Cost */
+#edit-field-cost-value-min {
+  width: 40px;
+  height: 28px;
+  border: none;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  margin-left: 5px;
+}
+
+.view-id-all_rooms .view-filters .form-item-field-cost-value-min {
+  margin-left: 195px;
+}
+
+.view-id-all_rooms .view-filters .form-item-field-cost-value-min label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  color: #666666;
+}
+
+.view-id-all_rooms .view-filters .form-item-field-cost-value-max label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  color: #666666;
+}
+
+#edit-field-cost-value-max {
+  width: 40px;
+  height: 28px;
+  border: none;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+}
+
+/* Category */
+.view-id-all_rooms .view-filters .form-checkboxes {
+  display: flex;
+}
+
+.view-id-all_rooms .view-filters .fieldset-legend {
+  position: absolute;
+  top: 67px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  color: #666666;
+}
+
+.view-id-all_rooms .view-filters .fieldset-wrapper {
+  margin-left: 68px;
+  margin-top: 5px;
+}
+
+.view-id-all_rooms .view-filters .form-checkboxes .form-item :nth-last-child {
+  margin-right: 0;
+}
+
+.view-id-all_rooms .view-filters .form-checkboxes input[type=checkbox] {
+  display: none;
+}
+
+.view-id-all_rooms .view-filters .form-checkboxes label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  color: #666666;
+  cursor: pointer;
+  padding: 8px 12px 8px 12px;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.view-id-all_rooms .view-filters .form-checkboxes label:hover {
+  background: #a1d4c2;
+}
+
+.view-id-all_rooms .view-filters .form-checkboxes input[type=checkbox]:checked + label {
+	background: #60B564;
+  color: #F2F2F2;
+}
+
+/* Sort asc */
+#edit-sort-by {
+  display: none;
+}
+
+#views-exposed-form-all-rooms-page-1 > div > div.js-form-item.form-item.js-form-type-select.form-type-select.js-form-item-sort-order.form-item-sort-order > label {
+  display: none;
+}
+
+.form-item-sort-by {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.form-item-sort-order {
+  margin-top: 30px;
+} 
+
+.view-id-all_rooms .view-filters .form-item-sort-by label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  color: #666666;
+}
+
+.view-id-all_rooms .view-filters .form-item-sort-order .form-select {
+  border: none;
+  background: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  color: #333333;
+}
+
+/* View */
+.view-id-all_rooms .view-content .views-field-field-preview {
+  margin-bottom: 25px;
+}
+
+.view-id-all_rooms .view-content .views-field-title a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000000;
+  text-decoration: none;
+}
+
+.view-id-all_rooms .view-content .views-field-title a:hover {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #60B564;
+  text-decoration: underline;
+}
+
+.view-id-all_rooms .view-content .views-field-field-cost {
+  float: right;
+  margin-right: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #222222;
+}
+
+.view-id-all_rooms .view-content .views-field-field-category {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.view-id-all_rooms .view-content .views-field-field-category a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  color: #666666;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  #edit-keys {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .view-id-all_rooms .view-filters .fieldset-legend {
+    top: 112px;
+    left: 195px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .view-id-all_rooms .view-filters .fieldset-wrapper {
+    margin-left: 285px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .view-id-all_rooms .view-filters .form-item-sort-by label {
+   margin-left: 195px;
+  }
+}
+
+

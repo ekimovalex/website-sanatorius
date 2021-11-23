@@ -1,0 +1,20 @@
+uuid: c117b590-1cda-4243-a33a-e1c7d31aae4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hotel_woods
+id: mainpagecontent
+theme: hotel_woods
+region: content
+weight: -13
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

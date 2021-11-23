@@ -1,0 +1,25 @@
+uuid: 395c8dcc-15ee-4bfc-8562-850dbfc65990
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.navbar
+  module:
+    - system
+  theme:
+    - hotel_woods
+id: navbar
+theme: hotel_woods
+region: main_header
+weight: -14
+provider: null
+plugin: 'system_menu_block:navbar'
+settings:
+  id: 'system_menu_block:navbar'
+  label: navbar
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

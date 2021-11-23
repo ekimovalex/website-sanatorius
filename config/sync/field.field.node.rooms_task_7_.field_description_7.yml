@@ -1,0 +1,21 @@
+uuid: 48ea497a-e516-4d06-a253-70f97506e7ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description_7
+    - node.type.rooms_task_7_
+  module:
+    - text
+id: node.rooms_task_7_.field_description_7
+field_name: field_description_7
+entity_type: node
+bundle: rooms_task_7_
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

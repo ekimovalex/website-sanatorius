@@ -1,0 +1,23 @@
+uuid: d59626f1-a8fe-4f97-9f1c-713883c1ce30
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - hotel_woods
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: hotel_woods_search
+theme: hotel_woods
+region: hidden_regions
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }
