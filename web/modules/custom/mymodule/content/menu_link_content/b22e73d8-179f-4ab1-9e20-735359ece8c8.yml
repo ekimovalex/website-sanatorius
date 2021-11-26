@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: b22e73d8-179f-4ab1-9e20-735359ece8c8
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    d01f975a-bad7-4ab4-ae98-c5055f8f3ae3: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Mini
+  menu_name:
+    -
+      value: navbar
+  link:
+    -
+      uri: 'internal:/category/room-mini-0'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:d01f975a-bad7-4ab4-ae98-c5055f8f3ae3'
+  revision_translation_affected:
+    -
+      value: true

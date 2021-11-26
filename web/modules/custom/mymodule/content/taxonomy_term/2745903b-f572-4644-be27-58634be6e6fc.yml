@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2745903b-f572-4644-be27-58634be6e6fc
+  bundle: categories
+  default_langcode: en
+  depends:
+    c3af495a-6bf0-42a6-8750-a835ef237cc0: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Room "Comfort" +'
+  description:
+    -
+      value: "<p>Description of Room \"Comfort\" +</p>\r\n"
+      format: basic_html
+  weight:
+    -
+      value: 5
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/room-comfort
+      langcode: en
+      pathauto: 1
+  field_im:
+    -
+      entity: c3af495a-6bf0-42a6-8750-a835ef237cc0
+  field_m:
+    -
+      value: 120
+  field_sh:
+    -
+      value: 'Short description #6'
+      format: basic_html

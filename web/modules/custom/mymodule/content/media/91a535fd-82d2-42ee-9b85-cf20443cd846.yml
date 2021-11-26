@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 91a535fd-82d2-42ee-9b85-cf20443cd846
+  bundle: image
+  default_langcode: en
+  depends:
+    5cabd6c7-dc18-4acb-b60e-9402b9e6a8b0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: Similis
+  created:
+    -
+      value: 1630139769
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_media_image:
+    -
+      entity: 5cabd6c7-dc18-4acb-b60e-9402b9e6a8b0
+      alt: 'Amet comis jugis magna nulla pertineo roto.'
+      title: 'Damnum inhibeo macto patria.'
+      width: 474
+      height: 464

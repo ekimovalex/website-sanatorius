@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a9d83e35-8157-4a0b-8f8c-06668db96c73
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_YEqX6p.png
+  uri:
+    -
+      value: 'public://2021-09/generateImage_YEqX6p.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1880
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5cabd6c7-dc18-4acb-b60e-9402b9e6a8b0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_jP07zy.gif
+  uri:
+    -
+      value: 'public://2021-09/generateImage_jP07zy.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 4158
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

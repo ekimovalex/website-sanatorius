@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 2487f7f9-5004-4913-81d3-0635b6486da1
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Yandex map'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aec71c0982965d283cfcc9905feb9fcefe20a0dfe1ed59964f03d663040b99b6e&amp;source=constructor" width="590" height="316" frameborder="0"></iframe>'
+      format: full_html
+      summary: ''

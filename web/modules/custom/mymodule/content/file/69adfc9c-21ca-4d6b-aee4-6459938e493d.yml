@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 69adfc9c-21ca-4d6b-aee4-6459938e493d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_n9IfYC.jpeg
+  uri:
+    -
+      value: 'public://2021-09/generateImage_n9IfYC.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6309
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

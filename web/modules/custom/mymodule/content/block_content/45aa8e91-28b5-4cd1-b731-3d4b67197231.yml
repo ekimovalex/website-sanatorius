@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 45aa8e91-28b5-4cd1-b731-3d4b67197231
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Contact us'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div class=\"help-block-5\">\r\n<div class=\"wrapper\">\r\n<div class=\"block-5\">\r\n<div class=\"text-block-5\">\r\n<h1 class=\"title-block-5\">Can't choose a room?</h1>\r\n\r\n<p class=\"descr-block-5\">Leave a request and our specialist will help you</p>\r\n</div>\r\n\r\n<p class=\"btn-contact-us\"><a href=\"/contacts\">Contact us</a></p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+      format: full_html
+      summary: ''

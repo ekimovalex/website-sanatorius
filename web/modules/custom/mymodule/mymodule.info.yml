@@ -1,0 +1,170 @@
+name: "My module"
+type: module
+description: "Default Content for Hotel in the woods"
+core_version_requirement: ^8.7.7 || ^9
+package: "Hotel in the woods"
+dependencies:
+  - default_content:default_content
+
+default_content:
+  block_content:
+    - 104ce63d-46fe-4c54-b033-659296a653cd
+    - 2487f7f9-5004-4913-81d3-0635b6486da1
+    - 45aa8e91-28b5-4cd1-b731-3d4b67197231
+    - 6b430b71-ddfd-432c-9445-fb3021675cc3
+    - 823b1ed2-cf16-4fe9-ab2e-995c09ba6594
+    - aece0c9e-1084-491d-9243-27271a007cc1
+    - c46e6060-13a2-48ea-90fa-fde99a13d542
+    - cf770d3f-a241-4ec2-92c5-a5b91f368a71
+    - d06e292d-b493-4446-bfc1-74267ebe185f
+    - fe6bf382-ab62-4038-8966-a40b0bd3daaf
+    - 104ce63d-46fe-4c54-b033-659296a653cd
+    
+  file:
+    - 43240d70-90c6-4443-9485-84cc943e47f1
+    - 5e46e6ca-9967-44ff-aa5a-8b604ab7203e
+    - fe85a4c5-719c-45ec-b0ea-79340b218322
+    - 8a82f2c1-8799-419d-9054-41cd6f1bbe3f
+    - 8a82f2c1-8799-419d-9054-41cd6f1bbe3f
+    - 8356e419-6341-401b-801d-0002c0f76642
+    - f5718c71-fd7e-472c-9b31-ae5a954065d7
+    - 40126c53-e3c6-442a-aa9c-2229490cd41a
+    - 4a2d0f41-b522-4f75-9dbc-dde32346ed52
+    - 69adfc9c-21ca-4d6b-aee4-6459938e493d
+    - 5cabd6c7-dc18-4acb-b60e-9402b9e6a8b0
+    - 75b58ce3-4219-46a1-bcf1-5b0e460649c5
+    - a9d83e35-8157-4a0b-8f8c-06668db96c73
+    - 179cc696-0cdf-4031-bc11-63dfa2cd40b9
+    - 623c7533-a11c-4d80-a01c-019025375e70
+    - 54ca1be2-fa83-4494-b446-667162a1378d
+    - 5e6e58ce-6072-46e2-8136-2b606c9322c0
+    - 7c97aba2-e0d8-4851-bb81-23cbfc38ff4e
+    - 50144abd-f6db-45b1-a8d9-bb266d1be178
+    - 3ec7d00e-0f58-4962-8e5a-d51d41cae6e7
+    - f313e7c8-a175-4204-83b1-7b8a26031fef
+    - bfadbc1f-a197-4a8a-b720-426167d7bf5e
+    - 146a20bb-cbab-41f4-b9da-e2647ffb2416
+    - d62900a0-04ac-4d87-a8cb-e2f0b5808ce5
+    - 8c0fb191-7657-475e-bb06-ceca7e3a0d8e
+    - ecb2442c-a5bf-499d-95b4-702e45f61e34
+    - 5eb24aa7-0903-43e8-afb3-2285a2516728
+    - 435f9e30-b346-4964-942a-134a15e0fcc9
+    - dc53b318-fa5f-463d-9e0c-c67011c1b603
+    - 96984bba-ef4a-4075-9199-49735beaaef3
+    - 8ea8f7d5-4914-4231-b688-04ebf5950d2b
+    - f0b31c8b-b112-489f-9f45-ad5484177e00
+    - 689cb420-18a3-4479-ab5d-f98bae8ecc9e
+
+  node:
+    - 03ba5feb-def3-442b-86e5-0a2a1793184e
+    - 13ba659c-a5aa-41b5-bae5-efb69ac3f879
+    - 1e1e7506-5862-46e8-bbf0-5ea8273806cf
+    - 1ef7130a-3555-486e-8f54-b1d7f75a1736
+    - 2864aa1c-0c07-4bba-add3-30694a42ae59
+    - 54d01538-c8e4-4c04-9e7c-73e3207db5b3
+    - 62c4aa5e-0f84-4271-bca5-90cf1f392322
+    - 720fbc69-a8b7-442e-846c-a6a6fa48d9e1
+    - 80fcd515-4c0b-4d62-af48-13d9037f540e
+    - 8d227423-87e9-4c3f-8439-9f4d5bcdc0ed
+    - a7f5f3a5-3651-4fc6-a66f-deaf19b3e97b
+    - af3e62b0-3e4e-4ff5-b59d-6e806cbc538b
+    - c522d104-5219-4d9e-b202-d2d193d68919
+    - d690d804-412e-4945-9eaa-f8be3f24c9d8
+    - d8114b81-58c3-46ee-9fce-65ddaf0b757a
+
+  taxonomy_term:
+    - 6796a44f-b2bf-4f87-9d1f-a7eb68eca703
+    - c94c9bdd-fb66-491b-96f2-9ae071a7e07f
+    - 76f23399-4c95-4ff3-a4ff-e9c60608ef6e
+    - 0ebac136-0bbf-47f7-a2f6-d55c657934ea
+    - 16fb57dc-51e1-46ea-b15e-6728866eab71
+    - 52dc25ce-2efe-44b0-afa4-59ae1c0327aa
+    - 77777541-e0f6-47a9-b02f-179c8ba6391e
+    - c44ea0a5-231f-4eaa-9faa-7f92ca36c768
+    - c6fea695-263b-40a8-81a0-d7cb0b33634a
+    - 645a8b2c-1209-4901-902e-2c6c9538678d
+    - 37a10d9b-34ec-4167-828f-5fac1a02f716
+    - 7b4f3956-08bb-4634-8d28-688ae12c4c9f
+    - a7385ecb-8419-47a5-a164-4d922fd19afb
+    - 84e7f542-e026-439b-925e-497bc130cfd2
+    - 5827c4c7-7bb6-4a69-9550-f69d416608b3
+    - 2745903b-f572-4644-be27-58634be6e6fc
+    - 4249fc97-fcc5-4914-9200-fc693927196c
+    - e352fd77-1591-4c3c-9051-21faa6af6e05
+    - 9c98d416-69c0-489c-b462-a4569bc50700
+    - fee0d907-db49-46be-8846-81bc73b46f0a
+    - 4408f9ec-5791-4f13-b359-71721204bfcb
+    - c5294a6b-5f19-4d35-8645-5111af7cd0f3
+    - 3152a3e3-792c-4133-9d37-97d5cd1a3d45
+    - 5448dcad-c9f1-4c4c-96de-2fe8af41a166
+
+  media:
+    - 030c4656-666b-4407-9c19-8076944d5727
+    - 18db8aa1-8436-4a3c-a63a-3fa780b35a0e
+    - 2636b139-e529-47a1-99be-35bb84addb70
+    - 2f13c6fb-f0d7-4722-b138-16e048481daf
+    - 3058569e-15af-417d-bb76-23d176b9220c
+    - 3138d118-120b-486d-9344-08998afb94a9
+    - 3becfe84-22dc-4834-895c-47bcccf1b34a
+    - 46e0f2a8-83d0-4a45-a25a-2561002892ed
+    - 491539c9-d05a-43a7-a6e0-f9396468af3c
+    - 4b82c1eb-354c-449c-bb05-3720611184dd
+    - 54c14fb3-a569-4def-9946-f8d0d691313f
+    - 5bc0992b-0cd3-47fa-8e6e-7418395bb527
+    - 5c11f7c3-dc76-41e6-9ad4-23c2864f4333
+    - 6c644b31-b609-4634-878e-ac3b3fe5b233
+    - 6e7859c1-0603-4272-a18f-eaccbde596a6
+    - 773c7dfa-56ad-42b3-bf05-a0ed142febe7
+    - 87fc7f0b-7519-45e9-980c-31ba6451099d
+    - 91a535fd-82d2-42ee-9b85-cf20443cd846
+    - 921c24e9-cd57-40ab-aeb7-732af2fc105d
+    - 93020243-dc6e-4032-badc-8fc6ac4e8df8
+    - 98ef4dc1-eb46-457f-817d-e0bd43df2e9f
+    - 9af1ffa0-2db7-4650-9ed4-7f9a21d45dad
+    - a3426156-7055-4d68-a17a-9fed039715f1
+    - a9eb9a2c-c3be-4a73-811d-16229370e01c
+    - abc14ac2-48b9-4ee5-8903-07feb2bc460e
+    - b269e789-94a9-48a6-8b78-5f03daeaba4c
+    - b6702e6f-324e-456c-9a6b-dc975708eb41
+    - b9e9f349-5480-4f5f-9300-e0a52a107e8b
+    - c3af495a-6bf0-42a6-8750-a835ef237cc0
+    - c5f8cda2-6a28-4175-9552-64363c857cde
+    - e4bd29aa-9e84-4cf1-87a7-e81e877f361a
+    - e5120042-0cd8-4f05-bd3d-805946559fc2
+    - fcc8929d-bb14-42b0-ae23-e03960cf5ead
+
+  menu_link_content:
+    - 06f981f5-afc7-40e2-8a03-6dc62928b80d
+    - 0732ffae-10f0-467e-a2a5-5026c02f2e39
+    - 0827d1cf-cd63-47b2-b059-ddc7bb97fb47
+    - 0d74c663-7fb2-4460-ad25-f33ed3df327c
+    - 0daba95a-1542-4171-b432-5ee14c7af8a1
+    - 13576174-cf11-4c88-896a-a0f626e0748b
+    - 13be8e74-4164-4209-bff8-3764c79e9af6
+    - 1e354dd8-c6fd-4e5f-be59-304ca0bbb2c4
+    - 2246df37-5535-49d7-b9f2-9cc462a5b6cd
+    - 2b70da10-1ab1-46d3-92d1-0ac1eb7dd531
+    - 2c399495-a191-4ffe-8d00-992accbb2b98
+    - 31ba2051-ed3f-4f1c-bd9e-5d9e9bd05320
+    - 3844adc0-ebdc-4ee3-b94b-dae7631254e7
+    - 39efed2a-6235-4116-a4fc-27365f1229da
+    - 3dd1a11a-4202-48da-9eed-367f62d392d5
+    - 4b161f93-372d-4699-9008-6a18e1b3ab56
+    - 61b45005-b895-48ff-9853-04fd3932c716
+    - 7cbde368-072b-403a-ae76-0d2646d1791e
+    - 8cdab70e-c6a4-4afe-9c80-cf41ca14be2e
+    - 9127e573-6a69-401b-8f9b-e6134aeda73e
+    - aca3b4b1-c94e-44b9-8959-a173949f42f8
+    - ace0f469-30c5-453f-82c2-e49e7f0afe76
+    - b22e73d8-179f-4ab1-9e20-735359ece8c8
+    - cada2432-5931-427c-a134-dbbbbab5f882
+    - d01f975a-bad7-4ab4-ae98-c5055f8f3ae3
+    - d0d6df6e-719d-406c-af74-10cd6e681720
+    - d2679e4c-c4c9-4e3e-85e4-faccf08b6769
+    - d435e120-c4e4-4fde-9389-b6973fbb2b47
+    - d8ccdcad-ce6b-4305-98fc-3cc89a40f787
+    - dc30af9f-20e1-45a2-95a9-702cce85973b
+    - eb8876e7-584a-4f04-af6e-9a11f31abb47
+    - f5e0fe64-c9bf-4008-b405-c4d6843d4e7e
+    - fe05c2fd-7ed5-451d-926c-ed6eb29fc4ad
+

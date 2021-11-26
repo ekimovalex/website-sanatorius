@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: af3e62b0-3e4e-4ff5-b59d-6e806cbc538b
+  bundle: rooms_task_7_
+  default_langcode: en
+  depends:
+    4408f9ec-5791-4f13-b359-71721204bfcb: taxonomy_term
+    fee0d907-db49-46be-8846-81bc73b46f0a: taxonomy_term
+    4249fc97-fcc5-4914-9200-fc693927196c: taxonomy_term
+    5827c4c7-7bb6-4a69-9550-f69d416608b3: taxonomy_term
+    3152a3e3-792c-4133-9d37-97d5cd1a3d45: taxonomy_term
+    e5120042-0cd8-4f05-bd3d-805946559fc2: media
+    b6702e6f-324e-456c-9a6b-dc975708eb41: media
+    93020243-dc6e-4032-badc-8fc6ac4e8df8: media
+    b9e9f349-5480-4f5f-9300-e0a52a107e8b: media
+    abc14ac2-48b9-4ee5-8903-07feb2bc460e: media
+    91a535fd-82d2-42ee-9b85-cf20443cd846: media
+    54c14fb3-a569-4def-9946-f8d0d691313f: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Room 225'
+  created:
+    -
+      value: 1631247629
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /all-rooms/room-225
+      langcode: en
+      pathauto: 1
+  field_additionally:
+    -
+      entity: 4408f9ec-5791-4f13-b359-71721204bfcb
+    -
+      entity: fee0d907-db49-46be-8846-81bc73b46f0a
+    -
+      entity: 4249fc97-fcc5-4914-9200-fc693927196c
+  field_category:
+    -
+      entity: 5827c4c7-7bb6-4a69-9550-f69d416608b3
+    -
+      entity: 3152a3e3-792c-4133-9d37-97d5cd1a3d45
+  field_cost:
+    -
+      value: 64
+  field_description_7:
+    -
+      value: 'This single room has a soundproofing, satellite TV and air conditioning.'
+      format: basic_html
+  field_photos:
+    -
+      entity: e5120042-0cd8-4f05-bd3d-805946559fc2
+    -
+      entity: b6702e6f-324e-456c-9a6b-dc975708eb41
+    -
+      entity: 93020243-dc6e-4032-badc-8fc6ac4e8df8
+    -
+      entity: b9e9f349-5480-4f5f-9300-e0a52a107e8b
+    -
+      entity: abc14ac2-48b9-4ee5-8903-07feb2bc460e
+    -
+      entity: 91a535fd-82d2-42ee-9b85-cf20443cd846
+  field_preview:
+    -
+      entity: 54c14fb3-a569-4def-9946-f8d0d691313f

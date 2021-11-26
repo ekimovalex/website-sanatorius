@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: c46e6060-13a2-48ea-90fa-fde99a13d542
+  bundle: rooms
+  default_langcode: en
+  depends:
+    fcc8929d-bb14-42b0-ae23-e03960cf5ead: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: Rooms
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  field_de:
+    -
+      value: "<p class=\"descr-rooms\">On the territory of the Hotel In the Woods there are three bedroom buildings.<br />\r\n<br />\r\nGuests are accommodated in two-story buildings of the class \"economy\" designed for four people in a room and in four-story buildings in<br />\r\none and two-room apartments of the class «mini», «mini +», «standard», «standard +», «comfort», «сomfort +».</p>\r\n"
+      format: full_html
+  field_image:
+    -
+      entity: fcc8929d-bb14-42b0-ae23-e03960cf5ead
+  field_slider:
+    -
+      target_id: slider_rooms
+      display_id: default
+      argument: ''
+      title: '0'
+      data: ''
+  field_title:
+    -
+      value: '<p class="title-rooms">Rooms</p>'
+      format: full_html

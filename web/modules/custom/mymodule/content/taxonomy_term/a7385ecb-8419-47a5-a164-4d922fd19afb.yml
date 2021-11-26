@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a7385ecb-8419-47a5-a164-4d922fd19afb
+  bundle: categories
+  default_langcode: en
+  depends:
+    6c644b31-b609-4634-878e-ac3b3fe5b233: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Room "Standart"'
+  description:
+    -
+      value: "<p>Description of Room \"Standart\"</p>\r\n"
+      format: basic_html
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/room-standart-0
+      langcode: en
+      pathauto: 1
+  field_im:
+    -
+      entity: 6c644b31-b609-4634-878e-ac3b3fe5b233
+  field_m:
+    -
+      value: 90
+  field_sh:
+    -
+      value: 'Short description #3'
+      format: basic_html

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 18db8aa1-8436-4a3c-a63a-3fa780b35a0e
+  bundle: image
+  default_langcode: en
+  depends:
+    bfadbc1f-a197-4a8a-b720-426167d7bf5e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'image 7 (8).png'
+  created:
+    -
+      value: 1631248277
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: bfadbc1f-a197-4a8a-b720-426167d7bf5e
+      alt: '132'
+      title: ''
+      width: 280
+      height: 361

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8356e419-6341-401b-801d-0002c0f76642
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_AqwUqV.gif
+  uri:
+    -
+      value: 'public://2021-09/generateImage_AqwUqV.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 4155
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

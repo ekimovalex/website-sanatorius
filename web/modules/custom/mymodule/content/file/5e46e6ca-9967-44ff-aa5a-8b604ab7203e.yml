@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5e46e6ca-9967-44ff-aa5a-8b604ab7203e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_a5sjla.png
+  uri:
+    -
+      value: 'public://2021-09/generateImage_a5sjla.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1638
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c3af495a-6bf0-42a6-8750-a835ef237cc0
+  bundle: image
+  default_langcode: en
+  depends:
+    8ea8f7d5-4914-4231-b688-04ebf5950d2b: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Room %22Comfort%22 +_0.jpg'
+  created:
+    -
+      value: 1632479505
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 8ea8f7d5-4914-4231-b688-04ebf5950d2b
+      alt: 'Comfort +'
+      title: ''
+      width: 1920
+      height: 1080

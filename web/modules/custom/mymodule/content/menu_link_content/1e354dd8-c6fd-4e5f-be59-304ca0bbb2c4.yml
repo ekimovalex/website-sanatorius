@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 1e354dd8-c6fd-4e5f-be59-304ca0bbb2c4
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    d0d6df6e-719d-406c-af74-10cd6e681720: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Accommodation
+  menu_name:
+    -
+      value: footer-page
+  link:
+    -
+      uri: 'internal:#'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:d0d6df6e-719d-406c-af74-10cd6e681720'
+  revision_translation_affected:
+    -
+      value: true

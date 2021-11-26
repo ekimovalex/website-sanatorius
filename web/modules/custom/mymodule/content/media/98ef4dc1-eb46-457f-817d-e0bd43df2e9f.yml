@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 98ef4dc1-eb46-457f-817d-e0bd43df2e9f
+  bundle: image
+  default_langcode: en
+  depends:
+    40126c53-e3c6-442a-aa9c-2229490cd41a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'Decet Facilisi Olim'
+  created:
+    -
+      value: 1630675477
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_media_image:
+    -
+      entity: 40126c53-e3c6-442a-aa9c-2229490cd41a
+      alt: 'Commodo eu humo immitto iustum jugis melior sudo venio vindico.'
+      title: 'Abluo defui importunus iusto mos nunc praemitto refero rusticus vel.'
+      width: 195
+      height: 346

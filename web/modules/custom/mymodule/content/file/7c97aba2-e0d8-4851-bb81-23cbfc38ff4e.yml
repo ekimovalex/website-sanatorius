@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7c97aba2-e0d8-4851-bb81-23cbfc38ff4e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Room 1.png'
+  uri:
+    -
+      value: 'public://2021-09/Room 1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 169196
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1631247958

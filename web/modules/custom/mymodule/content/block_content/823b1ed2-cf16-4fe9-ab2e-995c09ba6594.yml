@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 823b1ed2-cf16-4fe9-ab2e-995c09ba6594
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Footer info'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div class=\"footer-info\">\r\n<div class=\"footer-contact-us\">\r\n<p class=\"footer-contact-us-title\">Contact us</p>\r\n\r\n<p class=\"footer-num-1\"><a href=\"tel:+79876543210\" style=\"text-decoration: none;\">+7 (987) 654-32-10</a></p>\r\n\r\n<p class=\"footer-num-2\"><a href=\"tel:+70123456789\" style=\"text-decoration: none;\">+7 (012) 345-67-89</a></p>\r\n</div>\r\n\r\n<div class=\"footer-location\">\r\n<p class=\"footer-location-title\">Location</p>\r\n\r\n<p class=\"footer-location-addres\"><a href=\"https://yandex.ru/maps/-/CCUueBRcgB\" style=\"text-decoration: none;\" target=\"_blank\">Omsk city, Primernaya street, 24/1</a></p>\r\n</div>\r\n\r\n<div class=\"footer-email\">\r\n<p class=\"footer-email-title\">E-mail</p>\r\n\r\n<p class=\"footer-email-email\"><a href=\"mailto:sales@example.com\" style=\"text-decoration: none;\" target=\"_blank\">sales@example.com</a></p>\r\n</div>\r\n\r\n<div class=\"footer-soc\">\r\n<p class=\"inst-footer\">&nbsp;</p>\r\n\r\n<p class=\"footer-facebook\">&nbsp;</p>\r\n\r\n<p class=\"in-footer\">&nbsp;</p>\r\n\r\n<p class=\"twitter-footer\">&nbsp;</p>\r\n</div>\r\n</div>\r\n"
+      format: full_html
+      summary: ''

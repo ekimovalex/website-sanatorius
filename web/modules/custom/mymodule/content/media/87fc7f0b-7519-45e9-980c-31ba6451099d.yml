@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 87fc7f0b-7519-45e9-980c-31ba6451099d
+  bundle: image
+  default_langcode: en
+  depends:
+    fe85a4c5-719c-45ec-b0ea-79340b218322: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Amet Illum Nulla Patria'
+  created:
+    -
+      value: 1630111368
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_media_image:
+    -
+      entity: fe85a4c5-719c-45ec-b0ea-79340b218322
+      alt: 'Abdo nunc plaga proprius refoveo.'
+      title: 'Bene blandit jumentum ludus molior odio.'
+      width: 233
+      height: 435

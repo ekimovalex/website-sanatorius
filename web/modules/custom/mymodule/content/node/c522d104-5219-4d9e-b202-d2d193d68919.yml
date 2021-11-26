@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c522d104-5219-4d9e-b202-d2d193d68919
+  bundle: page
+  default_langcode: en
+  depends:
+    9af1ffa0-2db7-4650-9ed4-7f9a21d45dad: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Sanatorius
+  created:
+    -
+      value: 1637063307
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /node/966
+      langcode: en
+      pathauto: 0
+  field_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 03002145-1837-4a71-82d3-d13ec5342eb6
+          bundle: image_title_discr
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1637126735
+          behavior_settings:
+            -
+              value: {  }
+          field_description:
+            -
+              value: "<div class=\"details__descr\">We invite you to wander in the relict and pine forests that extend for many<br />\r\nhectares in our Hotel In the Woods.<br />\r\n<br />\r\nThanks to the local river, the air here is saturated with air ions and it makes is<br />\r\nsomewhat similar to marine air.<br />\r\n<br />\r\nThis air delights and heals at the same time as it's almost sterile.</div>\r\n"
+              format: full_html
+          field_image:
+            -
+              entity: 9af1ffa0-2db7-4650-9ed4-7f9a21d45dad
+          field_link:
+            -
+              uri: 'internal:/categories'
+              title: 'More details'
+              options: {  }
+          field_title:
+            -
+              value: '<div class="details__title">A place to relax</div>'
+              format: full_html

@@ -1,0 +1,91 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d690d804-412e-4945-9eaa-f8be3f24c9d8
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Contacts
+  created:
+    -
+      value: 1637142969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /contacts
+      langcode: en
+      pathauto: 0
+  field_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 91b8eb0a-1c03-4247-b1a2-e9fcc183ebaf
+          bundle: contacts
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1637142972
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_info:
+            -
+              plugin_id: 'block_content:823b1ed2-cf16-4fe9-ab2e-995c09ba6594'
+              settings:
+                id: 'block_content:823b1ed2-cf16-4fe9-ab2e-995c09ba6594'
+                label: 'Footer info'
+                provider: block_content
+                label_display: false
+                status: true
+                info: ''
+                view_mode: full
+          field_map:
+            -
+              plugin_id: 'block_content:2487f7f9-5004-4913-81d3-0635b6486da1'
+              settings:
+                id: 'block_content:2487f7f9-5004-4913-81d3-0635b6486da1'
+                label: 'Yandex map'
+                provider: block_content
+                label_display: false
+                status: true
+                info: ''
+                view_mode: full
+          field_t:
+            -
+              value: '<div class="contacts__title">Contacts</div>'
+              format: full_html
+          field_webform:
+            -
+              target_id: contacts
+              default_data: ''
+              status: open
+              open: ''
+              close: ''

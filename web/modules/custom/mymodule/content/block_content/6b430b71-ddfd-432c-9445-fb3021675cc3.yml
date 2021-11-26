@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 6b430b71-ddfd-432c-9445-fb3021675cc3
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Popup button'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<p class=\"fixedbut\"><a class=\"webform-dialog webform-dialog-narrow button\" href=\"/form/book-now\">Book now</a></p>\r\n"
+      format: full_html
+      summary: ''

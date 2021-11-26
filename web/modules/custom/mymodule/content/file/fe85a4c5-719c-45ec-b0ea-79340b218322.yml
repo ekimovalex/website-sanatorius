@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fe85a4c5-719c-45ec-b0ea-79340b218322
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_iqr5g5.png
+  uri:
+    -
+      value: 'public://2021-09/generateImage_iqr5g5.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1273
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

@@ -1,0 +1,84 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8d227423-87e9-4c3f-8439-9f4d5bcdc0ed
+  bundle: rooms_task_7_
+  default_langcode: en
+  depends:
+    4408f9ec-5791-4f13-b359-71721204bfcb: taxonomy_term
+    9c98d416-69c0-489c-b462-a4569bc50700: taxonomy_term
+    fee0d907-db49-46be-8846-81bc73b46f0a: taxonomy_term
+    e352fd77-1591-4c3c-9051-21faa6af6e05: taxonomy_term
+    4249fc97-fcc5-4914-9200-fc693927196c: taxonomy_term
+    2745903b-f572-4644-be27-58634be6e6fc: taxonomy_term
+    3152a3e3-792c-4133-9d37-97d5cd1a3d45: taxonomy_term
+    921c24e9-cd57-40ab-aeb7-732af2fc105d: media
+    e5120042-0cd8-4f05-bd3d-805946559fc2: media
+    b9e9f349-5480-4f5f-9300-e0a52a107e8b: media
+    773c7dfa-56ad-42b3-bf05-a0ed142febe7: media
+    98ef4dc1-eb46-457f-817d-e0bd43df2e9f: media
+    5bc0992b-0cd3-47fa-8e6e-7418395bb527: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Room 777'
+  created:
+    -
+      value: 1631248700
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /all-rooms/room-777
+      langcode: en
+      pathauto: 1
+  field_additionally:
+    -
+      entity: 4408f9ec-5791-4f13-b359-71721204bfcb
+    -
+      entity: 9c98d416-69c0-489c-b462-a4569bc50700
+    -
+      entity: fee0d907-db49-46be-8846-81bc73b46f0a
+    -
+      entity: e352fd77-1591-4c3c-9051-21faa6af6e05
+    -
+      entity: 4249fc97-fcc5-4914-9200-fc693927196c
+  field_category:
+    -
+      entity: 2745903b-f572-4644-be27-58634be6e6fc
+    -
+      entity: 3152a3e3-792c-4133-9d37-97d5cd1a3d45
+  field_cost:
+    -
+      value: 777
+  field_description_7:
+    -
+      value: 'This single room has a soundproofing, satellite TV and air conditioning.'
+      format: basic_html
+  field_photos:
+    -
+      entity: 921c24e9-cd57-40ab-aeb7-732af2fc105d
+    -
+      entity: e5120042-0cd8-4f05-bd3d-805946559fc2
+    -
+      entity: b9e9f349-5480-4f5f-9300-e0a52a107e8b
+    -
+      entity: 773c7dfa-56ad-42b3-bf05-a0ed142febe7
+    -
+      entity: 98ef4dc1-eb46-457f-817d-e0bd43df2e9f
+  field_preview:
+    -
+      entity: 5bc0992b-0cd3-47fa-8e6e-7418395bb527

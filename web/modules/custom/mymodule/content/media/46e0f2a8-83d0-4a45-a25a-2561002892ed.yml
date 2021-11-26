@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 46e0f2a8-83d0-4a45-a25a-2561002892ed
+  bundle: image
+  default_langcode: en
+  depends:
+    a9d83e35-8157-4a0b-8f8c-06668db96c73: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'Iaceo Refero Refoveo Vindico'
+  created:
+    -
+      value: 1630639795
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_media_image:
+    -
+      entity: a9d83e35-8157-4a0b-8f8c-06668db96c73
+      alt: 'Distineo enim facilisi metuo persto.'
+      title: 'Patria pecus quadrum ratis refoveo tation typicus valetudo vindico.'
+      width: 507
+      height: 332

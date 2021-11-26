@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 179cc696-0cdf-4031-bc11-63dfa2cd40b9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_jUW80l.jpg
+  uri:
+    -
+      value: 'public://2021-09/generateImage_jUW80l.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4438
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

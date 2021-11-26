@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 93020243-dc6e-4032-badc-8fc6ac4e8df8
+  bundle: image
+  default_langcode: en
+  depends:
+    75b58ce3-4219-46a1-bcf1-5b0e460649c5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Interdico Veniam'
+  created:
+    -
+      value: 1630274095
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_media_image:
+    -
+      entity: 75b58ce3-4219-46a1-bcf1-5b0e460649c5
+      alt: 'Abluo aliquip in si vereor.'
+      title: 'Eum iusto lenis pagus quibus refoveo validus.'
+      width: 221
+      height: 498

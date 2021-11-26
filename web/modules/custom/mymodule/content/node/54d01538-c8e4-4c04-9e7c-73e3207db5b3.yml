@@ -1,0 +1,84 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 54d01538-c8e4-4c04-9e7c-73e3207db5b3
+  bundle: rooms_task_7_
+  default_langcode: en
+  depends:
+    c5294a6b-5f19-4d35-8645-5111af7cd0f3: taxonomy_term
+    4408f9ec-5791-4f13-b359-71721204bfcb: taxonomy_term
+    9c98d416-69c0-489c-b462-a4569bc50700: taxonomy_term
+    fee0d907-db49-46be-8846-81bc73b46f0a: taxonomy_term
+    2745903b-f572-4644-be27-58634be6e6fc: taxonomy_term
+    3152a3e3-792c-4133-9d37-97d5cd1a3d45: taxonomy_term
+    93020243-dc6e-4032-badc-8fc6ac4e8df8: media
+    a9eb9a2c-c3be-4a73-811d-16229370e01c: media
+    abc14ac2-48b9-4ee5-8903-07feb2bc460e: media
+    e5120042-0cd8-4f05-bd3d-805946559fc2: media
+    2f13c6fb-f0d7-4722-b138-16e048481daf: media
+    921c24e9-cd57-40ab-aeb7-732af2fc105d: media
+    18db8aa1-8436-4a3c-a63a-3fa780b35a0e: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Room 132'
+  created:
+    -
+      value: 1631248218
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /all-rooms/room-132
+      langcode: en
+      pathauto: 1
+  field_additionally:
+    -
+      entity: c5294a6b-5f19-4d35-8645-5111af7cd0f3
+    -
+      entity: 4408f9ec-5791-4f13-b359-71721204bfcb
+    -
+      entity: 9c98d416-69c0-489c-b462-a4569bc50700
+    -
+      entity: fee0d907-db49-46be-8846-81bc73b46f0a
+  field_category:
+    -
+      entity: 2745903b-f572-4644-be27-58634be6e6fc
+    -
+      entity: 3152a3e3-792c-4133-9d37-97d5cd1a3d45
+  field_cost:
+    -
+      value: 150
+  field_description_7:
+    -
+      value: 'This single room has a soundproofing, satellite TV and air conditioning.'
+      format: basic_html
+  field_photos:
+    -
+      entity: 93020243-dc6e-4032-badc-8fc6ac4e8df8
+    -
+      entity: a9eb9a2c-c3be-4a73-811d-16229370e01c
+    -
+      entity: abc14ac2-48b9-4ee5-8903-07feb2bc460e
+    -
+      entity: e5120042-0cd8-4f05-bd3d-805946559fc2
+    -
+      entity: 2f13c6fb-f0d7-4722-b138-16e048481daf
+    -
+      entity: 921c24e9-cd57-40ab-aeb7-732af2fc105d
+  field_preview:
+    -
+      entity: 18db8aa1-8436-4a3c-a63a-3fa780b35a0e

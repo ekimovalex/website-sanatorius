@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 3dd1a11a-4202-48da-9eed-367f62d392d5
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    cada2432-5931-427c-a134-dbbbbab5f882: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Standard +'
+  menu_name:
+    -
+      value: footer-page
+  link:
+    -
+      uri: 'internal:#'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -47
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:cada2432-5931-427c-a134-dbbbbab5f882'
+  revision_translation_affected:
+    -
+      value: true
