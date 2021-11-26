@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3becfe84-22dc-4834-895c-47bcccf1b34a
+  bundle: image
+  default_langcode: en
+  depends:
+    69adfc9c-21ca-4d6b-aee4-6459938e493d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'Immitto Inhibeo'
+  created:
+    -
+      value: 1630598290
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_media_image:
+    -
+      entity: 69adfc9c-21ca-4d6b-aee4-6459938e493d
+      alt: 'Autem damnum distineo ideo lenis meus occuro olim tum.'
+      title: 'Commoveo humo luptatum quae.'
+      width: 308
+      height: 339

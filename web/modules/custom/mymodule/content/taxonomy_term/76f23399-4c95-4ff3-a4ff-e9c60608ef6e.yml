@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 76f23399-4c95-4ff3-a4ff-e9c60608ef6e
+  bundle: tags
+  default_langcode: en
+  depends:
+    c94c9bdd-fb66-491b-96f2-9ae071a7e07f: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: code
+  description:
+    -
+      value: 'Description of code (depth 2)'
+      format: ''
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      entity: c94c9bdd-fb66-491b-96f2-9ae071a7e07f
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

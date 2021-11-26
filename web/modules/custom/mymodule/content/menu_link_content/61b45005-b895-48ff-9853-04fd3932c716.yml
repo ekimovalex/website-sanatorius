@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 61b45005-b895-48ff-9853-04fd3932c716
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    cada2432-5931-427c-a134-dbbbbab5f882: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Comfort
+  menu_name:
+    -
+      value: footer-page
+  link:
+    -
+      uri: 'internal:#'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -46
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:cada2432-5931-427c-a134-dbbbbab5f882'
+  revision_translation_affected:
+    -
+      value: true

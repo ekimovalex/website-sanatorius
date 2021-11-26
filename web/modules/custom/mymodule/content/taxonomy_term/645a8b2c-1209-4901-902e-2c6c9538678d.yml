@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 645a8b2c-1209-4901-902e-2c6c9538678d
+  bundle: tags
+  default_langcode: en
+  depends:
+    c6fea695-263b-40a8-81a0-d7cb0b33634a: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: shutikestuw
+  description:
+    -
+      value: 'Description of shutikestuw (depth 2)'
+      format: ''
+  weight:
+    -
+      value: 10
+  parent:
+    -
+      entity: c6fea695-263b-40a8-81a0-d7cb0b33634a
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

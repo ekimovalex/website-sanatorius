@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a9eb9a2c-c3be-4a73-811d-16229370e01c
+  bundle: image
+  default_langcode: en
+  depends:
+    5e46e6ca-9967-44ff-aa5a-8b604ab7203e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Defui Haero Inhibeo Sino'
+  created:
+    -
+      value: 1630176120
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_media_image:
+    -
+      entity: 5e46e6ca-9967-44ff-aa5a-8b604ab7203e
+      alt: 'Accumsan ad huic refoveo typicus usitas.'
+      title: 'Diam fere lobortis plaga torqueo.'
+      width: 481
+      height: 290

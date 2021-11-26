@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 030c4656-666b-4407-9c19-8076944d5727
+  bundle: image
+  default_langcode: en
+  depends:
+    ecb2442c-a5bf-499d-95b4-702e45f61e34: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Room %22Mini%22_1.jpg'
+  created:
+    -
+      value: 1632479432
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: ecb2442c-a5bf-499d-95b4-702e45f61e34
+      alt: Mini
+      title: ''
+      width: 1920
+      height: 1080

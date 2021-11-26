@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d62900a0-04ac-4d87-a8cb-e2f0b5808ce5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'image 7 (3).png'
+  uri:
+    -
+      value: 'public://2021-09/image 7 (3)_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 164596
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1631248496

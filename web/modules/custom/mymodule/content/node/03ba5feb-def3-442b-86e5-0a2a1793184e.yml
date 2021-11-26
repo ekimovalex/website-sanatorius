@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 03ba5feb-def3-442b-86e5-0a2a1793184e
+  bundle: webform
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'My Contact form'
+  created:
+    -
+      value: 1630302409
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /contact-us
+      langcode: en
+      pathauto: 0
+  webform:
+    -
+      target_id: contact_us
+      default_data: ''
+      status: open
+      open: ''
+      close: ''

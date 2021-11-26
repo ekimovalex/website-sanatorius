@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8ea8f7d5-4914-4231-b688-04ebf5950d2b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Room %22Comfort%22 +_0.jpg'
+  uri:
+    -
+      value: 'public://2021-09/Room %22Comfort%22 +_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 614236
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1632479509

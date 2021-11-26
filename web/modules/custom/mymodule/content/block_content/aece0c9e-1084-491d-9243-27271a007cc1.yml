@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: aece0c9e-1084-491d-9243-27271a007cc1
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'link contact us'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<p><a class=\"webform-dialog webform-dialog-narrow button\" href=\"/contact-us\">Contact-us</a></p>\r\n"
+      format: full_html
+      summary: ''

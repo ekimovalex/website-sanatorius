@@ -1,0 +1,75 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a7f5f3a5-3651-4fc6-a66f-deaf19b3e97b
+  bundle: rooms_task_7_
+  default_langcode: en
+  depends:
+    4408f9ec-5791-4f13-b359-71721204bfcb: taxonomy_term
+    e352fd77-1591-4c3c-9051-21faa6af6e05: taxonomy_term
+    a7385ecb-8419-47a5-a164-4d922fd19afb: taxonomy_term
+    5448dcad-c9f1-4c4c-96de-2fe8af41a166: taxonomy_term
+    3becfe84-22dc-4834-895c-47bcccf1b34a: media
+    46e0f2a8-83d0-4a45-a25a-2561002892ed: media
+    773c7dfa-56ad-42b3-bf05-a0ed142febe7: media
+    e5120042-0cd8-4f05-bd3d-805946559fc2: media
+    98ef4dc1-eb46-457f-817d-e0bd43df2e9f: media
+    6e7859c1-0603-4272-a18f-eaccbde596a6: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Room 69'
+  created:
+    -
+      value: 1631248452
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /all-rooms/room-69
+      langcode: en
+      pathauto: 1
+  field_additionally:
+    -
+      entity: 4408f9ec-5791-4f13-b359-71721204bfcb
+    -
+      entity: e352fd77-1591-4c3c-9051-21faa6af6e05
+  field_category:
+    -
+      entity: a7385ecb-8419-47a5-a164-4d922fd19afb
+    -
+      entity: 5448dcad-c9f1-4c4c-96de-2fe8af41a166
+  field_cost:
+    -
+      value: 99
+  field_description_7:
+    -
+      value: 'This single room has a soundproofing, satellite TV and air conditioning.'
+      format: basic_html
+  field_photos:
+    -
+      entity: 3becfe84-22dc-4834-895c-47bcccf1b34a
+    -
+      entity: 46e0f2a8-83d0-4a45-a25a-2561002892ed
+    -
+      entity: 773c7dfa-56ad-42b3-bf05-a0ed142febe7
+    -
+      entity: e5120042-0cd8-4f05-bd3d-805946559fc2
+    -
+      entity: 98ef4dc1-eb46-457f-817d-e0bd43df2e9f
+  field_preview:
+    -
+      entity: 6e7859c1-0603-4272-a18f-eaccbde596a6

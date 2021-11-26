@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1ef7130a-3555-486e-8f54-b1d7f75a1736
+  bundle: rooms_task_7_
+  default_langcode: en
+  depends:
+    c5294a6b-5f19-4d35-8645-5111af7cd0f3: taxonomy_term
+    4408f9ec-5791-4f13-b359-71721204bfcb: taxonomy_term
+    37a10d9b-34ec-4167-828f-5fac1a02f716: taxonomy_term
+    5448dcad-c9f1-4c4c-96de-2fe8af41a166: taxonomy_term
+    e5120042-0cd8-4f05-bd3d-805946559fc2: media
+    3becfe84-22dc-4834-895c-47bcccf1b34a: media
+    2f13c6fb-f0d7-4722-b138-16e048481daf: media
+    98ef4dc1-eb46-457f-817d-e0bd43df2e9f: media
+    abc14ac2-48b9-4ee5-8903-07feb2bc460e: media
+    b9e9f349-5480-4f5f-9300-e0a52a107e8b: media
+    3058569e-15af-417d-bb76-23d176b9220c: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Room 1'
+  created:
+    -
+      value: 1631247913
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /all-rooms/room-1
+      langcode: en
+      pathauto: 1
+  field_additionally:
+    -
+      entity: c5294a6b-5f19-4d35-8645-5111af7cd0f3
+    -
+      entity: 4408f9ec-5791-4f13-b359-71721204bfcb
+  field_category:
+    -
+      entity: 37a10d9b-34ec-4167-828f-5fac1a02f716
+    -
+      entity: 5448dcad-c9f1-4c4c-96de-2fe8af41a166
+  field_cost:
+    -
+      value: 73
+  field_description_7:
+    -
+      value: 'This single room has a soundproofing, satellite TV and air conditioning.'
+      format: basic_html
+  field_photos:
+    -
+      entity: e5120042-0cd8-4f05-bd3d-805946559fc2
+    -
+      entity: 3becfe84-22dc-4834-895c-47bcccf1b34a
+    -
+      entity: 2f13c6fb-f0d7-4722-b138-16e048481daf
+    -
+      entity: 98ef4dc1-eb46-457f-817d-e0bd43df2e9f
+    -
+      entity: abc14ac2-48b9-4ee5-8903-07feb2bc460e
+    -
+      entity: b9e9f349-5480-4f5f-9300-e0a52a107e8b
+  field_preview:
+    -
+      entity: 3058569e-15af-417d-bb76-23d176b9220c

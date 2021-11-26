@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3058569e-15af-417d-bb76-23d176b9220c
+  bundle: image
+  default_langcode: en
+  depends:
+    7c97aba2-e0d8-4851-bb81-23cbfc38ff4e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Room 1.png'
+  created:
+    -
+      value: 1631247958
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 7c97aba2-e0d8-4851-bb81-23cbfc38ff4e
+      alt: '1'
+      title: ''
+      width: 280
+      height: 361

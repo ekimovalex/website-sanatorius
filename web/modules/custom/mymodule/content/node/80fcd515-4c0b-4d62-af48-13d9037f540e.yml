@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 80fcd515-4c0b-4d62-af48-13d9037f540e
+  bundle: rooms_task_7_
+  default_langcode: en
+  depends:
+    c5294a6b-5f19-4d35-8645-5111af7cd0f3: taxonomy_term
+    37a10d9b-34ec-4167-828f-5fac1a02f716: taxonomy_term
+    5448dcad-c9f1-4c4c-96de-2fe8af41a166: taxonomy_term
+    91a535fd-82d2-42ee-9b85-cf20443cd846: media
+    3138d118-120b-486d-9344-08998afb94a9: media
+    87fc7f0b-7519-45e9-980c-31ba6451099d: media
+    93020243-dc6e-4032-badc-8fc6ac4e8df8: media
+    a9eb9a2c-c3be-4a73-811d-16229370e01c: media
+    e4bd29aa-9e84-4cf1-87a7-e81e877f361a: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Room 56'
+  created:
+    -
+      value: 1631247780
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /all-rooms/room-56
+      langcode: en
+      pathauto: 1
+  field_additionally:
+    -
+      entity: c5294a6b-5f19-4d35-8645-5111af7cd0f3
+  field_category:
+    -
+      entity: 37a10d9b-34ec-4167-828f-5fac1a02f716
+    -
+      entity: 5448dcad-c9f1-4c4c-96de-2fe8af41a166
+  field_cost:
+    -
+      value: 70
+  field_description_7:
+    -
+      value: 'This single room has a soundproofing, satellite TV and air conditioning.'
+      format: basic_html
+  field_photos:
+    -
+      entity: 91a535fd-82d2-42ee-9b85-cf20443cd846
+    -
+      entity: 3138d118-120b-486d-9344-08998afb94a9
+    -
+      entity: 87fc7f0b-7519-45e9-980c-31ba6451099d
+    -
+      entity: 93020243-dc6e-4032-badc-8fc6ac4e8df8
+    -
+      entity: a9eb9a2c-c3be-4a73-811d-16229370e01c
+  field_preview:
+    -
+      entity: e4bd29aa-9e84-4cf1-87a7-e81e877f361a

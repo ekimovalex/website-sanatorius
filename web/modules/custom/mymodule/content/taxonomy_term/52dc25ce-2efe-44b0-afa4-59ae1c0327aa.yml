@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 52dc25ce-2efe-44b0-afa4-59ae1c0327aa
+  bundle: tags
+  default_langcode: en
+  depends:
+    16fb57dc-51e1-46ea-b15e-6728866eab71: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: wrocla
+  description:
+    -
+      value: 'Description of wrocla (depth 2)'
+      format: ''
+  weight:
+    -
+      value: 8
+  parent:
+    -
+      entity: 16fb57dc-51e1-46ea-b15e-6728866eab71
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

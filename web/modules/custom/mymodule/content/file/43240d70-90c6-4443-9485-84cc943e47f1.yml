@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 43240d70-90c6-4443-9485-84cc943e47f1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_bPrvvf.jpeg
+  uri:
+    -
+      value: 'public://2021-09/generateImage_bPrvvf.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2932
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

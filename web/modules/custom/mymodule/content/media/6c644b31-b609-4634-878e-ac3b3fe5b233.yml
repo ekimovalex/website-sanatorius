@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6c644b31-b609-4634-878e-ac3b3fe5b233
+  bundle: image
+  default_langcode: en
+  depends:
+    435f9e30-b346-4964-942a-134a15e0fcc9: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Room %22Standart%22_0.jpg'
+  created:
+    -
+      value: 1632479462
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 435f9e30-b346-4964-942a-134a15e0fcc9
+      alt: Standart
+      title: ''
+      width: 2048
+      height: 1365

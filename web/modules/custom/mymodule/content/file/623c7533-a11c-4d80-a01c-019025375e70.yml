@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 623c7533-a11c-4d80-a01c-019025375e70
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_DimT0h.png
+  uri:
+    -
+      value: 'public://2021-09/generateImage_DimT0h.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 900
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

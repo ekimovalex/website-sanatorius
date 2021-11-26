@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8a82f2c1-8799-419d-9054-41cd6f1bbe3f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_wnn5i0.png
+  uri:
+    -
+      value: 'public://2021-09/generateImage_wnn5i0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1763
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

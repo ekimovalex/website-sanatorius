@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 40126c53-e3c6-442a-aa9c-2229490cd41a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_N4Mm1L.png
+  uri:
+    -
+      value: 'public://2021-09/generateImage_N4Mm1L.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1086
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

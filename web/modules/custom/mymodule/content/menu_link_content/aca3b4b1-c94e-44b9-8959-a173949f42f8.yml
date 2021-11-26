@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: aca3b4b1-c94e-44b9-8959-a173949f42f8
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    d01f975a-bad7-4ab4-ae98-c5055f8f3ae3: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Standart +'
+  menu_name:
+    -
+      value: navbar
+  link:
+    -
+      uri: 'internal:/category/room-standart-0'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -47
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:d01f975a-bad7-4ab4-ae98-c5055f8f3ae3'
+  revision_translation_affected:
+    -
+      value: true

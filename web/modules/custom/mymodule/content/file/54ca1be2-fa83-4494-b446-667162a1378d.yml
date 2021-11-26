@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 54ca1be2-fa83-4494-b446-667162a1378d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Room 225.png'
+  uri:
+    -
+      value: 'public://2021-09/Room 225.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 194406
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1631247716

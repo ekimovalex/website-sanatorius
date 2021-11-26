@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 37a10d9b-34ec-4167-828f-5fac1a02f716
+  bundle: categories
+  default_langcode: en
+  depends:
+    030c4656-666b-4407-9c19-8076944d5727: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Room "Mini"'
+  description:
+    -
+      value: "<p>Description of Room \"Mini\"</p>\r\n"
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/room-mini-0
+      langcode: en
+      pathauto: 1
+  field_im:
+    -
+      entity: 030c4656-666b-4407-9c19-8076944d5727
+  field_m:
+    -
+      value: 70
+  field_sh:
+    -
+      value: 'Short description #1'
+      format: basic_html

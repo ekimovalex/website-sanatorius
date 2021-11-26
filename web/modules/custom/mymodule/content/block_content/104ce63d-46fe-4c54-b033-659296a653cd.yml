@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 104ce63d-46fe-4c54-b033-659296a653cd
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Phone number'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<a href=\"tel:+79876543210\" style=\"text-decoration: none;\"> <p class=\"phone_number\">+7 (987) 654-32-10</p></a>\r\n"
+      format: full_html
+      summary: ''

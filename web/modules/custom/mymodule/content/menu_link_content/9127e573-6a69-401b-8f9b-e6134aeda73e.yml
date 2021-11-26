@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 9127e573-6a69-401b-8f9b-e6134aeda73e
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    3844adc0-ebdc-4ee3-b94b-dae7631254e7: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: ' Business meetings'
+  menu_name:
+    -
+      value: footer-page
+  link:
+    -
+      uri: 'internal:#'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:3844adc0-ebdc-4ee3-b94b-dae7631254e7'
+  revision_translation_affected:
+    -
+      value: true

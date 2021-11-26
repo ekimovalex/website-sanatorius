@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4a2d0f41-b522-4f75-9dbc-dde32346ed52
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_3cI8rH.jpg
+  uri:
+    -
+      value: 'public://2021-09/generateImage_3cI8rH.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3682
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

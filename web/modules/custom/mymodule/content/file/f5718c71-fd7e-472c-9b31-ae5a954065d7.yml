@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f5718c71-fd7e-472c-9b31-ae5a954065d7
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_WRvaGQ.gif
+  uri:
+    -
+      value: 'public://2021-09/generateImage_WRvaGQ.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1800
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1630676294

@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d8114b81-58c3-46ee-9fce-65ddaf0b757a
+  bundle: rooms_task_7_
+  default_langcode: en
+  depends:
+    9c98d416-69c0-489c-b462-a4569bc50700: taxonomy_term
+    e352fd77-1591-4c3c-9051-21faa6af6e05: taxonomy_term
+    84e7f542-e026-439b-925e-497bc130cfd2: taxonomy_term
+    3152a3e3-792c-4133-9d37-97d5cd1a3d45: taxonomy_term
+    46e0f2a8-83d0-4a45-a25a-2561002892ed: media
+    773c7dfa-56ad-42b3-bf05-a0ed142febe7: media
+    98ef4dc1-eb46-457f-817d-e0bd43df2e9f: media
+    e5120042-0cd8-4f05-bd3d-805946559fc2: media
+    2f13c6fb-f0d7-4722-b138-16e048481daf: media
+    921c24e9-cd57-40ab-aeb7-732af2fc105d: media
+    b9e9f349-5480-4f5f-9300-e0a52a107e8b: media
+    e4bd29aa-9e84-4cf1-87a7-e81e877f361a: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Room 12'
+  created:
+    -
+      value: 1631248799
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /all-rooms/room-12
+      langcode: en
+      pathauto: 1
+  field_additionally:
+    -
+      entity: 9c98d416-69c0-489c-b462-a4569bc50700
+    -
+      entity: e352fd77-1591-4c3c-9051-21faa6af6e05
+  field_category:
+    -
+      entity: 84e7f542-e026-439b-925e-497bc130cfd2
+    -
+      entity: 3152a3e3-792c-4133-9d37-97d5cd1a3d45
+  field_cost:
+    -
+      value: 69
+  field_description_7:
+    -
+      value: 'This single room has a soundproofing, satellite TV and air conditioning.'
+      format: basic_html
+  field_photos:
+    -
+      entity: 46e0f2a8-83d0-4a45-a25a-2561002892ed
+    -
+      entity: 773c7dfa-56ad-42b3-bf05-a0ed142febe7
+    -
+      entity: 98ef4dc1-eb46-457f-817d-e0bd43df2e9f
+    -
+      entity: e5120042-0cd8-4f05-bd3d-805946559fc2
+    -
+      entity: 2f13c6fb-f0d7-4722-b138-16e048481daf
+    -
+      entity: 921c24e9-cd57-40ab-aeb7-732af2fc105d
+    -
+      entity: b9e9f349-5480-4f5f-9300-e0a52a107e8b
+  field_preview:
+    -
+      entity: e4bd29aa-9e84-4cf1-87a7-e81e877f361a

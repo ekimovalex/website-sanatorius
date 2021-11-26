@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 435f9e30-b346-4964-942a-134a15e0fcc9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Room %22Standart%22_0.jpg'
+  uri:
+    -
+      value: 'public://2021-09/Room %22Standart%22_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 417820
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1632479475

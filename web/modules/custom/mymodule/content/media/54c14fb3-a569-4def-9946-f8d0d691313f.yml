@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 54c14fb3-a569-4def-9946-f8d0d691313f
+  bundle: image
+  default_langcode: en
+  depends:
+    54ca1be2-fa83-4494-b446-667162a1378d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Room 225.png'
+  created:
+    -
+      value: 1631247716
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 54ca1be2-fa83-4494-b446-667162a1378d
+      alt: '225'
+      title: ''
+      width: 280
+      height: 361
