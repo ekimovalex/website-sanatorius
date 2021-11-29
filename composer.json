@@ -43,9 +43,9 @@
             "package": {
                 "name": "kenwheeler/slick",
                 "type": "drupal-library",
-                "version": "dev-master",
+                "version": "1.8.0",
                 "dist": {
-                    "url": "https://github.com/kenwheeler/slick/archive/master.zip",
+                    "url": "https://github.com/kenwheeler/slick/archive/1.8.0.zip",
                     "type": "zip"
                 }
             }
@@ -84,7 +84,7 @@
         "drupal/webprofiler": "^2.0@RC",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "jackmoore/colorbox": "dev-master",
-        "kenwheeler/slick": "^1.6",
+        "kenwheeler/slick": "^1.8.0",
         "oomphinc/composer-installers-extender": "^2.0",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
