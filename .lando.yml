@@ -1,7 +1,25 @@
 name: my-first-drupal8-app
 recipe: drupal8
 config:
-  webroot: ./web
-env_file:
-  - .env
-  
+  webroot: web
+  xdebug: true
+  conf:
+      php: .vscode/php.ini
+  services:
+    appserver:
+      overrides:
+        environment:
+          # Support debugging Drush with XDEBUG.
+          PHP_IDE_CONFIG: "serverName=appserver"
+    mailhog:
+      type: mailhog
+      portforward: true
+      hogfrom:
+        - appserver
+  tooling:
+    phpunit:
+      service: appserver
+      cmd: /app/web/vendor/bin/phpunit
+    phpcs:
+      service: appserver
+      cmd: /app/vendor/bin/phpcs
