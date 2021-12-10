@@ -1,0 +1,59 @@
+<?php
+
+/* @file
+ * Main file for hooks and custom functions.
+ */
+
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Cache\Cache;
+
+/**
+ * Implements hook_entity_extra_field_info().
+ */
+function dummy_entity_extra_field_info() {
+  $extra = [];
+  $extra['taxonomy_term']['categories']['display']['field_m'] = [
+    'label' => t('Minimal price extra'),
+    'description' => t('Displays the min price'),
+    'weight' => 0,
+  ];
+  return $extra;
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+function dummy_taxonomy_term_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
+  if ($display -> getComponent('field_m')) {
+    $tid = $entity -> id();
+    $nodes = \Drupal::entityTypeManager()
+      ->getStorage('node')
+      ->loadByProperties(
+        [
+          'field_category' => $tid,
+          'type' => 'rooms_task_7_',
+        ]
+      );
+    if (!empty($nodes)) {
+      $field_m = array_shift($nodes)->field_cost->value;
+      foreach ($nodes as $node) {
+        $price = $node->field_cost->value;
+        if ($price < $field_m) {
+          $field_m = $price;
+        }
+      }
+     $value = t('Starting from $@field_m', ['@field_m' => (int) $field_m]);
+    }
+    else {
+      $value = t('Temporarily unavailable');
+    }
+    $build['field_m'] = [
+      '#type' => 'markup',
+      '#markup' => '<div class="field field--name-field-m field--type-integer field--label-hidden field__item quickedit-field">' . $value . '</div>',
+      '#cache' => [
+        'tags' => ['node_list'],
+      ],
+    ];
+  }
+}

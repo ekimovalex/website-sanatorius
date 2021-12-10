@@ -22,7 +22,7 @@
 
 #block-navbar .menu-header li a {
   text-decoration: none;
-  color: #000;    
+  color: #000;
 }
 
 #block-navbar .menu-header li a:hover {
@@ -34,7 +34,7 @@
   flex-direction: column;
   padding-left: 17px;
   padding-right: 42px;
-  padding-top: 33px; 
+  padding-top: 33px;
   position: absolute;
   background: #F8F8F8;
   z-index: 5555;
@@ -52,7 +52,7 @@
   color: #418d45;
 }
 
-.book_now a { 
+.book_now a {
   text-decoration: none;
   color: #fff;
   border-radius: 5px;
@@ -60,7 +60,7 @@
   background-color: #60B564;
 }
 
-.book_now a:hover { 
+.book_now a:hover {
   color: #fff;
   background-color: #418d45;
   transition: 0.3s;
@@ -117,11 +117,11 @@
   text-decoration: underline;
 }
 
-.block-field-blocktaxonomy-termcategoriesfield-im {
+.block-extra-field-blocktaxonomy-termcategoriesfield-im {
   margin-bottom: 25px;
 }
 
-.block-field-blocktaxonomy-termcategoriesfield-m .field__item {
+.block-extra-field-blocktaxonomy-termcategoriesfield-m .field__item {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -132,7 +132,7 @@
   margin-bottom: 65px;
 }
 
-.block-field-blocktaxonomy-termcategoriesfield-m .field__item::after {
+.block-extra-field-blocktaxonomy-termcategoriesfield-m .field__item::after {
   content: '';
   background: url(../img/Rectangle.png);
   display: inline-block;

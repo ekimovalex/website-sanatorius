@@ -5,8 +5,8 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: 'public://Logo.png'
+  path: 'public://Logo_0_0.png'
 favicon:
   use_default: 0
-  path: 'public://icons8-лес-30.png'
+  path: 'public://favicon_0.png'
   mimetype: image/png

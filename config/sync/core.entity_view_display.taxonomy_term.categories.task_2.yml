@@ -22,26 +22,6 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          1e519c0e-835e-4330-b50b-d1e815fe318d:
-            uuid: 1e519c0e-835e-4330-b50b-d1e815fe318d
-            region: content
-            configuration:
-              id: 'field_block:taxonomy_term:categories:field_m'
-              label: 'Min price'
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: number_integer
-                settings:
-                  thousand_separator: ''
-                  prefix_suffix: true
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-            additional: {  }
-            weight: 3
           9d157f7b-f35b-43bb-962c-a810220196a8:
             uuid: 9d157f7b-f35b-43bb-962c-a810220196a8
             region: content
@@ -81,6 +61,18 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 2
+          50f5d1b1-ac21-4b76-8a6c-9320ed0f7dc2:
+            uuid: 50f5d1b1-ac21-4b76-8a6c-9320ed0f7dc2
+            region: content
+            configuration:
+              id: 'extra_field_block:taxonomy_term:categories:field_m'
+              label: 'Minimal price extra'
+              provider: layout_builder
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 4
         third_party_settings: {  }
 id: taxonomy_term.categories.task_2
 targetEntityType: taxonomy_term
