@@ -24,5 +24,4 @@
 /.env
 /.editorconfig
 /.gitattributes
-*.sql.gz
 
